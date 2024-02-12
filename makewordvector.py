@@ -7,8 +7,9 @@ from nltk.corpus import stopwords
 from collections import Counter
 import json
 
-LOWER = 0.05
-UPPER = 0.95
+LOWER = 0.1
+UPPER = 1
+VECTOR_LIM = 100
 
 # The extract_text function is not robust for certain pdfs
 def extract_text_from_pdf(pdf_path):
@@ -41,16 +42,20 @@ def create_word_frequency_vector(tokens):
     word_freq = Counter(tokens)
     
     # Calculate the total number of words
-    total_words = max(word_freq.values())
+    max_count = max(word_freq.values())
     
     # Calculate the threshold for the bottom and top 10%
-    bottom_threshold = int(total_words * LOWER)
-    top_threshold = int(total_words * UPPER)
     
-    # Filter out words below the bottom threshold and above the top threshold
-    filtered_word_freq = {word: count for word, count in word_freq.items() if bottom_threshold < count < top_threshold}
-    
-    return filtered_word_freq
+    # Filter out words below the bottom threshold
+    # Top threshold is optional for now
+    lower_lim = LOWER
+    upper_lim = UPPER
+    while len(word_freq) > VECTOR_LIM:
+        bottom_threshold = max_count * lower_lim
+        top_threshold = max_count * upper_lim
+        word_freq = {word: count for word, count in word_freq.items() if bottom_threshold <= count <= top_threshold}
+        lower_lim += 0.05
+    return word_freq
 
 
 def main(pdf_path, output_filename):
@@ -66,7 +71,7 @@ def main(pdf_path, output_filename):
     save_word_frequency_vector(word_freq, output_filename)
 
 if __name__ == "__main__":
-    elem_path = "elementary_chapter.pdf"
-    hs_path = "high_school_chapter.pdf"
+    elem_path = "elementary_multiplication_textbook.pdf"
+    hs_path = "highschool_calculus_textbook.pdf"
     main(elem_path, "elem_word_vector.json")
     main(hs_path, "hs_word_vector.json")
