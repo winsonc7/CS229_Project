@@ -11,6 +11,8 @@ LOWER = 0.1
 UPPER = 1
 VECTOR_LIM = 100
 
+#Testing push ability
+
 # The extract_text function is not robust for certain pdfs
 def extract_text_from_pdf(pdf_path):
     text = ""
