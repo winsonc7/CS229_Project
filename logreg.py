@@ -20,6 +20,19 @@ def get_accuracy(pred, truth):
                 tn += 1
     return (tp, fp, tn, fn)
 
+def metrics(x, y):
+    for i in range(x.shape[0]):
+        if x[i] > 0.5:
+            x[i] = 1
+        else:
+            x[i] = 0
+    tp, fp, tn, fn = get_accuracy(x, y)
+    print(f'Accuracy = {(tp + tn) / x.shape[0]}')
+    a_0 = tn / (tn + fp)
+    a_1 = tp / (tp + fn)
+    print(f'A_0 = {a_0}')
+    print(f'A_1 = {a_1}')
+    print(f'Balanced Accuracy = {0.5 * (a_0 + a_1)}')
 
 def main(train_path, test_path, save_path):
     """Problem: Logistic regression with gradient descent.
@@ -36,19 +49,14 @@ def main(train_path, test_path, save_path):
     # Train a logistic regression classifier
     model = LogisticRegression()
     model.fit(x_train, y_train)
+
+    pred_probs = model.predict(x_train)
+    print("Training Accuracy:")
+    metrics(pred_probs, y_train)
+
     pred_probs = model.predict(x_test)
-    for i in range(pred_probs.shape[0]):
-        if pred_probs[i] > 0.5:
-            pred_probs[i] = 1
-        else:
-            pred_probs[i] = 0
-    tp, fp, tn, fn = get_accuracy(pred_probs, y_test)
-    print(f'Accuracy = {(tp + tn) / pred_probs.shape[0]}')
-    a_0 = tn / (tn + fp)
-    a_1 = tp / (tp + fn)
-    print(f'A_0 = {a_0}')
-    print(f'A_1 = {a_1}')
-    print(f'Balanced Accuracy = {0.5 * (a_0 + a_1)}')
+    print("Test Accuracy:")
+    metrics(pred_probs, y_test)
     # *** END CODE HERE ***
 
 
@@ -77,7 +85,7 @@ class LogisticRegression:
         self.verbose = verbose
 
         # *** START CODE HERE ***
-        self.lamb = 0.0
+        self.lamb = 0.001
         # *** END CODE HERE ***
 
     def fit(self, x, y):
@@ -144,6 +152,6 @@ class LogisticRegression:
         # *** END CODE HERE ***
 
 if __name__ == '__main__':
-    main(train_path='elem_math_data/add_sub_train_100feat.csv',
-         test_path='elem_math_data/add_sub_test_100feat.csv',
+    main(train_path='stem_data/mathchem_train_152feat.csv',
+         test_path='stem_data/mathchem_test_152feat.csv',
          save_path='')

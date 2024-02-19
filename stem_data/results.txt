@@ -1,0 +1,35 @@
+For math/chem logit, 34 features from balanced samples, lamb=0.001:
+Training Accuracy:
+Accuracy = 0.9840255591054313
+A_0 = 0.9834254143646409
+A_1 = 0.9848484848484849
+Balanced Accuracy = 0.9841369496065628
+Test Accuracy:
+Accuracy = 0.9493670886075949
+A_0 = 0.9454545454545454
+A_1 = 0.9583333333333334
+Balanced Accuracy = 0.9518939393939394
+
+For math/chem logit, 152 features from normal samples, lamb=0.001:
+Training Accuracy:
+Accuracy = 1.0
+A_0 = 1.0
+A_1 = 1.0
+Balanced Accuracy = 1.0
+Test Accuracy:
+Accuracy = 0.9873417721518988
+A_0 = 1.0
+A_1 = 0.9583333333333334
+Balanced Accuracy = 0.9791666666666667
+
+For math/chem logit, 368 features from pdf, lamb=0.001:
+Training Accuracy:
+Accuracy = 1.0
+A_0 = 1.0
+A_1 = 1.0
+Balanced Accuracy = 1.0
+Test Accuracy:
+Accuracy = 0.9620253164556962
+A_0 = 0.9818181818181818
+A_1 = 0.9166666666666666
+Balanced Accuracy = 0.9492424242424242
