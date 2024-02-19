@@ -7,9 +7,9 @@ from nltk.corpus import stopwords
 from collections import Counter
 import json
 
-LOWER = 0.1
+LOWER = 0.05
 UPPER = 1
-VECTOR_LIM = 100
+VECTOR_LIM = 200
 
 # The extract_text function is not robust for certain pdfs
 def extract_text_from_pdf(pdf_path):
@@ -71,7 +71,8 @@ def main(pdf_path, output_filename):
     save_word_frequency_vector(word_freq, output_filename)
 
 if __name__ == "__main__":
-    elem_path = "elementary_multiplication_textbook.pdf"
-    hs_path = "highschool_calculus_textbook.pdf"
-    main(elem_path, "elem_word_vector.json")
-    main(hs_path, "hs_word_vector.json")
+    ml_path = "machine_learning_textbook.pdf"
+    main(ml_path, "ml_word_vector.json")
+
+    # elem_path = "elementary_multiplication_textbook.pdf"
+    # main(elem_path, "elem_word_vector.json")
