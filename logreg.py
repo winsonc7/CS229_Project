@@ -77,7 +77,7 @@ class LogisticRegression:
         self.verbose = verbose
 
         # *** START CODE HERE ***
-        self.lamb = 0.001
+        self.lamb = 0.0
         # *** END CODE HERE ***
 
     def fit(self, x, y):
@@ -144,6 +144,6 @@ class LogisticRegression:
         # *** END CODE HERE ***
 
 if __name__ == '__main__':
-    main(train_path='stem_data/mathchem_train_34feat.csv',
-         test_path='stem_data/mathchem_test_34feat.csv',
-         save_path='logreg_pred_b.png')
+    main(train_path='elem_math_data/add_sub_train_100feat.csv',
+         test_path='elem_math_data/add_sub_test_100feat.csv',
+         save_path='')
