@@ -130,7 +130,7 @@ def forward_prop(data, one_hot_labels, params):
     # print("paramsb2", params["b2"].shape)
     # print("h_bar dimension: ", h_bar.shape)
     # print("output shape: ", output.shape)
-    print("loss : ", loss)
+    #print("loss : ", loss)
     return (activations, output, loss)
 
     # *** END CODE HERE ***
@@ -288,19 +288,22 @@ def gradient_descent_epoch(train_data, one_hot_train_labels, learning_rate, batc
     # This function does not return anything
     return
 
+# def nn_train(
+#     train_data, train_labels, dev_data, dev_labels,
+#     get_initial_params_func, forward_prop_func, backward_prop_func,
+#     num_hidden=300, learning_rate=5, num_epochs=30, batch_size=1000):
 def nn_train(
-    train_data, train_labels, dev_data, dev_labels, 
-    get_initial_params_func, forward_prop_func, backward_prop_func,
-    num_hidden=300, learning_rate=5, num_epochs=30, batch_size=1000):
-
+        train_data, train_labels,
+        get_initial_params_func, forward_prop_func, backward_prop_func,
+        num_hidden=300, learning_rate=5, num_epochs=30, batch_size=1000):
     (nexp, dim) = train_data.shape
 
     params = get_initial_params_func(dim, num_hidden, 10)
 
     cost_train = []
-    cost_dev = []
+    #cost_dev = []
     accuracy_train = []
-    accuracy_dev = []
+    #accuracy_dev = []
     for epoch in range(num_epochs):
         gradient_descent_epoch(train_data, train_labels, 
             learning_rate, batch_size, params, forward_prop_func, backward_prop_func)
@@ -308,12 +311,12 @@ def nn_train(
         h, output, cost = forward_prop_func(train_data, train_labels, params)
         cost_train.append(cost)
         accuracy_train.append(compute_accuracy(output,train_labels))
-        h, output, cost = forward_prop_func(dev_data, dev_labels, params)
-        cost_dev.append(cost)
-        accuracy_dev.append(compute_accuracy(output, dev_labels))
+        #h, output, cost = forward_prop_func(dev_data, dev_labels, params)
+        #cost_dev.append(cost)
+        #accuracy_dev.append(compute_accuracy(output, dev_labels))
 
-    return params, cost_train, cost_dev, accuracy_train, accuracy_dev
-
+    #return params, cost_train, cost_dev, accuracy_train #, accuracy_dev
+    return params, cost_train, accuracy_train #, accuracy_dev
 def nn_test(data, labels, params):
     h, output, cost = forward_prop(data, labels, params)
     accuracy = compute_accuracy(output, labels)
@@ -334,17 +337,47 @@ def read_data(images_file, labels_file):
     y = np.loadtxt(labels_file, delimiter=',')
     return x, y
 
+def read_data_new(csv_file):
+    import pandas as pd
+
+    # Assuming your data is stored in a CSV file named 'data.csv'
+    data = pd.read_csv(csv_file)
+
+    # Separate features (X) and labels (y)
+    X = data.iloc[:, 1:]  # Assuming features start from the second column
+    y = data.iloc[:, 0]  # Assuming the first column contains the labels
+
+    # Optionally, if you want to convert them to numpy arrays, you can do:
+    X = X.values
+    y = y.values
+
+    return X , y
+
+
+
+
 def run_train_test(name, all_data, all_labels, backward_prop_func, num_epochs, plot=True):
-    params, cost_train, cost_dev, accuracy_train, accuracy_dev = nn_train(
-        all_data['train'], all_labels['train'], 
-        all_data['dev'], all_labels['dev'],
+    # params, cost_train, cost_dev, accuracy_train, accuracy_dev = nn_train(
+    #     all_data['train'], all_labels['train'],
+    #     #all_data['dev'], all_labels['dev'],
+    #     get_initial_params, forward_prop, backward_prop_func,
+    #     num_hidden=300, learning_rate=5, num_epochs=num_epochs, batch_size=1000
+    # )
+    num_epochs = 500
+    #params, cost_train, cost_dev, accuracy_train = nn_train(
+    params, cost_train, accuracy_train = nn_train(
+
+        all_data['train'], all_labels['train'],
+        #all_data['dev'], all_labels['dev'],
         get_initial_params, forward_prop, backward_prop_func,
-        num_hidden=300, learning_rate=5, num_epochs=num_epochs, batch_size=1000
+        num_hidden=500, learning_rate=0.01, num_epochs=num_epochs, batch_size=10
     )
-    # if name == 'baseline':
-    #     np.savez("unreg_params", params)
-    # else:
-    #     np.savez("reg_params", params)
+
+
+    if name == 'baseline':
+        np.savez("unreg_params", params)
+    else:
+        np.savez("reg_params", params)
 
 
 
@@ -356,7 +389,7 @@ def run_train_test(name, all_data, all_labels, backward_prop_func, num_epochs, p
         fig, (ax1, ax2) = plt.subplots(2, 1)
 
         ax1.plot(t, cost_train,'r', label='train')
-        ax1.plot(t, cost_dev, 'b', label='dev')
+        #ax1.plot(t, cost_dev, 'b', label='dev')
         ax1.set_xlabel('epochs')
         ax1.set_ylabel('loss')
         if name == 'baseline':
@@ -366,7 +399,7 @@ def run_train_test(name, all_data, all_labels, backward_prop_func, num_epochs, p
         ax1.legend()
 
         ax2.plot(t, accuracy_train,'r', label='train')
-        ax2.plot(t, accuracy_dev, 'b', label='dev')
+        #ax2.plot(t, accuracy_dev, 'b', label='dev')
         ax2.set_xlabel('epochs')
         ax2.set_ylabel('accuracy')
         ax2.legend()
@@ -385,37 +418,40 @@ def main(plot=True):
     args = parser.parse_args()
 
     np.random.seed(100)
-    train_data, train_labels = read_data('./images_train.csv', './labels_train.csv')
+    #train_data, train_labels = read_data('./images_train.csv', './labels_train.csv')
+    train_data, train_labels = read_data_new("data/dataset_filtered_train.csv")
     # convert labels to one-hot embeddings e_y.
     train_labels = one_hot_labels(train_labels)
-    p = np.random.permutation(60000)
-    train_data = train_data[p,:]
-    train_labels = train_labels[p,:]
-
-    dev_data = train_data[0:10000,:]
-    dev_labels = train_labels[0:10000,:]
-    train_data = train_data[10000:,:]
-    train_labels = train_labels[10000:,:]
+    # p = np.random.permutation(60000)
+    # train_data = train_data[p,:]
+    # train_labels = train_labels[p,:]
+    #
+    # dev_data = train_data[0:10000,:]
+    # dev_labels = train_labels[0:10000,:]
+    # train_data = train_data[10000:,:]
+    # train_labels = train_labels[10000:,:]
 
     mean = np.mean(train_data)
     std = np.std(train_data)
     train_data = (train_data - mean) / std
-    dev_data = (dev_data - mean) / std
+    #dev_data = (dev_data - mean) / std
 
-    test_data, test_labels = read_data('./images_test.csv', './labels_test.csv')
+    #test_data, test_labels = read_data('./images_test.csv', './labels_test.csv')
+    test_data, test_labels = read_data_new("data/dataset_filtered_test.csv")
+
     # convert labels to one-hot embeddings e_y.
     test_labels = one_hot_labels(test_labels)
     test_data = (test_data - mean) / std
 
     all_data = {
         'train': train_data,
-        'dev': dev_data,
+        #'dev': dev_data,
         'test': test_data
     }
 
     all_labels = {
         'train': train_labels,
-        'dev': dev_labels,
+        #'dev': dev_labels,
         'test': test_labels,
     }
 
@@ -424,12 +460,12 @@ def main(plot=True):
         lambda a, b, c, d: backward_prop_regularized(a, b, c, d, reg=0.0001),
         args.num_epochs, plot)
 
-    params = np.load("unreg_params.npy", allow_pickle=True).flat[0]
+    params = np.load("unreg_params.npz", allow_pickle=True).flat[0]
     print(type(params))
     unreg_accuracy = nn_test(test_data, test_labels, params)
     print("unreg_accuracy", unreg_accuracy)
 
-    params = np.load("reg_params.npy", allow_pickle=True).flat[0]
+    params = np.load("reg_params.npz", allow_pickle=True).flat[0]
     reg_accuracy = nn_test(test_data, test_labels, params)
     print("reg_accuracy", reg_accuracy)
 
