@@ -93,7 +93,7 @@ def main(dataset_path, feature_size):
     with open(save_path, 'w') as f:
         json.dump(overall_word_freq_dict, f)
 
-# Run: python datafeatures.py feature_size dataset_path
+# Run: python datafeatures_balanced.py dataset_path feature_size
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) != 3:

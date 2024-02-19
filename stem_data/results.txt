@@ -33,3 +33,51 @@ Accuracy = 0.9620253164556962
 A_0 = 0.9818181818181818
 A_1 = 0.9166666666666666
 Balanced Accuracy = 0.9492424242424242
+
+For stem multiclass, 52 features from normal samples, 50 epochs 0.01lr:
+Training Accuracy:
+Accuracy = 0.8470873786407767
+Test Accuracy:
+Accuracy = 0.8737864077669902
+
+For stem multiclass, 52 features from normal samples, 50 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.8519417475728155
+Test Accuracy:
+Accuracy = 0.8252427184466019
+
+For stem multiclass, 52 features from normal samples, 200 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9247572815533981
+Test Accuracy:
+Accuracy = 0.8543689320388349
+
+For stem multiclass, 52 features from normal samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9344660194174758
+Test Accuracy:
+Accuracy = 0.8543689320388349
+
+For stem multiclass, 43 features from balanced samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9393203883495146
+Test Accuracy:
+Accuracy = 0.8640776699029126
+
+For stem multiclass, 168 features from normal samples, 50 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.8616504854368932
+Test Accuracy:
+Accuracy = 0.7475728155339806
+
+For stem multiclass, 168 features from normal samples, 200 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9830097087378641
+Test Accuracy:
+Accuracy = 0.8252427184466019
+
+For stem multiclass, 168 features from normal samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9927184466019418
+Test Accuracy:
+Accuracy = 0.883495145631068
