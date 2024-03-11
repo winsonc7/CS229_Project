@@ -8,16 +8,20 @@ from BERT_encoder import BERT_encoder
 from sklearn.cluster import KMeans
 import numpy as np
 from itertools import permutations
-
+from Sentence_Transformer import Sentence_Transformer
 
 def main():
 
     filename = "JEEBench_data/dataset.json"
 
     #Run this line once then comment it out (took my computer about 2.5 minutes):
-    #generate_embeddings_from_data(filename)
+    #generate_BERT_embeddings_from_data(filename)
 
-    embeddings = np.load("problem_embeddings.npy")
+    #This line is fast but no need to fun over and over
+    #generate_Sentence_embeddings_from_data(filename)
+
+
+    embeddings = np.load("Sentence_embeddings.npy")
     print("Embeddings info: ")
     print(type(embeddings))
     print(embeddings.shape)
@@ -29,27 +33,23 @@ def main():
     problem_labels = data_reader.prob_labels_numbered
     actual_labels = np.array(problem_labels)
 
-
-    k = 3
-    # Create KMeans instance
-    kmeans = KMeans(n_clusters=k, random_state = 42)
-
-    # Fit the data to the model
-    kmeans.fit(embeddings)
-
-    # Get the centroids of the clusters
-    centroids = kmeans.cluster_centers_
-
-    # Get the cluster assignments for each data point
-    predicted_labels = kmeans.labels_
-
+    k = 3 #number of clusters
+    predicted_labels = run_K_means(embeddings, k, metric='euclidean')
 
     #print("actual labels :  ", problem_labels)
     accuracy = calculate_accuracy(predicted_labels, actual_labels)
-    print("accuracy is : ", accuracy)
+    print("accuracy for euclidean metric is : ", accuracy)
 
 
-def generate_embeddings_from_data(filename):
+    k = 3 #number of clusters
+    predicted_labels = run_K_means(embeddings, k, metric= calc_cosine_similarity)
+
+    #print("actual labels :  ", problem_labels)
+    accuracy = calculate_accuracy(predicted_labels, actual_labels)
+    print("accuracy for cosine similarity metric is : ", accuracy)
+
+
+def generate_BERT_embeddings_from_data(filename):
     #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
     #Uses the class BERT_encoder defined in BERT_encoder.py to generate the embeddings
     #saves the embeddings to a numpy matrix of dimensions n x embedding length -- for JEEBench data is 515 x 768
@@ -61,6 +61,20 @@ def generate_embeddings_from_data(filename):
     encoder = BERT_encoder()
     problem_embeddings = encoder.generate_embeddings(data_reader.problem_list)
     np.save("problem_embeddings.npy", problem_embeddings)
+
+def generate_Sentence_embeddings_from_data(filename):
+    #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
+    #Uses the class BERT_encoder defined in BERT_encoder.py to generate the embeddings
+    #saves the embeddings to a numpy matrix of dimensions n x embedding length -- for JEEBench data is 515 x 768
+
+    data_reader = JEEBench_reader(filename)
+    data_reader.read_data()
+    data_reader.read_data_to_list()
+
+    encoder = Sentence_Transformer()
+    problem_embeddings = encoder.generate_embeddings(data_reader.problem_list)
+    np.save("Sentence_embeddings.npy", problem_embeddings)
+
 
 
 def calculate_accuracy(predicted_labels, actual_labels):
@@ -96,6 +110,30 @@ def calc_accuracy_for_mapping(predicted_labels, actual_labels, mapping):
         if corrected_predicted_labels[i] == actual_labels[i]:
             num_correct += 1
     return num_correct / n
+
+def run_K_means(embeddings, k, metric='euclidean'):
+    # Create KMeans instance
+
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    if metric != 'euclidean':
+        kmeans.euclidean_distances = calc_cosine_similarity
+        print("cos distances")
+
+    # Fit the data to the model
+    kmeans.fit(embeddings)
+
+    # Get the centroids of the clusters
+    centroids = kmeans.cluster_centers_
+
+    # Get the cluster assignments for each data point
+    predicted_labels = kmeans.labels_
+
+    return predicted_labels
+
+def calc_cosine_similarity(v1, v2):
+    return 1 - cosine_similarity(v1.reshape(1, -1), v2.reshape(1, -1))
+
+
 
 
 if __name__ == '__main__':

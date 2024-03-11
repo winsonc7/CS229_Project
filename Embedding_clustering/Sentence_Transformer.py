@@ -1,8 +1,11 @@
 
+#Code Model from https://www.sbert.net/examples/applications/computing-embeddings/README.html
+
+
 # importing libraries
 import torch
-from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
 
 def main():
 
@@ -16,11 +19,11 @@ def main():
     text_list_2 = ["GeeksforGeeks is a computer science portal",
                     "GeeksforGeeks is a technology website"]
 
-    encoder = BERT_encoder()
+    encoder = Sentence_Transformer()
     problem_embeddings = encoder.generate_embeddings(text_list)
 
-    # print(type(problem_embeddings))
-    # print(problem_embeddings.shape)
+    print(type(problem_embeddings))
+    print(problem_embeddings.shape)
     print(problem_embeddings)
 
     cosine_similarity = encoder.calc_cosine_similarity(text_list[0], text_list[1])
@@ -37,55 +40,34 @@ def main():
         "Concentrated nitric acid, upon long standing, turns yellow-brown due to the formation of\n\n(A) NO\n(B) $\\mathrm{NO}_{2}$\n(C) $\\mathrm{N}_{2} \\mathrm{O}$\n(D) $\\mathrm{N}_{2} \\mathrm{O}_{4}$",
         "Perpendiculars are drawn from points on the line $\\frac{x+2}{2}=\\frac{y+1}{-1}=\\frac{z}{3}$ to the plane $x+y+z=3$. The feet of perpendiculars lie on the line\n\n(A) $\\frac{x}{5}=\\frac{y-1}{8}=\\frac{z-2}{-13}$\n(B) $\\frac{x}{2}=\\frac{y-1}{3}=\\frac{z-2}{-5}$\n(C) $\\frac{x}{4}=\\frac{y-1}{3}=\\frac{z-2}{-7}$\n(D) $\\frac{x}{2}=\\frac{y-1}{-7}=\\frac{z-2}{5}$"
     ]
-    # Example sentence for similarity comparison physics -physics #Similarity Score : 0.862
+    # Example sentence for similarity comparison physics -physics #Similarity Score : 0.216 (BERT was 0.862)
     cosine_similarity = encoder.calc_cosine_similarity(example_questions[0], example_questions[1])
     print("Cosine similarity Score for phys-phys is : ", cosine_similarity)
 
-    #Physics Chemistry : 0.746
+    #Physics Chemistry : 0.162 (BERT was 0.746 )
     cosine_similarity = encoder.calc_cosine_similarity(example_questions[0], example_questions[2])
     print("Cosine similarity Score for phys-chem is : ", cosine_similarity)
 
-    #Physics Math : 0.758
+    #Physics Math : 0.176 (BERT was 0.758)
     cosine_similarity = encoder.calc_cosine_similarity(example_questions[0], example_questions[3])
     print("Cosine similarity Score for phys-math is : ", cosine_similarity)
 
-    # Chem Math : 0.876
+    # Chem Math : 0.066 (BERT was 0.876)
     cosine_similarity = encoder.calc_cosine_similarity(example_questions[2], example_questions[3])
     print("Cosine similarity Score for chem-math is : ", cosine_similarity)
 
-
-class BERT_encoder:
+class Sentence_Transformer:
     def __init__(self):
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.model = BertModel.from_pretrained('bert-base-uncased')
+        self.model = model = SentenceTransformer("all-MiniLM-L6-v2")
 
     def generate_embeddings(self, problem_strings):
         #input parameter problem_strings is a list where list[i] = "problem text here"
         #if len(problem_strings) = n, output is a numpy array of shape n x embedding_length
 
-        problem_embeddings = []
 
-        for problem in problem_strings:
-            # Tokenize and encode text
-            encoding = self.tokenizer.encode_plus(
-                problem,
-                padding=True,
-                truncation=True,
-                return_tensors='pt',
-                add_special_tokens=True
-            )
+        embeddings = self.model.encode(problem_strings)
 
-            input_ids = encoding['input_ids']
-            attention_mask = encoding['attention_mask']
-
-            # Generate embeddings using BERT model
-            with torch.no_grad():
-                outputs = self.model(input_ids, attention_mask=attention_mask)
-                prob_embedding = outputs.last_hidden_state.mean(dim=1)  # Average pooling along the sequence length dimension
-                problem_embeddings.append(prob_embedding)
-
-        problem_embeddings = torch.cat(problem_embeddings, dim=0)
-        return problem_embeddings.numpy()
+        return embeddings
 
     def calc_cosine_similarity(self, string_1, string_2):
         #Function for sanity check + debugging : takes in two strings outputs cosine similarity of their embeddings
