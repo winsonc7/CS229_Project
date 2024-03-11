@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.cluster import DBSCAN
 
 # importing libraries
 import torch
@@ -9,9 +14,10 @@ from sklearn.cluster import KMeans
 import numpy as np
 from itertools import permutations
 from Sentence_Transformer import Sentence_Transformer
+from sklearn.cluster import AgglomerativeClustering
+from sklearn.cluster import Birch
 
 def main():
-
     filename = "JEEBench_data/dataset.json"
 
     #Run this line once then comment it out (took my computer about 2.5 minutes):
@@ -34,20 +40,37 @@ def main():
     actual_labels = np.array(problem_labels)
 
     k = 3 #number of clusters
-    predicted_labels = run_K_means(embeddings, k, metric='euclidean')
+    predicted_labels = run_Hierarchical(embeddings, k)
 
     #print("actual labels :  ", problem_labels)
     accuracy = calculate_accuracy(predicted_labels, actual_labels)
-    print("accuracy for euclidean metric is : ", accuracy)
+    print("accuracy for Hierarchical is : ", accuracy)
 
 
     k = 3 #number of clusters
-    predicted_labels = run_K_means(embeddings, k, metric= calc_cosine_similarity)
+    branch = 2
+    thresh = 0.6
+    predicted_labels = run_BIRCH(embeddings, k, branch, thresh)
 
-    #print("actual labels :  ", problem_labels)
     accuracy = calculate_accuracy(predicted_labels, actual_labels)
-    print("accuracy for cosine similarity metric is : ", accuracy)
+    print("accuracy for BIRCH is : ", accuracy)
 
+
+    #Search for best BIRCH parameters:
+    best_accuracy = 0
+    for i in range(10):
+        for j in range(10):
+            branch = i*10 + 2
+            thresh = 0.1 + 0.1*(j)
+            predicted_labels = run_BIRCH(embeddings, k, branch, thresh)
+
+            accuracy = calculate_accuracy(predicted_labels, actual_labels)
+            #print("accuracy for BIRCH is : ", accuracy)
+            print("for i : ", 2, "for j : ", j, "the parameters are branching factor: ", branch, "threshhold : ", thresh, "Accuracy: ", accuracy)
+            if accuracy > best_accuracy:
+                best_params = (branch, thresh, accuracy)
+                best_accuracy = accuracy
+    print(best_params)
 
 def generate_BERT_embeddings_from_data(filename):
     #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
@@ -111,29 +134,27 @@ def calc_accuracy_for_mapping(predicted_labels, actual_labels, mapping):
             num_correct += 1
     return num_correct / n
 
-def run_K_means(embeddings, k, metric='euclidean'):
+def run_Hierarchical(embeddings, k):
     # Create KMeans instance
 
-    kmeans = KMeans(n_clusters=k, random_state=42)
-    if metric != 'euclidean':
-        kmeans.euclidean_distances = calc_cosine_similarity
-        print("cos distances")
+    hierarchical_cluster = AgglomerativeClustering(n_clusters=k, linkage='ward')
 
     # Fit the data to the model
-    kmeans.fit(embeddings)
-
-    # Get the centroids of the clusters
-    centroids = kmeans.cluster_centers_
-
-    # Get the cluster assignments for each data point
-    predicted_labels = kmeans.labels_
+    predicted_labels = hierarchical_cluster.fit_predict(embeddings)
 
     return predicted_labels
 
-def calc_cosine_similarity(v1, v2):
-    return 1 - cosine_similarity(v1.reshape(1, -1), v2.reshape(1, -1))
+def run_BIRCH(embeddings, k, branch, thresh):
+    # Creating the BIRCH clustering model
+    model = Birch(branching_factor=branch, n_clusters=k, threshold=thresh)
 
+    # Fit the data (Training)
+    model.fit(embeddings)
 
+    # Predict the same data
+    pred = model.predict(embeddings
+                         )
+    return pred
 
 
 if __name__ == '__main__':
