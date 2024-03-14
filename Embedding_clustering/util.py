@@ -1,93 +1,14 @@
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.cluster import DBSCAN
 
-# importing libraries
-import torch
-from transformers import BertTokenizer, BertModel
-from sklearn.metrics.pairwise import cosine_similarity
 from JEEBench_reader import JEEBench_reader
-from BERT_encoder import BERT_encoder
-from sklearn.cluster import KMeans
 import numpy as np
 from itertools import permutations
 from Sentence_Transformer import Sentence_Transformer
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.cluster import Birch
-
-def main():
-    filename = "JEEBench_data/dataset.json"
-
-    #Run this line once then comment it out (took my computer about 2.5 minutes):
-    #generate_BERT_embeddings_from_data(filename)
-
-    #This line is fast but no need to run over and over
-    #generate_Sentence_embeddings_from_data(filename)
-
-    #The only line you have to change to swtich from BERT to Sentence is this file that's being loaded
-    embeddings = np.load("Sentence_embeddings.npy")
-
-    print("Embeddings info: ")
-    print(type(embeddings))
-    print(embeddings.shape)
+from sklearn.neural_network import MLPClassifier
 
 
-    data_reader = JEEBench_reader(filename)
-    data_reader.read_data()
-    data_reader.read_data_to_list()
-    problem_labels = data_reader.prob_labels_numbered
-    actual_labels = np.array(problem_labels)
-
-    k = 3 #number of clusters
-    predicted_labels = run_Hierarchical(embeddings, k)
-
-    #print("actual labels :  ", problem_labels)
-    accuracy = calculate_accuracy(predicted_labels, actual_labels)[0]
-    print("accuracy for Hierarchical is : ", accuracy)
-
-
-    k = 3 #number of clusters
-    branch = 2
-    thresh = 0.6
-    predicted_labels = run_BIRCH(embeddings, k, branch, thresh)
-
-    accuracy = calculate_accuracy(predicted_labels, actual_labels)[0]
-
-    print("accuracy for BIRCH is : ", accuracy)
-
-
-    #Search for best BIRCH parameters:
-    # best_accuracy = 0
-    # for i in range(10):
-    #     for j in range(10):
-    #         branch = i*10 + 2
-    #         thresh = 0.1 + 0.1*(j)
-    #         predicted_labels = run_BIRCH(embeddings, k, branch, thresh)
-    #
-    #         accuracy = calculate_accuracy(predicted_labels, actual_labels)[0]
-    #         #print("accuracy for BIRCH is : ", accuracy)
-    #         print("for i : ", 2, "for j : ", j, "the parameters are branching factor: ", branch, "threshhold : ", thresh, "Accuracy: ", accuracy)
-    #         if accuracy > best_accuracy:
-    #             best_params = (branch, thresh, accuracy)
-    #             best_accuracy = accuracy
-    # print(best_params)
-
-def generate_BERT_embeddings_from_data(filename):
-    #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
-    #Uses the class BERT_encoder defined in BERT_encoder.py to generate the embeddings
-    #saves the embeddings to a numpy matrix of dimensions n x embedding length -- for JEEBench data is 515 x 768
-
-    data_reader = JEEBench_reader(filename)
-    data_reader.read_data()
-    data_reader.read_data_to_list()
-
-    encoder = BERT_encoder()
-    problem_embeddings = encoder.generate_embeddings(data_reader.problem_list)
-    np.save("problem_embeddings.npy", problem_embeddings)
-
-def generate_Sentence_embeddings_from_data(filename):
+def generate_Sentence_embeddings_from_data(filename, save_name):
     #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
     #Uses the class BERT_encoder defined in BERT_encoder.py to generate the embeddings
     #saves the embeddings to a numpy matrix of dimensions n x embedding length -- for JEEBench data is 515 x 768
@@ -98,8 +19,12 @@ def generate_Sentence_embeddings_from_data(filename):
 
     encoder = Sentence_Transformer()
     problem_embeddings = encoder.generate_embeddings(data_reader.problem_list)
-    np.save("Sentence_embeddings.npy", problem_embeddings)
+    np.save(save_name, problem_embeddings)
 
+def generate_Sentence_embeddings_from_list(problem_list, save_name):
+    encoder = Sentence_Transformer()
+    problem_embeddings = encoder.generate_embeddings(problem_list)
+    np.save(save_name, problem_embeddings)
 
 
 def calculate_accuracy(predicted_labels, actual_labels):
@@ -128,7 +53,7 @@ def find_max_index(list):
         if (list[i] > max_accuracy):
             max_accuracy = list[i]
             max_index = i
-    return i
+    return max_index
 
 
 def calc_accuracy_for_mapping(predicted_labels, actual_labels, mapping):
@@ -174,6 +99,35 @@ def run_BIRCH(embeddings, k, branch, thresh):
     return pred
 
 
-if __name__ == '__main__':
-    main()
+def compute_BIRCH_params(embeddings, k, actual_labels):
+    #Search for best BIRCH parameters:
+    best_accuracy = 0
+    for i in range(10):
+        for j in range(10):
+            branch = i*10 + 2
+            thresh = 0.1 + 0.1*(j)
+            predicted_labels = run_BIRCH(embeddings, k, branch, thresh)
 
+            accuracy = calculate_accuracy(predicted_labels, actual_labels)[0]
+            #print("accuracy for BIRCH is : ", accuracy)
+            print("for i : ", 2, "for j : ", j, "the parameters are branching factor: ", branch, "threshhold : ", thresh, "Accuracy: ", accuracy)
+            if accuracy > best_accuracy:
+                best_params = (branch, thresh, accuracy)
+                best_accuracy = accuracy
+    best_branch = best_params[0]
+    best_thresh = best_params[1]
+    return best_branch, best_thresh
+
+def implement_basic_nn(train, train_labels, test):
+    NN = MLPClassifier()
+    NN.fit(train, train_labels)
+    predicted_labels = NN.predict(test)
+    return predicted_labels
+
+
+def calc_nn_acc(pred_labels, true_labels):
+    n_correct = 0
+    for i in range(len(true_labels)):
+        if pred_labels[i] == true_labels[i]:
+            n_correct += 1
+    return n_correct / len(true_labels)

@@ -78,7 +78,7 @@ class BERT_encoder:
             input_ids = encoding['input_ids']
             attention_mask = encoding['attention_mask']
 
-            # Generate embeddings using BERT model
+            # Calc embeddings
             with torch.no_grad():
                 outputs = self.model(input_ids, attention_mask=attention_mask)
                 prob_embedding = outputs.last_hidden_state.mean(dim=1)  # Average pooling along the sequence length dimension
