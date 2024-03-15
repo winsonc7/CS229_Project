@@ -6,6 +6,18 @@ from Sentence_Transformer import Sentence_Transformer
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.cluster import Birch
 from sklearn.neural_network import MLPClassifier
+from BERT_encoder import BERT_encoder
+from sklearn.metrics.pairwise import cosine_similarity
+
+
+def generate_BERT_embeddings_from_list(problem_list, save_name):
+    #Uses the class JEEBench_reader defined in JEEBench_reader.py to read in data
+    #Uses the class BERT_encoder defined in BERT_encoder.py to generate the embeddings
+    #saves the embeddings to a numpy matrix of dimensions n x embedding length -- for JEEBench data is 515 x 768
+
+    encoder = BERT_encoder()
+    problem_embeddings = encoder.generate_embeddings(problem_list)
+    np.save(save_name, problem_embeddings)
 
 
 def generate_Sentence_embeddings_from_data(filename, save_name):
@@ -76,9 +88,11 @@ def calc_accuracy_for_mapping(predicted_labels, actual_labels, mapping):
             num_correct += 1
     return (num_correct / n, corrected_predicted_labels)
 
-def run_Hierarchical(embeddings, k):
-    # Create KMeans instance
+def run_Hierarchical(embeddings, k, use_random_seed=False, random_seed=42):
 
+    if use_random_seed:
+        np.random.seed(random_seed)
+    # Create KMeans instance
     hierarchical_cluster = AgglomerativeClustering(n_clusters=k, linkage='ward')
 
     # Fit the data to the model
@@ -86,7 +100,9 @@ def run_Hierarchical(embeddings, k):
 
     return predicted_labels
 
-def run_BIRCH(embeddings, k, branch, thresh):
+def run_BIRCH(embeddings, k, branch, thresh, use_random_seed=True, random_seed=42):
+    if (use_random_seed):
+        np.random.seed(random_seed)
     # Creating the BIRCH clustering model
     model = Birch(branching_factor=branch, n_clusters=k, threshold=thresh)
 
@@ -131,3 +147,48 @@ def calc_nn_acc(pred_labels, true_labels):
         if pred_labels[i] == true_labels[i]:
             n_correct += 1
     return n_correct / len(true_labels)
+
+
+
+def get_embeddings(train_embeddings, corrected_train_clust_labels, index):
+    results = np.zeros(train_embeddings.shape[1])
+    for i in range(len(corrected_train_clust_labels)):
+        if corrected_train_clust_labels[i] == index:
+            results = np.vstack((results, train_embeddings[i]))
+    return results[1:]
+
+# def get_embeddings(train_embeddings, corrected_train_clust_labels, index):
+#     results = np.zeros(train_embeddings.shape[1])
+#     for i in range(len(corrected_train_clust_labels)):
+#         if corrected_train_clust_labels[i] == index:
+#             results = np.vstack((results, train_embeddings[i]))
+#     return results[1:]
+
+def get_embeddings(train_embeddings, corrected_train_clust_labels, index):
+    results = []
+    for i in range(len(corrected_train_clust_labels)):
+        if corrected_train_clust_labels[i] == index:
+            results.append((train_embeddings[i], i))
+    return results
+
+def get_results(train, embedding_matches, test_embedding, num_results):
+    prelim_results = []
+    results = []
+
+    for i in range(len(embedding_matches)):
+        score = calc_cosine_similarity(test_embedding, embedding_matches[i][0])
+        prelim_results.append((score, embedding_matches[i][1]))
+
+
+    prelim_sorted = sorted(prelim_results, key = lambda x : x[0])
+
+    top_results = prelim_sorted[-num_results : ]
+
+    for i in range(len(top_results)):
+        idx = top_results[i][1]
+        results.append(train[idx])
+
+    return results
+
+def calc_cosine_similarity(embedding1, embedding2):
+    return cosine_similarity(embedding1.reshape(1, -1), embedding2.reshape(1, -1))

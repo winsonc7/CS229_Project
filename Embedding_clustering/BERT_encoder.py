@@ -4,6 +4,7 @@ import torch
 from transformers import BertTokenizer, BertModel
 from sklearn.metrics.pairwise import cosine_similarity
 
+#Citation: #Code mostly taken from https://www.geeksforgeeks.org/how-to-generate-word-embedding-using-bert/
 def main():
 
     # Example usage

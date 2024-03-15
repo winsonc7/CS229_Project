@@ -19,7 +19,7 @@ def main():
     print(train[1])
 
 class JEEBench_reader:
-    def __init__(self, filename):
+    def __init__(self, filename, use_random_seed=False, random_seed = 42):
         self.filename = filename
         self.problem_list = []   #list where each element is a string with problem text
         self.prob_list_w_labels = [] #list where each element is a tuple :  (problem text, subject label)
@@ -27,6 +27,8 @@ class JEEBench_reader:
         self.prob_labels_numbered = [] #Problem labels but using numbers. Number scheme is : phy = 0, chem = 1, math = 2
         self.train = []
         self.test = []
+        self.use_random_seed = use_random_seed
+        self.random_seed = random_seed
 
     def read_data(self):
         with open(self.filename, 'r') as json_file:
@@ -64,7 +66,8 @@ class JEEBench_reader:
 
         train = chem_data[:num_train_chem] + math_data[:num_train_math] + phys_data[:num_train_phys]
         test = chem_data[num_train_chem:] + math_data[num_train_math:] + phys_data[num_train_phys:]
-
+        if (self.use_random_seed):
+            random.seed(self.random_seed)
         random.shuffle(train)
         random.shuffle(test)
 
