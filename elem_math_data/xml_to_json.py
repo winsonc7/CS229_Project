@@ -16,14 +16,15 @@ def main(xml_file):
         subject = problem.find('Solution-Type').text
         body = problem.find('Body').text
         question = problem.find('Question').text
-
+        grade = problem.attrib['Grade']
         # Concatenate body and question
         concatenated_question = f"{body} {question}"
 
         # Create a dictionary for the question
         question_dict = {
             "subject": subject,
-            "question": concatenated_question
+            "question": concatenated_question,
+            "grade": grade
         }
 
         # Append the question dictionary to the list
