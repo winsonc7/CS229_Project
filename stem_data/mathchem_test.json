@@ -1,0 +1,634 @@
+[
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 40,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For every twice differentiable function $f: \\mathbb{R} \\rightarrow[-2,2]$ with $(f(0))^{2}+\\left(f^{\\prime}(0)\\right)^{2}=85$, which of the following statement(s) is (are) TRUE?\n\n(A) There exist $r, s \\in \\mathbb{R}$, where $r<s$, such that $f$ is one-one on the open interval $(r, s)$\n\n(B) There exists $x_{0} \\in(-4,0)$ such that $\\left|f^{\\prime}\\left(x_{0}\\right)\\right| \\leq 1$\n\n(C) $\\lim _{x \\rightarrow \\infty} f(x)=1$\n\n(D) There exists $\\alpha \\in(-4,4)$ such that $f(\\alpha)+f^{\\prime \\prime}(\\alpha)=0$ and $f^{\\prime}(\\alpha) \\neq 0$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 14,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $\\alpha, \\beta$ and $\\gamma$ be real numbers. Consider the following system of linear equations \n\n\n\n$x+2 y+z=7$\n\n\n\n$x+\\alpha z=11$\n\n\n\n$2 x-3 y+\\beta z=\\gamma$\n\n\n\nMatch each entry in List-I to the correct entries in List-II.\n\n\n\n\\textbf{List-I}\n\n\n\n(P) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma=28$, then the system has\n\n\n\n(Q) If $\\beta=\\frac{1}{2}(7 \\alpha-3)$ and $\\gamma \\neq 28$, then the system has\n\n\n\n(R) If $\\beta \\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma \\neq 28$, then the system has\n\n\n\n(S) If $\\beta \\neq \\frac{1}{2}(7 \\alpha-3)$ where $\\alpha=1$ and $\\gamma = 28$, then the system has\n\n\n\n\n\n\\textbf{List-II}\n\n\n\n(1) a unique solution\n\n\n\n(2) no solution\n\n\n\n(3) infinitely many solutions\n\n\n\n(4) $x=11, y=-2$ and $z=0$ as a solution\n\n\n\n(5) $x=-15, y=4$ and $z=0$ as a solution\n\n\n\nThe correct option is:\n\n\n\n(A) $(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(1) \\quad(S) \\rightarrow(4)$\n\n\n\n(B) $(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(4)$\n\n\n\n(C) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(5)$\n\n\n\n(D) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(1) \\quad$ (S) $\\rightarrow$ (3)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 51,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $S$ be the sample space of all $3 \\times 3$ matrices with entries from the set $\\{0,1\\}$. Let the events $E_{1}$ and $E_{2}$ be given by\n\n\\[\n\\begin{aligned}\n\n& E_{1}=\\{A \\in S: \\operatorname{det} A=0\\} \\text { and } \\\\\n\n& E_{2}=\\{A \\in S: \\text { sum of entries of } A \\text { is } 7\\} .\n\n\\end{aligned}\n\\]\n\nIf a matrix is chosen at random from $S$, then what is the conditional probability $P\\left(E_{1} \\mid E_{2}\\right)$?",
+        "gold": "0.5"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Which of the following combination will produce $\\mathrm{H}_{2}$ gas?\n\n[A] Fe metal and conc. $\\mathrm{HNO}_{3}$\n\n[B] Cu metal and conc. $\\mathrm{HNO}_{3}$\n\n[C] $\\mathrm{Zn}$ metal and $\\mathrm{NaOH}(\\mathrm{aq})$\n\n[D] Au metal and $\\mathrm{NaCN}(\\mathrm{aq})$ in the presence of air",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 21,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "A colorless aqueous solution contains nitrates of two metals, $\\mathbf{X}$ and $\\mathbf{Y}$. When it was added to an aqueous solution of $\\mathrm{NaCl}$, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue $\\mathbf{P}$ and a solution $\\mathbf{Q}$. The residue $\\mathbf{P}$ was soluble in aq. $\\mathrm{NH}_{3}$ and also in excess sodium thiosulfate. The hot solution $\\mathbf{Q}$ gave a yellow precipitate with KI. The metals $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are\n\n(A) Ag and $\\mathrm{Pb}$\n\n(B) Ag and Cd\n\n(C) $\\mathrm{Cd}$ and $\\mathrm{Pb}$\n\n(D) Cd and Zn",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 13,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $\\hat{i}, \\hat{j}$ and $\\hat{k}$ be the unit vectors along the three positive coordinate axes. Let\n\n\\[\n\\vec{a}=3 \\hat{i}+\\hat{j}-\\hat{k},\n\\]\n\\[\\vec{b}=\\hat{i}+b_{2} \\hat{j}+b_{3} \\hat{k}, \\quad b_{2}, b_{3} \\in \\mathbb{R},\n\\]\n\\[\\vec{c}=c_{1} \\hat{i}+c_{2} \\hat{j}+c_{3} \\hat{k}, \\quad c_{1}, c_{2}, c_{3} \\in \\mathbb{R}\n\\]\n\nbe three vectors such that $b_{2} b_{3}>0, \\vec{a} \\cdot \\vec{b}=0$ and\n\n\\[\n\\left(\\begin{array}{ccc}\n\n0 & -c_{3} & c_{2} \\\\\n\nc_{3} & 0 & -c_{1} \\\\\n\n-c_{2} & c_{1} & 0\n\n\\end{array}\\right)\\left(\\begin{array}{l}\n\n1 \\\\\n\nb_{2} \\\\\n\nb_{3}\n\n\\end{array}\\right)=\\left(\\begin{array}{r}\n\n3-c_{1} \\\\\n\n1-c_{2} \\\\\n\n-1-c_{3}\n\n\\end{array}\\right) .\n\\]\n\nThen, which of the following is/are TRUE ?\n\n(A) $\\vec{a} \\cdot \\vec{c}=0$\n\n(B) $\\vec{b} \\cdot \\vec{c}=0$\n\n(C) $|\\vec{b}|>\\sqrt{10}$\n\n(D) $|\\vec{c}| \\leq \\sqrt{11}$",
+        "gold": "BCD"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 7,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Consider the hyperbola\n\n\\[\n\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1\n\\]\n\nwith foci at $S$ and $S_{1}$, where $S$ lies on the positive $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $\\angle S P S_{1}=\\alpha$, with $\\alpha<\\frac{\\pi}{2}$. The straight line passing through the point $S$ and having the same slope as that of the tangent at $P$ to the hyperbola, intersects the straight line $S_{1} P$ at $P_{1}$. Let $\\delta$ be the distance of $P$ from the straight line $S P_{1}$, and $\\beta=S_{1} P$. Then what is the greatest integer less than or equal to $\\frac{\\beta \\delta}{9} \\sin \\frac{\\alpha}{2}$?",
+        "gold": "7"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 47,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The electrochemical extraction of aluminum from bauxite ore involves\n\n(A) the reaction of $\\mathrm{Al}_{2} \\mathrm{O}_{3}$ with coke (C) at a temperature $>2500^{\\circ} \\mathrm{C}$.\n\n(B) the neutralization of aluminate solution by passing $\\mathrm{CO}_{2}$ gas to precipitate hydrated alumina $\\left(\\mathrm{Al}_{2} \\mathrm{O}_{3} \\cdot 3 \\mathrm{H}_{2} \\mathrm{O}\\right)$.\n\n(C) the dissolution of $\\mathrm{Al}_{2} \\mathrm{O}_{3}$ in hot aqueous $\\mathrm{NaOH}$.\n\n(D) the electrolysis of $\\mathrm{Al}_{2} \\mathrm{O}_{3}$ mixed with $\\mathrm{Na}_{3} \\mathrm{AlF}_{6}$ to give $\\mathrm{Al}$ and $\\mathrm{CO}_{2}$.",
+        "gold": "BCD"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 37,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $-\\frac{\\pi}{6}<\\theta<-\\frac{\\pi}{12}$. Suppose $\\alpha_{1}$ and $\\beta_{1}$ are the roots of the equation $x^{2}-2 x \\sec \\theta+1=0$ and $\\alpha_{2}$ and $\\beta_{2}$ are the roots of the equation $x^{2}+2 x \\tan \\theta-1=0$. If $\\alpha_{1}>\\beta_{1}$ and $\\alpha_{2}>\\beta_{2}$, then $\\alpha_{1}+\\beta_{2}$ equals\n\n(A) $2(\\sec \\theta-\\tan \\theta)$\n\n(B) $2 \\sec \\theta$\n\n(C) $-2 \\tan \\theta$\n\n(D) 0",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 27,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Consider an ionic solid $\\mathbf{M X}$ with $\\mathrm{NaCl}$ structure. Construct a new structure (Z) whose unit cell is constructed from the unit cell of $\\mathbf{M X}$ following the sequential instructions given below. Neglect the charge balance.\n\n(i) Remove all the anions (X) except the central one\n\n(ii) Replace all the face centered cations (M) by anions (X)\n\n(iii) Remove all the corner cations (M)\n\n(iv) Replace the central anion (X) with cation (M)\n\nWhat is the value of $\\left(\\frac{\\text { number of anions }}{\\text { number of cations }}\\right)$ in $\\mathbf{Z}$?",
+        "gold": "3"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 2,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $\\alpha$ be a positive real number. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g:(\\alpha, \\infty) \\rightarrow \\mathbb{R}$ be the functions defined by\n\n\\[\nf(x)=\\sin \\left(\\frac{\\pi x}{12}\\right) \\quad \\text { and } \\quad g(x)=\\frac{2 \\log _{\\mathrm{e}}(\\sqrt{x}-\\sqrt{\\alpha})}{\\log _{\\mathrm{e}}\\left(e^{\\sqrt{x}}-e^{\\sqrt{\\alpha}}\\right)}\n\\]\n\nThen what is the value of $\\lim _{x \\rightarrow \\alpha^{+}} f(g(x))$?",
+        "gold": "0.5"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 1,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int_{1}^{x} f(t) d t=x f(x)-\\frac{x^{3}}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is\n\n\n\n(A) $\\frac{e^{2}+4}{3}$\n\n\n\n(B) $\\frac{\\log _{e} 4+e}{3}$\n\n\n\n(C) $\\frac{4 e^{2}}{3}$\n\n\n\n(D) $\\frac{e^{2}-4}{3}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 48,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $\\vec{a}$ and $\\vec{b}$ be two unit vectors such that $\\vec{a} \\cdot \\vec{b}=0$. For some $x, y \\in \\mathbb{R}$, let $\\vec{c}=x \\vec{a}+y \\vec{b}+(\\vec{a} \\times \\vec{b})$. If $|\\vec{c}|=2$ and the vector $\\vec{c}$ is inclined the same angle $\\alpha$ to both $\\vec{a}$ and $\\vec{b}$, then what is the value of $8 \\cos ^{2} \\alpha$?",
+        "gold": "3"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 17,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $p, q, r$ be nonzero real numbers that are, respectively, the $10^{\\text {th }}, 100^{\\text {th }}$ and $1000^{\\text {th }}$ terms of a harmonic progression. Consider the system of linear equations\n\n\\[\n\\begin{gathered}\n\nx+y+z=1 \\\\\n\n10 x+100 y+1000 z=0 \\\\\n\nq r x+p r y+p q z=0\n\n\\end{gathered}\n\\]\n\nList-I\n(I) If $\\frac{q}{r}=10$, then the system of linear equations has\n(II) If $\\frac{p}{r} \\neq 100$, then the system of linear equations has\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear equations has\n(IV) If $\\frac{p}{q}=10$, then the system of linear equations has\n\nList-II\n(P) $x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$ as a solution\n(Q) $x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$ as a solution\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear\n(R) infinitely many solutions\n(IV) If $\\frac{p}{q}=10$, then the system of linear\n(S) no solution\n(T) at least one solution\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (T)\n\n(B) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (R)\n\n(C) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (R)\n\n(D) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (T)",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 51,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $m$ be the smallest positive integer such that the coefficient of $x^{2}$ in the expansion of $(1+x)^{2}+(1+x)^{3}+\\cdots+(1+x)^{49}+(1+m x)^{50}$ is $(3 n+1){ }^{51} C_{3}$ for some positive integer $n$. Then what is the value of $n$?",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 42,
+        "subject": "math",
+        "type": "Integer",
+        "question": "What is the value of the limit\n\n\\[\n\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{4 \\sqrt{2}(\\sin 3 x+\\sin x)}{\\left(2 \\sin 2 x \\sin \\frac{3 x}{2}+\\cos \\frac{5 x}{2}\\right)-\\left(\\sqrt{2}+\\sqrt{2} \\cos 2 x+\\cos \\frac{3 x}{2}\\right)}\n\\]?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 34,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The reaction of $\\mathrm{K}_3\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with freshly prepared $\\mathrm{FeSO}_4$ solution produces a dark blue precipitate called Turnbull's blue. Reaction of $\\mathrm{K}_4\\left[\\mathrm{Fe}(\\mathrm{CN})_6\\right]$ with the $\\mathrm{FeSO}_4$ solution in complete absence of air produces a white precipitate $\\mathbf{X}$, which turns blue in air. Mixing the $\\mathrm{FeSO}_4$ solution with $\\mathrm{NaNO}_3$, followed by a slow addition of concentrated $\\mathrm{H}_2 \\mathrm{SO}_4$ through the side of the test tube produces a brown ring. Among the following, the brown ring is due to the formation of\n\n(A) $\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]^{2-}$\n\n(B) $\\left[\\mathrm{Fe}(\\mathrm{NO})_{2}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{4}\\right]^{3+}$\n\n(C) $\\left[\\mathrm{Fe}(\\mathrm{NO})_{4}\\left(\\mathrm{SO}_{4}\\right)_{2}\\right]$\n\n(D) $\\left[\\mathrm{Fe}(\\mathrm{NO})\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{5}\\right]^{2+}$",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 45,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Consider the lines $\\mathrm{L}_1$ and $\\mathrm{L}_2$ defined by\n$\\mathrm{L}_1: \\mathrm{x} \\sqrt{2}+\\mathrm{y}-1=0$ and $\\mathrm{L}_2: \\mathrm{x} \\sqrt{2}-\\mathrm{y}+1=0$\nFor a fixed constant $\\lambda$, let $\\mathrm{C}$ be the locus of a point $\\mathrm{P}$ such that the product of the distance of $\\mathrm{P}$ from $\\mathrm{L}_1$ and the distance of $\\mathrm{P}$ from $\\mathrm{L}_2$ is $\\lambda^2$. The line $\\mathrm{y}=2 \\mathrm{x}+1$ meets $\\mathrm{C}$ at two points $\\mathrm{R}$ and $\\mathrm{S}$, where the distance between $\\mathrm{R}$ and $\\mathrm{S}$ is $\\sqrt{270}$.\n\nLet the perpendicular bisector of RS meet $\\mathrm{C}$ at two distinct points $\\mathrm{R}^{\\prime}$ and $\\mathrm{S}^{\\prime}$. Let $\\mathrm{D}$ be the square of the distance between $\\mathrm{R}^{\\prime}$ and S'. What is the value of $\\lambda^{2}$?",
+        "gold": "9.00"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 51,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $f:[0,2] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\\[\nf(x)=(3-\\sin (2 \\pi x)) \\sin \\left(\\pi x-\\frac{\\pi}{4}\\right)-\\sin \\left(3 \\pi x+\\frac{\\pi}{4}\\right)\n\\]\n\nIf $\\alpha, \\beta \\in[0,2]$ are such that $\\{x \\in[0,2]: f(x) \\geq 0\\}=[\\alpha, \\beta]$, then what is the value of $\\beta-\\alpha$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 54,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let the function $f:(0, \\pi) \\rightarrow \\mathbb{R}$ be defined by\n\n\\[\nf(\\theta)=(\\sin \\theta+\\cos \\theta)^{2}+(\\sin \\theta-\\cos \\theta)^{4} .\n\\]\n\nSuppose the function $f$ has a local minimum at $\\theta$ precisely when $\\theta \\in\\left\\{\\lambda_{1} \\pi, \\ldots, \\lambda_{r} \\pi\\right\\}$, where $0<$ $\\lambda_{1}<\\cdots<\\lambda_{r}<1$. Then what is the value of $\\lambda_{1}+\\cdots+\\lambda_{r}$?",
+        "gold": "0.5"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 30,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "A sample $(5.6 \\mathrm{~g})$ containing iron is completely dissolved in cold dilute $\\mathrm{HCl}$ to prepare a $250 \\mathrm{~mL}$ of solution. Titration of $25.0 \\mathrm{~mL}$ of this solution requires $12.5 \\mathrm{~mL}$ of $0.03 \\mathrm{M} \\mathrm{KMnO}_4$ solution to reach the end point. Number of moles of $\\mathrm{Fe}^{2+}$ present in $250 \\mathrm{~mL}$ solution is $\\mathbf{x} \\times 10^{-2}$ (consider complete dissolution of $\\mathrm{FeCl}_2$ ). The amount of iron present in the sample is $\\mathbf{y} \\%$ by weight.\n(Assume: $\\mathrm{KMnO}_4$ reacts only with $\\mathrm{Fe}^{2+}$ in the solution\nUse: Molar mass of iron as $56 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ). What is the value of $\\mathbf{y}$?",
+        "gold": "18.75"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 46,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is a differentiable function such that $f^{\\prime}(x)>2 f(x)$ for all $x \\in \\mathbb{R}$, and $f(0)=1$, then\n\n[A] $f(x)$ is increasing in $(0, \\infty)$\n\n[B] $f(x)$ is decreasing in $(0, \\infty)$\n\n[C] $\\quad f(x)>e^{2 x}$ in $(0, \\infty)$\n\n[D] $f^{\\prime}(x)<e^{2 x}$ in $(0, \\infty)$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 49,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $m$ be the minimum possible value of $\\log _{3}\\left(3^{y_{1}}+3^{y_{2}}+3^{y_{3}}\\right)$, where $y_{1}, y_{2}, y_{3}$ are real numbers for which $y_{1}+y_{2}+y_{3}=9$. Let $M$ be the maximum possible value of $\\left(\\log _{3} x_{1}+\\log _{3} x_{2}+\\log _{3} x_{3}\\right)$, where $x_{1}, x_{2}, x_{3}$ are positive real numbers for which $x_{1}+x_{2}+x_{3}=9$. Then what is the value of $\\log _{2}\\left(m^{3}\\right)+\\log _{3}\\left(M^{2}\\right)$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 36,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "Consider a helium (He) atom that absorbs a photon of wavelength $330 \\mathrm{~nm}$. What is the change in the velocity (in $\\mathrm{cm} \\mathrm{s}^{-1}$ ) of He atom after the photon absorption?\n\n(Assume: Momentum is conserved when photon is absorbed.\n\nUse: Planck constant $=6.6 \\times 10^{-34} \\mathrm{~J} \\mathrm{~s}$, Avogadro number $=6 \\times 10^{23} \\mathrm{~mol}^{-1}$, Molar mass of $\\mathrm{He}=4 \\mathrm{~g} \\mathrm{~mol}^{-1}$ )",
+        "gold": "30"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 32,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Consider an electrochemical cell: $\\mathrm{A}(\\mathrm{s})\\left|\\mathrm{A}^{\\mathrm{n}+}(\\mathrm{aq}, 2 \\mathrm{M}) \\| \\mathrm{B}^{2 \\mathrm{n}+}(\\mathrm{aq}, 1 \\mathrm{M})\\right| \\mathrm{B}(\\mathrm{s})$. The value of $\\Delta H^{\\theta}$ for the cell reaction is twice that of $\\Delta G^{\\theta}$ at $300 \\mathrm{~K}$. If the emf of the cell is zero, what is the $\\Delta S^{\\ominus}$ (in $\\mathrm{J} \\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$ ) of the cell reaction per mole of $\\mathrm{B}$ formed at $300 \\mathrm{~K}$?\n\n(Given: $\\ln (2)=0.7, R$ (universal gas constant) $=8.3 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1} . H, S$ and $G$ are enthalpy, entropy and Gibbs energy, respectively.)\n",
+        "gold": "-11.62"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "One mole of an ideal gas at $300 \\mathrm{~K}$ in thermal contact with surroundings expands isothermally from $1.0 \\mathrm{~L}$ to $2.0 \\mathrm{~L}$ against a constant pressure of $3.0 \\mathrm{~atm}$. In this process, the change in entropy of surroundings $\\left(\\Delta S_{\\text {surr }}\\right)$ in $\\mathrm{J} \\mathrm{K}^{-1}$ is\n\n(1 $\\mathrm{L} \\operatorname{atm}=101.3 \\mathrm{~J})$\n\n(A) 5.763\n\n(B) 1.013\n\n(C) -1.013\n\n(D) -5.763",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 38,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $b_{i}>1$ for $i=1,2, \\ldots, 101$. Suppose $\\log _{e} b_{1}, \\log _{e} b_{2}, \\ldots, \\log _{e} b_{101}$ are in Arithmetic Progression (A.P.) with the common difference $\\log _{e} 2$. Suppose $a_{1}, a_{2}, \\ldots, a_{101}$ are in A.P. such that $a_{1}=b_{1}$ and $a_{51}=b_{51}$. If $t=b_{1}+b_{2}+\\cdots+b_{51}$ and $s=a_{1}+a_{2}+\\cdots+a_{51}$, then\n\n(A) $s>t$ and $a_{101}>b_{101}$\n\n(B) $s>t$ and $a_{101}<b_{101}$\n\n(C) $s<t$ and $a_{101}>b_{101}$\n\n(D) $s<t$ and $a_{101}<b_{101}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 36,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Consider the following statements related to colloids.\n\n\n\n(I) Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium.\n\n\n\n(II) For emulsions, both the dispersed phase and the dispersion medium are liquid.\n\n\n\n(III) Micelles are produced by dissolving a surfactant in any solvent at any temperature.\n\n\n\n(IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium.\n\n\n\nThe option with the correct set of statements is\n\n\n\n(A) (I) and (II)\n\n\n\n(B) (II) and (III)\n\n\n\n(C) (III) and (IV)\n\n\n\n(D) (II) and (IV)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) regarding the binary transition metal carbonyl compounds is (are) (Atomic numbers: $\\mathrm{Fe}=26, \\mathrm{Ni}=28$ )\n\n(A) Total number of valence shell electrons at metal centre in $\\mathrm{Fe}(\\mathrm{CO})_{5}$ or $\\mathrm{Ni}(\\mathrm{CO})_{4}$ is 16\n\n(B) These are predominantly low spin in nature\n\n(C) Metal-carbon bond strengthens when the oxidation state of the metal is lowered\n\n(D) The carbonyl C-O bond weakens when the oxidation state of the metal is increased",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 32,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "At $143 \\mathrm{~K}$, the reaction of $\\mathrm{XeF}_{4}$ with $\\mathrm{O}_{2} \\mathrm{~F}_{2}$ produces a xenon compound $\\mathrm{Y}$. What is the total number of lone pair(s) of electrons present on the whole molecule of $\\mathrm{Y}$?",
+        "gold": "19"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 45,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "In a triangle $X Y Z$, let $x, y, z$ be the lengths of sides opposite to the angles $X, Y, Z$, respectively, and $2 s=x+y+z$. If $\\frac{s-x}{4}=\\frac{s-y}{3}=\\frac{s-z}{2}$ and area of incircle of the triangle $X Y Z$ is $\\frac{8 \\pi}{3}$, then\n\n(A) area of the triangle $X Y Z$ is $6 \\sqrt{6}$\n\n(B) the radius of circumcircle of the triangle $X Y Z$ is $\\frac{35}{6} \\sqrt{6}$\n\n(C) $\\sin \\frac{X}{2} \\sin \\frac{Y}{2} \\sin \\frac{Z}{2}=\\frac{4}{35}$\n\n(D) $\\sin ^{2}\\left(\\frac{X+Y}{2}\\right)=\\frac{3}{5}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 28,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the correct statement(s) among the following.\n\n(A) $\\mathrm{SnCl}_{2} \\cdot 2 \\mathrm{H}_{2} \\mathrm{O}$ is a reducing agent.\n\n(B) $\\mathrm{SnO}_{2}$ reacts with $\\mathrm{KOH}$ to form $\\mathrm{K}_{2}\\left[\\mathrm{Sn}(\\mathrm{OH})_{6}\\right]$.\n\n(C) A solution of $\\mathrm{PbCl}_{2}$ in $\\mathrm{HCl}$ contains $\\mathrm{Pb}^{2+}$ and $\\mathrm{Cl}^{-}$ions.\n\n(D) The reaction of $\\mathrm{Pb}_{3} \\mathrm{O}_{4}$ with hot dilute nitric acid to give $\\mathrm{PbO}_{2}$ is a redox reaction.",
+        "gold": "AB"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 46,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $f_1:(0, \\infty) \\rightarrow \\mathbb{R}$ and $f_2:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n\\[f_1(x)=\\int_0^x \\prod_{j=1}^{21}(t-j)^j d t, x>0\\]\nand\n\\[f_2(x)=98(x-1)^{50}-600(x-1)^{49}+2450, x>0\\]\nwhere, for any positive integer $\\mathrm{n}$ and real numbers $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}, \\prod_{i=1}^{\\mathrm{n}} \\mathrm{a}_i$ denotes the product of $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}$. Let $\\mathrm{m}_i$ and $\\mathrm{n}_i$, respectively, denote the number of points of local minima and the number of points of local maxima of function $f_i, i=1,2$, in the interval $(0, \\infty)$. What is the value of $6 m_{2}+4 n_{2}+8 m_{2} n_{2}$?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 9,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Consider the equation\n\n\\[\n\\int_{1}^{e} \\frac{\\left(\\log _{\\mathrm{e}} x\\right)^{1 / 2}}{x\\left(a-\\left(\\log _{\\mathrm{e}} x\\right)^{3 / 2}\\right)^{2}} d x=1, \\quad a \\in(-\\infty, 0) \\cup(1, \\infty) .\n\\]\n\nWhich of the following statements is/are TRUE?\n\n(A) No $a$ satisfies the above equation\n\n(B) An integer $a$ satisfies the above equation\n\n(C) An irrational number $a$ satisfies the above equation\n\n(D) More than one $a$ satisfy the above equation",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 15,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider 4 boxes, where each box contains 3 red balls and 2 blue balls. Assume that all 20 balls are distinct. In how many different ways can 10 balls be chosen from these 4 boxes so that from each box at least one red ball and one blue ball are chosen?\n\n(A) 21816\n\n(B) 85536\n\n(C) 12096\n\n(D) 156816",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 45,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $f_1:(0, \\infty) \\rightarrow \\mathbb{R}$ and $f_2:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n\\[f_1(x)=\\int_0^x \\prod_{j=1}^{21}(t-j)^j d t, x>0\\]\nand\n\\[f_2(x)=98(x-1)^{50}-600(x-1)^{49}+2450, x>0\\]\nwhere, for any positive integer $\\mathrm{n}$ and real numbers $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}, \\prod_{i=1}^{\\mathrm{n}} \\mathrm{a}_i$ denotes the product of $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}$. Let $\\mathrm{m}_i$ and $\\mathrm{n}_i$, respectively, denote the number of points of local minima and the number of points of local maxima of function $f_i, i=1,2$, in the interval $(0, \\infty)$. What is the value of $2 m_{1}+3 n_{1}+m_{1} n_{1}$?",
+        "gold": "57"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 1,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $\\alpha$ and $\\beta$ be real numbers such that $-\\frac{\\pi}{4}<\\beta<0<\\alpha<\\frac{\\pi}{4}$. If $\\sin (\\alpha+\\beta)=\\frac{1}{3}$ and $\\cos (\\alpha-\\beta)=\\frac{2}{3}$, then what is the greatest integer less than or equal to\n\n\\[\n\\left(\\frac{\\sin \\alpha}{\\cos \\beta}+\\frac{\\cos \\beta}{\\sin \\alpha}+\\frac{\\cos \\alpha}{\\sin \\beta}+\\frac{\\sin \\beta}{\\cos \\alpha}\\right)^{2}\n\\]?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 7,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the number of 4-digit integers in the closed interval [2022, 4482] formed by using the digits $0,2,3,4,6,7$?",
+        "gold": "569"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 4,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=\\sqrt{n}$ if $x \\in\\left[\\frac{1}{n+1}, \\frac{1}{n}\\right)$ where $n \\in \\mathbb{N}$. Let $g:(0,1) \\rightarrow \\mathbb{R}$ be a function such that $\\int_{x^{2}}^{x} \\sqrt{\\frac{1-t}{t}} d t<g(x)<2 \\sqrt{x}$ for all $x \\in(0,1)$. Then $\\lim _{x \\rightarrow 0} f(x) g(x)$\n\n\n\n(A) does NOT exist\n\n\n\n(B) is equal to 1\n\n\n\n(C) is equal to 2\n\n\n\n(D) is equal to 3",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 45,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f: \\mathbb{R} \\rightarrow(0, \\infty)$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be twice differentiable functions such that $f^{\\prime \\prime}$ and $g^{\\prime \\prime}$ are continuous functions on $\\mathbb{R}$. Suppose $f^{\\prime}(2)=g(2)=0, f^{\\prime \\prime}(2) \\neq 0$ and $g^{\\prime}(2) \\neq 0$. If $\\lim _{x \\rightarrow 2} \\frac{f(x) g(x)}{f^{\\prime}(x) g^{\\prime}(x)}=1$, then\n\n(A) $f$ has a local minimum at $x=2$\n\n(B) f has a local maximum at $x=2$\n\n(C) $f^{\\prime \\prime}(2)>f(2)$\n\n(D) $f(x)-f^{\\prime \\prime}(x)=0$ for at least one $x \\in \\mathbb{R}$",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 36,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "An acidified solution of $0.05 \\mathrm{M} \\mathrm{Zn}^{2+}$ is saturated with $0.1 \\mathrm{M} \\mathrm{H}_{2} \\mathrm{~S}$. What is the minimum molar concentration (M) of $\\mathrm{H}^{+}$required to prevent the precipitation of $\\mathrm{ZnS}$ ?\n\nUse $K_{\\mathrm{sp}}(\\mathrm{ZnS})=1.25 \\times 10^{-22}$ and\n\noverall dissociation constant of $\\mathrm{H}_{2} \\mathrm{~S}, K_{\\mathrm{NET}}=K_{1} K_{2}=1 \\times 10^{-21}$.",
+        "gold": "0.2"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 46,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f:\\left[-\\frac{1}{2}, 2\\right] \\rightarrow \\mathbb{R}$ and $g:\\left[-\\frac{1}{2}, 2\\right] \\rightarrow \\mathbb{R}$ be functions defined by $f(x)=\\left[x^{2}-3\\right]$ and $g(x)=|x| f(x)+|4 x-7| f(x)$, where $[y]$ denotes the greatest integer less than or equal to $y$ for $y \\in \\mathbb{R}$. Then\n\n(A) $f$ is discontinuous exactly at three points in $\\left[-\\frac{1}{2}, 2\\right]$\n\n(B) $f$ is discontinuous exactly at four points in $\\left[-\\frac{1}{2}, 2\\right]$\n\n(C) $g$ is NOT differentiable exactly at four points in $\\left(-\\frac{1}{2}, 2\\right)$\n\n(D) $g$ is NOT differentiable exactly at five points in $\\left(-\\frac{1}{2}, 2\\right)$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 23,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Addition of excess aqueous ammonia to a pink coloured aqueous solution of $\\mathrm{MCl}_{2} \\cdot 6 \\mathrm{H}_{2} \\mathrm{O}$ $(\\mathbf{X})$ and $\\mathrm{NH}_{4} \\mathrm{Cl}$ gives an octahedral complex $\\mathbf{Y}$ in the presence of air. In aqueous solution, complex $\\mathbf{Y}$ behaves as 1:3 electrolyte. The reaction of $\\mathbf{X}$ with excess $\\mathrm{HCl}$ at room temperature results in the formation of a blue coloured complex $\\mathbf{Z}$. The calculated spin only magnetic moment of $\\mathbf{X}$ and $\\mathbf{Z}$ is 3.87 B.M., whereas it is zero for complex $\\mathbf{Y}$.\n\nAmong the following options, which statement(s) is(are) correct?\n\n[A] Addition of silver nitrate to $\\mathbf{Y}$ gives only two equivalents of silver chloride\n\n[B] The hybridization of the central metal ion in $\\mathbf{Y}$ is $\\mathrm{d}^{2} \\mathrm{sp}^{3}$\n\n[C] $\\mathbf{Z}$ is a tetrahedral complex\n\n[D] When $\\mathbf{X}$ and $\\mathbf{Z}$ are in equilibrium at $0^{\\circ} \\mathrm{C}$, the colour of the solution is pink",
+        "gold": "BCD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 45,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $X$ be the set consisting of the first 2018 terms of the arithmetic progression $1,6,11, \\ldots$, and $Y$ be the set consisting of the first 2018 terms of the arithmetic progression $9,16,23, \\ldots$. Then, what is the number of elements in the set $X \\cup Y$?",
+        "gold": "3748"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 1,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Considering only the principal values of the inverse trigonometric functions, what is the value of\n\n\\[\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n\\]?",
+        "gold": "2.35"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 9,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For $x \\in \\mathbb{R}$, let $y(x)$ be a solution of the differential equation $\\left(x^{2}-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^{2}-5\\right)^{2}$ such that $y(2)=7$.\n\n\n\nThen what is the maximum value of the function $y(x)$?",
+        "gold": "16"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 2,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $T_{1}$ and $T_{2}$ be two distinct common tangents to the ellipse $E: \\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$ and the parabola $P: y^{2}=12 x$. Suppose that the tangent $T_{1}$ touches $P$ and $E$ at the points $A_{1}$ and $A_{2}$, respectively and the tangent $T_{2}$ touches $P$ and $E$ at the points $A_{4}$ and $A_{3}$, respectively. Then which of the following statements is(are) true?\n\n\n\n(A) The area of the quadrilateral $A_{1} A_{2} A_{3} A_{4}$ is 35 square units\n\n\n\n(B) The area of the quadrilateral $A_{1} A_{2} A_{3} A_{4}$ is 36 square units\n\n\n\n(C) The tangents $T_{1}$ and $T_{2}$ meet the $x$-axis at the point $(-3,0)$\n\n\n\n(D) The tangents $T_{1}$ and $T_{2}$ meet the $x$-axis at the point $(-6,0)$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 41,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Dissolving $1.24 \\mathrm{~g}$ of white phosphorous in boiling NaOH solution in an inert atmosphere gives a gas $\\mathbf{Q}$. What is the amount of $\\mathrm{CuSO}_{4}$ (in g) required to completely consume the gas $\\mathbf{Q}$?\n\n[Given: Atomic mass of $\\mathrm{H}=1, \\mathrm{O}=16, \\mathrm{Na}=23, \\mathrm{P}=31, \\mathrm{~S}=32, \\mathrm{Cu}=63$ ]",
+        "gold": "2.38"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Three randomly chosen nonnegative integers $x, y$ and $z$ are found to satisfy the equation $x+y+z=10$. Then the probability that $z$ is even, is\n\n[A] $\\frac{36}{55}$\n\n[B] $\\frac{6}{11}$\n\n[C] $\\frac{1}{2}$\n\n[D] $\\frac{5}{11}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $X$ and $Y$ be two events such that $P(X)=\\frac{1}{3}, P(X \\mid Y)=\\frac{1}{2}$ and $P(Y \\mid X)=\\frac{2}{5}$. Then\n\n[A] $P(Y)=\\frac{4}{15}$\n\n[B] $P\\left(X^{\\prime} \\mid Y\\right)=\\frac{1}{2}$\n\n[C] \\quad P(X \\cap Y)=\\frac{1}{5}$\n\n[D] $P(X \\cup Y)=\\frac{2}{5}$",
+        "gold": "AB"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 37,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For a complex number $z$, let $\\operatorname{Re}(z)$ denote the real part of $z$. Let $S$ be the set of all complex numbers $z$ satisfying $z^{4}-|z|^{4}=4 i z^{2}$, where $i=\\sqrt{-1}$. Then what is the minimum possible value of $\\left|z_{1}-z_{2}\\right|^{2}$, where $z_{1}, z_{2} \\in S$ with $\\operatorname{Re}\\left(z_{1}\\right)>0$ and $\\operatorname{Re}\\left(z_{2}\\right)<0$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 3,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "In a study about a pandemic, data of 900 persons was collected. It was found that\n\n190 persons had symptom of fever,\n\n220 persons had symptom of cough,\n\n220 persons had symptom of breathing problem,\n\n330 persons had symptom of fever or cough or both,\n\n350 persons had symptom of cough or breathing problem or both,\n\n340 persons had symptom of fever or breathing problem or both,\n\n30 persons had all three symptoms (fever, cough and breathing problem).\n\nIf a person is chosen randomly from these 900 persons, then what the probability that the person has at most one symptom?",
+        "gold": "0.8"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 42,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $P$ be the image of the point $(3,1,7)$ with respect to the plane $x-y+z=3$. Then the equation of the plane passing through $P$ and containing the straight line $\\frac{x}{1}=\\frac{y}{2}=\\frac{z}{1}$ is\n\n(A) $x+y-3 z=0$\n\n(B) $3 x+z=0$\n\n(C) $x-4 y+7 z=0$\n\n(D) $2 x-y=0$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 33,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) related to the metal extraction processes is(are)\n\n(A) A mixture of $\\mathrm{PbS}$ and $\\mathrm{PbO}$ undergoes self-reduction to produce $\\mathrm{Pb}$ and $\\mathrm{SO}_{2}$.\n\n(B) In the extraction process of copper from copper pyrites, silica is added to produce copper silicate.\n\n(C) Partial oxidation of sulphide ore of copper by roasting, followed by self-reduction produces blister copper.\n\n(D) In cyanide process, zinc powder is utilized to precipitate gold from $\\mathrm{Na}\\left[\\mathrm{Au}(\\mathrm{CN})_{2}\\right]$.",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Which of the following liberates $\\mathrm{O}_{2}$ upon hydrolysis?\n\n(A) $\\mathrm{Pb}_{3} \\mathrm{O}_{4}$\n\n(B) $\\mathrm{KO}_{2}$\n\n(C) $\\mathrm{Na}_{2} \\mathrm{O}_{2}$\n\n(D) $\\mathrm{Li}_{2} \\mathrm{O}_{2}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 35,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "${ }_{92}^{238} \\mathrm{U}$ is known to undergo radioactive decay to form ${ }_{82}^{206} \\mathrm{~Pb}$ by emitting alpha and beta particles. A rock initially contained $68 \\times 10^{-6} \\mathrm{~g}$ of ${ }_{92}^{238} \\mathrm{U}$. If the number of alpha particles that it would emit during its radioactive decay of ${ }_{92}^{238} \\mathrm{U}$ to ${ }_{82}^{206} \\mathrm{~Pb}$ in three half-lives is $Z \\times 10^{18}$, then what is the value of $Z$ ?",
+        "gold": "1.2"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 37,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $P=\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 4 & 1 & 0 \\\\ 16 & 4 & 1\\end{array}\\right]$ and $I$ be the identity matrix of order 3. If $Q=\\left[q_{i j}\\right]$ is a matrix such that $P^{50}-Q=I$, then $\\frac{q_{31}+q_{32}}{q_{21}}$ equals\n\n(A) 52\n\n(B) 103\n\n(C) 201\n\n(D) 205",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 43,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the value of the integral\n\n\\[\n\\int_{0}^{\\frac{1}{2}} \\frac{1+\\sqrt{3}}{\\left((x+1)^{2}(1-x)^{6}\\right)^{\\frac{1}{4}}} d x\n\\]?",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 42,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $E$ denote the parabola $y^{2}=8 x$. Let $P=(-2,4)$, and let $Q$ and $Q^{\\prime}$ be two distinct points on $E$ such that the lines $P Q$ and $P Q^{\\prime}$ are tangents to $E$. Let $F$ be the focus of $E$. Then which of the following statements is (are) TRUE?\n\n(A) The triangle $P F Q$ is a right-angled triangle\n\n(B) The triangle $Q P Q^{\\prime}$ is a right-angled triangle\n\n(C) The distance between $P$ and $F$ is $5 \\sqrt{2}$\n\n(D) $F$ lies on the line joining $Q$ and $Q^{\\prime}$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 48,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the value of\n\n\\[\n\\sec ^{-1}\\left(\\frac{1}{4} \\sum_{k=0}^{10} \\sec \\left(\\frac{7 \\pi}{12}+\\frac{k \\pi}{2}\\right) \\sec \\left(\\frac{7 \\pi}{12}+\\frac{(k+1) \\pi}{2}\\right)\\right)\n\\]\n\nin the interval $\\left[-\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right]$?",
+        "gold": "0"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 37,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "The equation of the plane passing through the point $(1,1,1)$ and perpendicular to the planes $2 x+y-2 z=5$ and $3 x-6 y-2 z=7$, is\n\n[A] $14 x+2 y-15 z=1$\n\n[B] $14 x-2 y+15 z=27$\n\n[C] $\\quad 14 x+2 y+15 z=31$\n\n[D] $-14 x+2 y+15 z=3$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 18,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider the ellipse\n\n\\[\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n\\]\n\nLet $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis.\n\nList-I\n(I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is\n(II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is\n(III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is\n(IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is\n\nList-II\n(P) $\\frac{(\\sqrt{3}-1)^4}{8}$\n(Q) 1\n(R) $\\frac{3}{4}$\n(S) $\\frac{1}{2 \\sqrt{3}}$\n(T) $\\frac{3 \\sqrt{3}}{2}$\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)\n\n(B) $\\quad$ (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(C) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(D) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 32,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "The mole fraction of a solute in a solution is 0.1 . At $298 \\mathrm{~K}$, molarity of this solution is the same as its molality. Density of this solution at $298 \\mathrm{~K}$ is $2.0 \\mathrm{~g} \\mathrm{~cm}^{-3}$. What is the ratio of the molecular weights of the solute and solvent, $\\left(\\frac{M W_{\\text {solute }}}{M W_{\\text {solvent }}}\\right)$?",
+        "gold": "9"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 42,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider all rectangles lying in the region\n\n\\[\n\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: 0 \\leq x \\leq \\frac{\\pi}{2} \\text { and } 0 \\leq y \\leq 2 \\sin (2 x)\\right\\}\n\\]\n\nand having one side on the $x$-axis. The area of the rectangle which has the maximum perimeter among all such rectangles, is\n\n(A) $\\frac{3 \\pi}{2}$\n\n(B) $\\pi$\n\n(C) $\\frac{\\pi}{2 \\sqrt{3}}$\n\n(D) $\\frac{\\pi \\sqrt{3}}{2}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 33,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Consider a 70\\% efficient hydrogen-oxygen fuel cell working under standard conditions at 1 bar and $298 \\mathrm{~K}$. Its cell reaction is\n\n\\[\n\\mathrm{H}_{2}(g)+\\frac{1}{2} \\mathrm{O}_{2}(g) \\rightarrow \\mathrm{H}_{2} \\mathrm{O}(l)\n\\]\n\nThe work derived from the cell on the consumption of $1.0 \\times 10^{-3} \\mathrm{~mol} \\mathrm{of}_{2}(g)$ is used to compress $1.00 \\mathrm{~mol}$ of a monoatomic ideal gas in a thermally insulated container. What is the change in the temperature (in K) of the ideal gas?\n\nThe standard reduction potentials for the two half-cells are given below.\n\n\\[\n\\begin{gathered}\n\n\\mathrm{O}_{2}(g)+4 \\mathrm{H}^{+}(a q)+4 e^{-} \\rightarrow 2 \\mathrm{H}_{2} \\mathrm{O}(l), \\quad E^{0}=1.23 \\mathrm{~V}, \\\\\n\n2 \\mathrm{H}^{+}(a q)+2 e^{-} \\rightarrow \\mathrm{H}_{2}(g), \\quad E^{0}=0.00 \\mathrm{~V}\n\n\\end{gathered}\n\\]\n\nUse $F=96500 \\mathrm{C} \\mathrm{mol}^{-1}, R=8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}$.",
+        "gold": "13.32"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 40,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "On decreasing the $p \\mathrm{H}$ from 7 to 2, the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4} \\mathrm{~mol} \\mathrm{~L}^{-1}$ to $10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1}$. The $p\\mathrm{~K}_{\\mathrm{a}}$ of $\\mathrm{HX}$ is\n\n\n\n(A) 3\n\n\n\n(B) 4\n\n\n\n(C) 5\n\n\n\n(D) 2",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 15,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider the given data with frequency distribution\n\n\n\n$$\n\n\\begin{array}{ccccccc}\n\nx_{i} & 3 & 8 & 11 & 10 & 5 & 4 \\\\\n\nf_{i} & 5 & 2 & 3 & 2 & 4 & 4\n\n\\end{array}\n\n$$\n\n\n\nMatch each entry in List-I to the correct entries in List-II.\n\n\n\n\\textbf{List-I}\n\n\n\n(P) The mean of the above data is\n\n\n\n(Q) The median of the above data is\n\n\n\n(R) The mean deviation about the mean of the above data is\n\n\n\n(S) The mean deviation about the median of the above data is\n\n\n\n\\textbf{List-II}\n\n\n\n(1) 2.5\n\n\n\n(2) 5\n\n\n\n(3) 6\n\n\n\n(4) 2.7\n\n\n\n(5) 2.4\n\n\n\nThe correct option is:\n\n\n\n(A) $(P) \\rightarrow(3) \\quad$ (Q) $\\rightarrow$ (2) $\\quad$ (R) $\\rightarrow$ (4) $\\quad$ (S) $\\rightarrow$ (5)\n\n\n\n(B) $(P) \\rightarrow(3) \\quad(Q) \\rightarrow(2) \\quad(R) \\rightarrow(1) \\quad(S) \\rightarrow(5)$\n\n\n\n(C) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(3) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(1)$\n\n\n\n(D) $(P) \\rightarrow$ (3) $\\quad$ (Q) $\\rightarrow$ (3) $\\quad$ (R) $\\rightarrow$ (5) $\\quad$ (S) $\\rightarrow$ (5)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 28,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "What is the sum of the number of lone pairs of electrons on each central atom in the following species?\n\n$\\left[\\mathrm{TeBr}_{6}\\right]^{2-},\\left[\\mathrm{BrF}_{2}\\right]^{+}, \\mathrm{SNF}_{3}$, and $\\left[\\mathrm{XeF}_{3}\\right]^{-}$\n\n(Atomic numbers: $\\mathrm{N}=7, \\mathrm{~F}=9, \\mathrm{~S}=16, \\mathrm{Br}=35, \\mathrm{Te}=52, \\mathrm{Xe}=54$ )",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f:(0, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f^{\\prime}(x)=2-\\frac{f(x)}{x}$ for all $x \\in(0, \\infty)$ and $f(1) \\neq 1$. Then\n\n(A) $\\lim _{x \\rightarrow 0+} f^{\\prime}\\left(\\frac{1}{x}\\right)=1$\n\n(B) $\\lim _{x \\rightarrow 0+} x f\\left(\\frac{1}{x}\\right)=2$\n\n(C) $\\lim _{x \\rightarrow 0+} x^{2} f^{\\prime}(x)=0$\n\n(D) $|f(x)| \\leq 2$ for all $x \\in(0,2)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 47,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For any $3 \\times 3$ matrix $M$, let $|M|$ denote the determinant of $M$. Let\n\n\\[\nE=\\left[\\begin{array}{ccc}\n\n1 & 2 & 3 \\\\\n\n2 & 3 & 4 \\\\\n\n8 & 13 & 18\n\n\\end{array}\\right], P=\\left[\\begin{array}{ccc}\n\n1 & 0 & 0 \\\\\n\n0 & 0 & 1 \\\\\n\n0 & 1 & 0\n\n\\end{array}\\right] \\text { and } F=\\left[\\begin{array}{ccc}\n\n1 & 3 & 2 \\\\\n\n8 & 18 & 13 \\\\\n\n2 & 4 & 3\n\n\\end{array}\\right]\n\\]\n\nIf $Q$ is a nonsingular matrix of order $3 \\times 3$, then which of the following statements is (are) TRUE?\n\n(A) $F=P E P$ and $P^{2}=\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\n\n(B) $\\left|E Q+P F Q^{-1}\\right|=|E Q|+\\left|P F Q^{-1}\\right|$\n\n(C) $\\left|(E F)^{3}\\right|>|E F|^{2}$\n\n(D) Sum of the diagonal entries of $P^{-1} E P+F$ is equal to the sum of diagonal entries of $E+P^{-1} F P$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 49,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "If the line $x=\\alpha$ divides the area of region $R=\\left\\{(x, y) \\in \\mathbb{R}^{2}: x^{3} \\leq y \\leq x, 0 \\leq x \\leq 1\\right\\}$ into two equal parts, then\n\n[A] $0<\\alpha \\leq \\frac{1}{2}$\n\n[B] $\\frac{1}{2}<\\alpha<1$\n\n[C] $\\quad 2 \\alpha^{4}-4 \\alpha^{2}+1=0$\n\n[D] $\\alpha^{4}+4 \\alpha^{2}-1=0$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 16,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Two players, $P_{1}$ and $P_{2}$, play a game against each other. In every round of the game, each player rolls a fair die once, where the six faces of the die have six distinct numbers. Let $x$ and $y$ denote the readings on the die rolled by $P_{1}$ and $P_{2}$, respectively. If $x>y$, then $P_{1}$ scores 5 points and $P_{2}$ scores 0 point. If $x=y$, then each player scores 2 points. If $x<y$, then $P_{1}$ scores 0 point and $P_{2}$ scores 5 points. Let $X_{i}$ and $Y_{i}$ be the total scores of $P_{1}$ and $P_{2}$, respectively, after playing the $i^{\\text {th }}$ round.\n\nList-I\n(I) Probability of $\\left(X_2 \\geq Y_2\\right)$ is\n(II) Probability of $\\left(X_2>Y_2\\right)$ is\n(III) Probability of $\\left(X_3=Y_3\\right)$ is\n(IV) Probability of $\\left(X_3>Y_3\\right)$ is\n\nList-II\n(P) $\\frac{3}{8}$\n(Q) $\\frac{11}{16}$\n(R) $\\frac{5}{16}$\n(S) $\\frac{355}{864}$\n(T) $\\frac{77}{432}$\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (S)\n\n(B) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (T); (IV) $\\rightarrow$ (T)\n\n(C) (I) $\\rightarrow$ (P); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (S)\n\n(D) (I) $\\rightarrow$ (P); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (T)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 26,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the correct option(s) from the following\n\n(A) Natural rubber is polyisoprene containing trans alkene units\n\n(B) Nylon-6 has amide linkages\n\n(C) Teflon is prepared by heating tetrafluoroethene in presence of a persulphate catalyst at high pressure\n\n(D) Cellulose has only $\\alpha$-D-glucose units that are joined by glycosidic linkages",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 44,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "In a non-right-angled triangle $\\triangle P Q R$, let $p, q, r$ denote the lengths of the sides opposite to the angles at $P, Q, R$ respectively. The median from $R$ meets the side $P Q$ at $S$, the perpendicular from $P$ meets the side $Q R$ at $E$, and $R S$ and $P E$ intersect at $O$. If $p=\\sqrt{3}, q=1$, and the radius of the circumcircle of the $\\triangle P Q R$ equals 1 , then which of the following options is/are correct?\n\n(A) Length of $R S=\\frac{\\sqrt{7}}{2}$\n\n(B) Area of $\\triangle S O E=\\frac{\\sqrt{3}}{12}$\n\n(C) Length of $O E=\\frac{1}{6}$\n\n(D) Radius of incircle of $\\triangle P Q R=\\frac{\\sqrt{3}}{2}(2-\\sqrt{3})$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 43,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the value of\n\n\\[\n\\left(\\left(\\log _{2} 9\\right)^{2}\\right)^{\\frac{1}{\\log _{2}\\left(\\log _{2} 9\\right)}} \\times(\\sqrt{7})^{\\frac{1}{\\log _{4} 7}}\n\\]?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 44,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For how many values of $p$, the circle $x^{2}+y^{2}+2 x+4 y-p=0$ and the coordinate axes have exactly three common points?",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 38,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let\n\n\\[\nM=\\left[\\begin{array}{cc}\n\n\\sin ^{4} \\theta & -1-\\sin ^{2} \\theta \\\\\n\n1+\\cos ^{2} \\theta & \\cos ^{4} \\theta\n\n\\end{array}\\right]=\\alpha I+\\beta M^{-1}\n\\]\n\nwhere $\\alpha=\\alpha(\\theta)$ and $\\beta=\\beta(\\theta)$ are real numbers, and $I$ is the $2 \\times 2$ identity matrix. If\n\n$\\alpha^{*}$ is the minimum of the set $\\{\\alpha(\\theta): \\theta \\in[0,2 \\pi)\\}$ and\n\n$\\beta^{*}$ is the minimum of the set $\\{\\beta(\\theta): \\theta \\in[0,2 \\pi)\\}$\n\nthen the value of $\\alpha^{*}+\\beta^{*}$ is\n\n(A) $-\\frac{37}{16}$\n\n(B) $-\\frac{31}{16}$\n\n(C) $-\\frac{29}{16}$\n\n(D) $-\\frac{17}{16}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 40,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "The area of the region $\\left\\{(x, y): x y \\leq 8,1 \\leq y \\leq x^{2}\\right\\}$ is\n\n(A) $16 \\log _{e} 2-\\frac{14}{3}$\n\n(B) $8 \\log _{e} 2-\\frac{14}{3}$\n\n(C) $16 \\log _{e} 2-6$\n\n(D) $8 \\log _{e} 2-\\frac{7}{3}$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 49,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $\\omega \\neq 1$ be a cube root of unity. Then what is the minimum of the set\n\n\\[\n\\left\\{\\left|a+b \\omega+c \\omega^{2}\\right|^{2}: a, b, c \\text { distinct non-zero integers }\\right\\}\n\\] equal?",
+        "gold": "3"
+    }
+]

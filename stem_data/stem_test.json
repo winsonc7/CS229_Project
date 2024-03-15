@@ -1,0 +1,826 @@
+[
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 35,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "${ }_{92}^{238} \\mathrm{U}$ is known to undergo radioactive decay to form ${ }_{82}^{206} \\mathrm{~Pb}$ by emitting alpha and beta particles. A rock initially contained $68 \\times 10^{-6} \\mathrm{~g}$ of ${ }_{92}^{238} \\mathrm{U}$. If the number of alpha particles that it would emit during its radioactive decay of ${ }_{92}^{238} \\mathrm{U}$ to ${ }_{82}^{206} \\mathrm{~Pb}$ in three half-lives is $Z \\times 10^{18}$, then what is the value of $Z$ ?",
+        "gold": "1.2"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 44,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "Consider the following molecules: $\\mathrm{Br}_{3} \\mathrm{O}_{8}, \\mathrm{~F}_{2} \\mathrm{O}, \\mathrm{H}_{2} \\mathrm{~S}_{4} \\mathrm{O}_{6}, \\mathrm{H}_{2} \\mathrm{~S}_{5} \\mathrm{O}_{6}$, and $\\mathrm{C}_{3} \\mathrm{O}_{2}$.\n\n\n\nCount the number of atoms existing in their zero oxidation state in each molecule. What is their sum?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 36,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Consider the following statements related to colloids.\n\n\n\n(I) Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium.\n\n\n\n(II) For emulsions, both the dispersed phase and the dispersion medium are liquid.\n\n\n\n(III) Micelles are produced by dissolving a surfactant in any solvent at any temperature.\n\n\n\n(IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium.\n\n\n\nThe option with the correct set of statements is\n\n\n\n(A) (I) and (II)\n\n\n\n(B) (II) and (III)\n\n\n\n(C) (III) and (IV)\n\n\n\n(D) (II) and (IV)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f:(0, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f^{\\prime}(x)=2-\\frac{f(x)}{x}$ for all $x \\in(0, \\infty)$ and $f(1) \\neq 1$. Then\n\n(A) $\\lim _{x \\rightarrow 0+} f^{\\prime}\\left(\\frac{1}{x}\\right)=1$\n\n(B) $\\lim _{x \\rightarrow 0+} x f\\left(\\frac{1}{x}\\right)=2$\n\n(C) $\\lim _{x \\rightarrow 0+} x^{2} f^{\\prime}(x)=0$\n\n(D) $|f(x)| \\leq 2$ for all $x \\in(0,2)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 29,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "Among $\\mathrm{H}_{2}, \\mathrm{He}_{2}{ }^{+}, \\mathrm{Li}_{2}, \\mathrm{Be}_{2}, \\mathrm{~B}_{2}, \\mathrm{C}_{2}, \\mathrm{~N}_{2}, \\mathrm{O}_{2}^{-}$, and $\\mathrm{F}_{2}$, what is the number of diamagnetic species? (Atomic numbers: $\\mathrm{H}=1, \\mathrm{He}=2, \\mathrm{Li}=3, \\mathrm{Be}=4, \\mathrm{~B}=5, \\mathrm{C}=6, \\mathrm{~N}=7, \\mathrm{O}=8, \\mathrm{~F}=9$ )",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 1,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int_{1}^{x} f(t) d t=x f(x)-\\frac{x^{3}}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is\n\n\n\n(A) $\\frac{e^{2}+4}{3}$\n\n\n\n(B) $\\frac{\\log _{e} 4+e}{3}$\n\n\n\n(C) $\\frac{4 e^{2}}{3}$\n\n\n\n(D) $\\frac{e^{2}-4}{3}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 53,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The reaction of $\\mathrm{Pb}\\left(\\mathrm{NO}_{3}\\right)_{2}$ and $\\mathrm{NaCl}$ in water produces a precipitate that dissolves upon the addition of $\\mathrm{HCl}$ of appropriate concentration. The dissolution of the precipitate is due to the formation of\n\n(A) $\\mathrm{PbCl}_{2}$\n\n(B) $\\mathrm{PbCl}_{4}$\n\n(C) $\\left[\\mathrm{PbCl}_{4}\\right]^{2-}$\n\n(D) $\\left[\\mathrm{PbCl}_{6}\\right]^{2-}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 1,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "Consider a spherical gaseous cloud of mass density $\\rho(r)$ in free space where $r$ is the radial distance from its center. The gaseous cloud is made of particles of equal mass $m$ moving in circular orbits about the common center with the same kinetic energy $K$. The force acting on the particles is their mutual gravitational force. If $\\rho(r)$ is constant in time, the particle number density $n(r)=\\rho(r) / m$ is\n\n[ $G$ is universal gravitational constant]\n\n(A) $\\frac{K}{2 \\pi r^{2} m^{2} G}$\n\n(B) $\\frac{K}{\\pi r^{2} m^{2} G}$\n\n(C) $\\frac{3 K}{\\pi r^{2} m^{2} G}$\n\n(D) $\\frac{K}{6 \\pi r^{2} m^{2} G}$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 40,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For any real numbers $\\alpha$ and $\\beta$, let $y_{\\alpha, \\beta}(x), x \\in \\mathbb{R}$, be the solution of the differential equation\n\n\\[\n\\frac{d y}{d x}+\\alpha y=x e^{\\beta x}, \\quad y(1)=1\n\\]\n\nLet $S=\\left\\{y_{\\alpha, \\beta}(x): \\alpha, \\beta \\in \\mathbb{R}\\right\\}$. Then which of the following functions belong(s) to the set $S$ ?\n\n(A) $f(x)=\\frac{x^{2}}{2} e^{-x}+\\left(e-\\frac{1}{2}\\right) e^{-x}$\n\n(B) $f(x)=-\\frac{x^{2}}{2} e^{-x}+\\left(e+\\frac{1}{2}\\right) e^{-x}$\n\n(C) $f(x)=\\frac{e^{x}}{2}\\left(x-\\frac{1}{2}\\right)+\\left(e-\\frac{e^{2}}{4}\\right) e^{-x}$\n\n(D) $f(x)=\\frac{e^{x}}{2}\\left(\\frac{1}{2}-x\\right)+\\left(e+\\frac{e^{2}}{4}\\right) e^{-x}$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 6,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "A rocket is launched normal to the surface of the Earth, away from the Sun, along the line joining the Sun and the Earth. The Sun is $3 \\times 10^{5}$ times heavier than the Earth and is at a distance $2.5 \\times 10^{4}$ times larger than the radius of the Earth. The escape velocity from Earth's gravitational field is $v_{e}=11.2 \\mathrm{~km} \\mathrm{~s}^{-1}$. The minimum initial velocity $\\left(v_{S}\\right)$ required for the rocket to be able to leave the Sun-Earth system is closest to\n\n(Ignore the rotation and revolution of the Earth and the presence of any other planet)\n\n$[\\mathrm{A}] \\quad v_{S}=22 \\mathrm{~km} \\mathrm{~s}^{-1}$\n\n$[\\mathrm{B}] v_{S}=42 \\mathrm{~km} \\mathrm{~s}^{-1}$\n\n$[\\mathrm{C}] \\quad v_{S}=62 \\mathrm{~km} \\mathrm{~s}^{-1}$\n\n[D] $v_{S}=72 \\mathrm{~km} \\mathrm{~s}^{-1}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The geometries of the ammonia complexes of $\\mathrm{Ni}^{2+}, \\mathrm{Pt}^{2+}$ and $\\mathrm{Zn}^{2+}$, respectively, are\n\n(A) octahedral, square planar and tetrahedral\n\n(B) square planar, octahedral and tetrahedral\n\n(C) tetrahedral, square planar and octahedral\n\n(D) octahedral, tetrahedral and square planar",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of $1 \\mathrm{~mL}$ of $3 \\% \\mathrm{H}_{2} \\mathrm{O}_{2}$, a blue alcohol layer was obtained. The blue color is due to the formation of a chromium (VI) compound ' $\\mathbf{X}$ '. What is the number of oxygen atoms bonded to chromium through only single bonds in a molecule of $\\mathbf{X}$ ?",
+        "gold": "4"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 45,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "In a triangle $X Y Z$, let $x, y, z$ be the lengths of sides opposite to the angles $X, Y, Z$, respectively, and $2 s=x+y+z$. If $\\frac{s-x}{4}=\\frac{s-y}{3}=\\frac{s-z}{2}$ and area of incircle of the triangle $X Y Z$ is $\\frac{8 \\pi}{3}$, then\n\n(A) area of the triangle $X Y Z$ is $6 \\sqrt{6}$\n\n(B) the radius of circumcircle of the triangle $X Y Z$ is $\\frac{35}{6} \\sqrt{6}$\n\n(C) $\\sin \\frac{X}{2} \\sin \\frac{Y}{2} \\sin \\frac{Z}{2}=\\frac{4}{35}$\n\n(D) $\\sin ^{2}\\left(\\frac{X+Y}{2}\\right)=\\frac{3}{5}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 49,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $m$ be the minimum possible value of $\\log _{3}\\left(3^{y_{1}}+3^{y_{2}}+3^{y_{3}}\\right)$, where $y_{1}, y_{2}, y_{3}$ are real numbers for which $y_{1}+y_{2}+y_{3}=9$. Let $M$ be the maximum possible value of $\\left(\\log _{3} x_{1}+\\log _{3} x_{2}+\\log _{3} x_{3}\\right)$, where $x_{1}, x_{2}, x_{3}$ are positive real numbers for which $x_{1}+x_{2}+x_{3}=9$. Then what is the value of $\\log _{2}\\left(m^{3}\\right)+\\log _{3}\\left(M^{2}\\right)$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Which of the following combination will produce $\\mathrm{H}_{2}$ gas?\n\n[A] Fe metal and conc. $\\mathrm{HNO}_{3}$\n\n[B] Cu metal and conc. $\\mathrm{HNO}_{3}$\n\n[C] $\\mathrm{Zn}$ metal and $\\mathrm{NaOH}(\\mathrm{aq})$\n\n[D] Au metal and $\\mathrm{NaCN}(\\mathrm{aq})$ in the presence of air",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 25,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Among the species given below, what is the total number of diamagnetic species?\n\n$\\mathrm{H}$ atom, $\\mathrm{NO}_{2}$ monomer, $\\mathrm{O}_{2}^{-}$(superoxide), dimeric sulphur in vapour phase,\n\n$\\mathrm{Mn}_{3} \\mathrm{O}_{4},\\left(\\mathrm{NH}_{4}\\right)_{2}\\left[\\mathrm{FeCl}_{4}\\right],\\left(\\mathrm{NH}_{4}\\right)_{2}\\left[\\mathrm{NiCl}_{4}\\right], \\mathrm{K}_{2} \\mathrm{MnO}_{4}, \\mathrm{~K}_{2} \\mathrm{CrO}_{4}$",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 44,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $a$ and $b$ be positive real numbers such that $a>1$ and $b<a$. Let $P$ be a point in the first quadrant that lies on the hyperbola $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$. Suppose the tangent to the hyperbola at $P$ passes through the point $(1,0)$, and suppose the normal to the hyperbola at $P$ cuts off equal intercepts on the coordinate axes. Let $\\Delta$ denote the area of the triangle formed by the tangent at $P$, the normal at $P$ and the $x$-axis. If $e$ denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?\n\n(A) $1<e<\\sqrt{2}$\n\n(B) $\\sqrt{2}<e<2$\n\n(C) $\\Delta=a^{4}$\n\n(D) $\\Delta=b^{4}$",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "In a hotel, four rooms are available. Six persons are to be accommodated in these four rooms in such a way that each of these rooms contains at least one person and at most two persons. Then what is the number of all possible ways in which this can be done?",
+        "gold": "1080"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 35,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) related to processes involved in the extraction of metals is(are)\n\n\n\n(A) Roasting of Malachite produces Cuprite.\n\n\n\n(B) Calcination of Calamine produces Zincite.\n\n\n\n(C) Copper pyrites is heated with silica in a reverberatory furnace to remove iron.\n\n\n\n(D) Impure silver is treated with aqueous KCN in the presence of oxygen followed by reduction with zinc metal.",
+        "gold": "BCD"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 27,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The compound(s) with TWO lone pairs of electrons on the central atom is(are)\n\n(A) $\\mathrm{BrF}_{5}$\n\n(B) $\\mathrm{ClF}_{3}$\n\n(C) $\\mathrm{XeF}_{4}$\n\n(D) $\\mathrm{SF}_{4}$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 47,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $L_{1}$ and $L_{2}$ be the following straight lines.\n\n\\[\nL_{1}: \\frac{x-1}{1}=\\frac{y}{-1}=\\frac{z-1}{3} \\text { and } L_{2}: \\frac{x-1}{-3}=\\frac{y}{-1}=\\frac{z-1}{1}\n\\]\n\nSuppose the straight line\n\n\\[\nL: \\frac{x-\\alpha}{l}=\\frac{y-1}{m}=\\frac{z-\\gamma}{-2}\n\\]\n\nlies in the plane containing $L_{1}$ and $L_{2}$, and passes through the point of intersection of $L_{1}$ and $L_{2}$. If the line $L$ bisects the acute angle between the lines $L_{1}$ and $L_{2}$, then which of the following statements is/are TRUE?\n\n(A) $\\alpha-\\gamma=3$\n\n(B) $l+m=2$\n\n(C) $\\alpha-\\gamma=1$\n\n(D) $l+m=0$",
+        "gold": "AB"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 39,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider three sets $E_{1}=\\{1,2,3\\}, F_{1}=\\{1,3,4\\}$ and $G_{1}=\\{2,3,4,5\\}$. Two elements are chosen at random, without replacement, from the set $E_{1}$, and let $S_{1}$ denote the set of these chosen elements. Let $E_{2}=E_{1}-S_{1}$ and $F_{2}=F_{1} \\cup S_{1}$. Now two elements are chosen at random, without replacement, from the set $F_{2}$ and let $S_{2}$ denote the set of these chosen elements.\n\nLet $G_{2}=G_{1} \\cup S_{2}$. Finally, two elements are chosen at random, without replacement, from the set $G_{2}$ and let $S_{3}$ denote the set of these chosen elements.\n\nLet $E_{3}=E_{2} \\cup S_{3}$. Given that $E_{1}=E_{3}$, let $p$ be the conditional probability of the event $S_{1}=\\{1,2\\}$. Then the value of $p$ is\n\n(A) $\\frac{1}{5}$\n\n(B) $\\frac{3}{5}$\n\n(C) $\\frac{1}{2}$\n\n(D) $\\frac{2}{5}$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 46,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Five persons $A, B, C, D$ and $E$ are seated in a circular arrangement. If each of them is given a hat of one of the three colours red, blue and green, then what is the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats?",
+        "gold": "30"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 21,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "A colorless aqueous solution contains nitrates of two metals, $\\mathbf{X}$ and $\\mathbf{Y}$. When it was added to an aqueous solution of $\\mathrm{NaCl}$, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue $\\mathbf{P}$ and a solution $\\mathbf{Q}$. The residue $\\mathbf{P}$ was soluble in aq. $\\mathrm{NH}_{3}$ and also in excess sodium thiosulfate. The hot solution $\\mathbf{Q}$ gave a yellow precipitate with KI. The metals $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are\n\n(A) Ag and $\\mathrm{Pb}$\n\n(B) Ag and Cd\n\n(C) $\\mathrm{Cd}$ and $\\mathrm{Pb}$\n\n(D) Cd and Zn",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 54,
+        "subject": "math",
+        "type": "Integer",
+        "question": "In a triangle $A B C$, let $A B=\\sqrt{23}, B C=3$ and $C A=4$. Then what is the value of\n\n\\[\n\\frac{\\cot A+\\cot C}{\\cot B}\n\\]?",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 13,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "Sunlight of intensity $1.3 \\mathrm{~kW} \\mathrm{~m}^{-2}$ is incident normally on a thin convex lens of focal length $20 \\mathrm{~cm}$. Ignore the energy loss of light due to the lens and assume that the lens aperture size is much smaller than its focal length. What is the average intensity of light, in $\\mathrm{kW} \\mathrm{m}{ }^{-2}$, at a distance $22 \\mathrm{~cm}$ from the lens on the other side?",
+        "gold": "130"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 21,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The increasing order of atomic radii of the following Group 13 elements is\n\n(A) $\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{In}<\\mathrm{Tl}$\n\n(B) $\\mathrm{Ga}<\\mathrm{Al}<\\mathrm{In}<\\mathrm{Tl}$\n\n(C) $\\mathrm{Al}<\\mathrm{In}<\\mathrm{Ga}<\\mathrm{Tl}$\n\n(D) $\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{Tl}<\\mathrm{In}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $a_{1}, a_{2}, a_{3}, \\ldots$ be a sequence of positive integers in arithmetic progression with common difference 2. Also, let $b_{1}, b_{2}, b_{3}, \\ldots$ be a sequence of positive integers in geometric progression with common ratio 2. If $a_{1}=b_{1}=c$, then what is the number of all possible values of $c$, for which the equality\n\n\\[\n2\\left(a_{1}+a_{2}+\\cdots+a_{n}\\right)=b_{1}+b_{2}+\\cdots+b_{n}\n\\]\n\nholds for some positive integer $n$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 17,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $p, q, r$ be nonzero real numbers that are, respectively, the $10^{\\text {th }}, 100^{\\text {th }}$ and $1000^{\\text {th }}$ terms of a harmonic progression. Consider the system of linear equations\n\n\\[\n\\begin{gathered}\n\nx+y+z=1 \\\\\n\n10 x+100 y+1000 z=0 \\\\\n\nq r x+p r y+p q z=0\n\n\\end{gathered}\n\\]\n\nList-I\n(I) If $\\frac{q}{r}=10$, then the system of linear equations has\n(II) If $\\frac{p}{r} \\neq 100$, then the system of linear equations has\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear equations has\n(IV) If $\\frac{p}{q}=10$, then the system of linear equations has\n\nList-II\n(P) $x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$ as a solution\n(Q) $x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$ as a solution\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear\n(R) infinitely many solutions\n(IV) If $\\frac{p}{q}=10$, then the system of linear\n(S) no solution\n(T) at least one solution\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (T)\n\n(B) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (R)\n\n(C) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (R)\n\n(D) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (T)",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 49,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let\n\\[\\mathrm{M}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+\\mathrm{y}^2 \\leq \\mathrm{r}^2\\right\\}\\]\nwhere $\\mathrm{r}>0$. Consider the geometric progression $a_n=\\frac{1}{2^{n-1}}, n=1,2,3, \\ldots$. Let $S_0=0$ and, for $n \\geq 1$, let $S_n$ denote the sum of the first $n$ terms of this progression. For $n \\geq 1$, let $C_n$ denote the circle with center $\\left(S_{n-1}, 0\\right)$ and radius $a_n$, and $D_n$ denote the circle with center $\\left(S_{n-1}, S_{n-1}\\right)$ and radius $a_n$. Consider $M$ with $r=\\frac{1025}{513}$. Let $k$ be the number of all those circles $C_{n}$ that are inside $M$. Let $l$ be the maximum possible number of circles among these $k$ circles such that no two circles intersect. Then\n\n(A) $k+2 l=22$\n\n(B) $2 k+l=26$\n\n(C) $2 k+3 l=34$\n\n(D) $3 k+2 l=40$",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "For the following electrochemical cell at $298 \\mathrm{~K}$,\n\n$\\mathrm{Pt}(s) \\mid \\mathrm{H}_{2}(g, 1$ bar $)\\left|\\mathrm{H}^{+}(aq, 1 \\mathrm{M}) \\| \\mathrm{M}^{4+}(aq), \\mathrm{M}^{2+}(aq)\\right| \\operatorname{Pt}(s)$\n\n$E_{\\text {cell }}=0.092 \\mathrm{~V}$ when $\\frac{\\left[\\mathrm{M}^{2+}(aq)\\right]}{\\left[M^{4+}(aq)\\right]}=10^{x}$.\n\nGiven : $E_{\\mathrm{M}^{4} / \\mathrm{M}^{2+}}^{0}=0.151 \\mathrm{~V} ; 2.303 \\frac{R T}{F}=0.059 \\mathrm{~V}$\n\nThe value of $x$ is\n\n(A) -2\n\n(B) -1\n\n(C) 1\n\n(D) 2",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 22,
+        "subject": "phy",
+        "type": "Integer",
+        "question": "In a particular system of units, a physical quantity can be expressed in terms of the electric charge $e$, electron mass $m_{e}$, Planck's constant $h$, and Coulomb's constant $k=\\frac{1}{4 \\pi \\epsilon_{0}}$, where $\\epsilon_{0}$ is the permittivity of vacuum. In terms of these physical constants, the dimension of the magnetic field is $[B]=[e]^{\\alpha}\\left[m_{e}\\right]^{\\beta}[h]^{\\gamma}[k]^{\\delta}$. The value of $\\alpha+\\beta+\\gamma+\\delta$ is",
+        "gold": "4"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 41,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $C_{1}$ and $C_{2}$ be two biased coins such that the probabilities of getting head in a single toss are $\\frac{2}{3}$ and $\\frac{1}{3}$, respectively. Suppose $\\alpha$ is the number of heads that appear when $C_{1}$ is tossed twice, independently, and suppose $\\beta$ is the number of heads that appear when $C_{2}$ is tossed twice, independently. Then the probability that the roots of the quadratic polynomial $x^{2}-\\alpha x+\\beta$ are real and equal, is\n\n(A) $\\frac{40}{81}$\n\n(B) $\\frac{20}{81}$\n\n(C) $\\frac{1}{2}$\n\n(D) $\\frac{1}{4}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 31,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Correct match of the $\\mathbf{C}-\\mathbf{H}$ bonds (shown in bold) in Column $\\mathbf{J}$ with their BDE in Column $\\mathbf{K}$ is\n\n\\begin{center}\n\n\\begin{tabular}{|c|c|}\n\n\\hline\n\n$\\begin{array}{l}\\text { Column J } \\\\ \\text { Molecule }\\end{array}$ & $\\begin{array}{c}\\text { Column K } \\\\ \\text { BDE }\\left(\\text { kcal mol }^{-1}\\right)\\end{array}$ \\\\\n\n\\hline\n\n(P) $\\mathbf{H}-\\mathrm{CH}\\left(\\mathrm{CH}_{3}\\right)_{2}$ & (i) 132 \\\\\n\n\\hline\n\n(Q) $\\mathbf{H}-\\mathrm{CH}_{2} \\mathrm{Ph}$ & (ii) 110 \\\\\n\n\\hline\n\n(R) $\\mathbf{H}-\\mathrm{CH}=\\mathrm{CH}_{2}$ & (iii) 95 \\\\\n\n\\hline\n\n(S) $\\mathrm{H}-\\mathrm{C} \\equiv \\mathrm{CH}$ & (iv) 88 \\\\\n\n\\hline\n\n\\end{tabular}\n\n\\end{center}\n\n(A) $P$ - iii, $Q$ - iv, R - ii, S - i\n\n(B) $P-i, Q-i i, R-$ iii, S - iv\n\n(C) P - iii, Q - ii, R - i, S - iv\n\n(D) $P-i i, Q-i, R-i v, S-i i i$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 4,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "A heavy nucleus $Q$ of half-life 20 minutes undergoes alpha-decay with probability of $60 \\%$ and beta-decay with probability of $40 \\%$. Initially, the number of $Q$ nuclei is 1000. The number of alpha-decays of $Q$ in the first one hour is\n\n(A) 50\n\n(B) 75\n\n(C) 350\n\n(D) 525",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 4,
+        "subject": "phy",
+        "type": "MCQ(multiple)",
+        "question": "A physical quantity $\\vec{S}$ is defined as $\\vec{S}=(\\vec{E} \\times \\vec{B}) / \\mu_{0}$, where $\\vec{E}$ is electric field, $\\vec{B}$ is magnetic field and $\\mu_{0}$ is the permeability of free space. The dimensions of $\\vec{S}$ are the same as the dimensions of which of the following quantity(ies)?\n\n(A) $\\frac{\\text { Energy }}{\\text { Charge } \\times \\text { Current }}$\n\n(B) $\\frac{\\text { Force }}{\\text { Length } \\times \\text { Time }}$\n\n(C) $\\frac{\\text { Energy }}{\\text { Volume }}$\n\n(D) $\\frac{\\text { Power }}{\\text { Area }}$",
+        "gold": "BD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 28,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the correct statement(s) among the following:\n\n(A) $\\left[\\mathrm{FeCl}_{4}\\right]^{-}$has tetrahedral geometry.\n\n(B) $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$has 2 geometrical isomers.\n\n(C) $\\left[\\mathrm{FeCl}_{4}\\right]^{-}$has higher spin-only magnetic moment than $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$.\n\n(D) The cobalt ion in $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$has $\\mathrm{sp}^{3} d^{2}$ hybridization.",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 5,
+        "subject": "phy",
+        "type": "MCQ(multiple)",
+        "question": "A heavy nucleus $N$, at rest, undergoes fission $N \\rightarrow P+Q$, where $P$ and $Q$ are two lighter nuclei. Let $\\delta=M_{N}-M_{P}-M_{Q}$, where $M_{P}, M_{Q}$ and $M_{N}$ are the masses of $P$, $Q$ and $N$, respectively. $E_{P}$ and $E_{Q}$ are the kinetic energies of $P$ and $Q$, respectively. The speeds of $P$ and $Q$ are $v_{P}$ and $v_{Q}$, respectively. If $c$ is the speed of light, which of the following statement(s) is(are) correct?\n\n(A) $E_{P}+E_{Q}=c^{2} \\delta$\n\n(B) $E_{P}=\\left(\\frac{M_{P}}{M_{P}+M_{Q}}\\right) c^{2} \\delta$\n\n(C) $\\frac{v_{P}}{v_{Q}}=\\frac{M_{Q}}{M_{P}}$\n\n(D) The magnitude of momentum for $P$ as well as $Q$ is $c \\sqrt{2 \\mu \\delta}$, where $\\mu=\\frac{M_{P} M_{Q}}{\\left(M_{P}+M_{Q}\\right)}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The cyanide process of gold extraction involves leaching out gold from its ore with $\\mathrm{CN}^{-}$in the presence of $\\mathbf{Q}$ in water to form $\\mathrm{R}$. Subsequently, $\\mathrm{R}$ is treated with $\\mathrm{T}$ to obtain $\\mathrm{Au}$ and $\\mathrm{Z}$. Choose the correct option(s)\n\n(A) $\\mathrm{Q}$ is $\\mathrm{O}_{2}$\n\n(B) $\\mathrm{T}$ is $\\mathrm{Zn}$\n\n(C) $\\mathrm{Z}$ is $\\left[\\mathrm{Zn}(\\mathrm{CN})_{4}\\right]^{2-}$\n\n(D) $\\mathrm{R}$ is $\\left[\\mathrm{Au}(\\mathrm{CN})_{4}\\right]^{-}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 3,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the greatest integer less than or equal to\n\n\\[\n\\int_{1}^{2} \\log _{2}\\left(x^{3}+1\\right) d x+\\int_{1}^{\\log _{2} 9}\\left(2^{x}-1\\right)^{\\frac{1}{3}} d x\n\\]?",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 1,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "Consider an expanding sphere of instantaneous radius $R$ whose total mass remains constant. The expansion is such that the instantaneous density $\\rho$ remains uniform throughout the volume. The rate of fractional change in density $\\left(\\frac{1}{\\rho} \\frac{d \\rho}{d t}\\right)$ is constant. The velocity $v$ of any point on the surface of the expanding sphere is proportional to\n\n[A] $R$\n\n[B] $R^{3}$\n\n[C] $\\frac{1}{R}$\n\n[D] $R^{2 / 3}$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 9,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "A ring and a disc are initially at rest, side by side, at the top of an inclined plane which makes an angle $60^{\\circ}$ with the horizontal. They start to roll without slipping at the same instant of time along the shortest path. If the time difference between their reaching the ground is $(2-\\sqrt{3}) / \\sqrt{10} s$, then what is the height of the top of the inclined plane, in metres?\n\nTake $g=10 m s^{-2}$.",
+        "gold": "0.75"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 42,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider all rectangles lying in the region\n\n\\[\n\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: 0 \\leq x \\leq \\frac{\\pi}{2} \\text { and } 0 \\leq y \\leq 2 \\sin (2 x)\\right\\}\n\\]\n\nand having one side on the $x$-axis. The area of the rectangle which has the maximum perimeter among all such rectangles, is\n\n(A) $\\frac{3 \\pi}{2}$\n\n(B) $\\pi$\n\n(C) $\\frac{\\pi}{2 \\sqrt{3}}$\n\n(D) $\\frac{\\pi \\sqrt{3}}{2}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 10,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $7 \\overbrace{5 \\cdots 5}^{r} 7$ denote the $(r+2)$ digit number where the first and the last digits are 7 and the remaining $r$ digits are 5 . Consider the sum $S=77+757+7557+\\cdots+7 \\overbrace{5 \\cdots 5}^{98}7$. If $S=\\frac{7 \\overbrace{5 \\cdots 5}^{99}7+m}{n}$, where $m$ and $n$ are natural numbers less than 3000 , then what is the value of $m+n$?",
+        "gold": "1219"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 25,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "What is the total number of compounds having at least one bridging oxo group among the molecules given below?\n\n$\\mathrm{N}_{2} \\mathrm{O}_{3}, \\mathrm{~N}_{2} \\mathrm{O}_{5}, \\mathrm{P}_{4} \\mathrm{O}_{6}, \\mathrm{P}_{4} \\mathrm{O}_{7}, \\mathrm{H}_{4} \\mathrm{P}_{2} \\mathrm{O}_{5}, \\mathrm{H}_{5} \\mathrm{P}_{3} \\mathrm{O}_{10}, \\mathrm{H}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3}, \\mathrm{H}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{5}$",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 26,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The crystalline form of borax has\n\n(A) tetranuclear $\\left[\\mathrm{B}_{4} \\mathrm{O}_{5}(\\mathrm{OH})_{4}\\right]^{2-}$ unit\n\n(B) all boron atoms in the same plane\n\n(C) equal number of $s p^{2}$ and $s p^{3}$ hybridized boron atoms\n\n(D) one terminal hydroxide per boron atom",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 12,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $P$ be the plane $\\sqrt{3} x+2 y+3 z=16$ and let $S=\\left\\{\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}: \\alpha^{2}+\\beta^{2}+\\gamma^{2}=1\\right.$ and the distance of $(\\alpha, \\beta, \\gamma)$ from the plane $P$ is $\\left.\\frac{7}{2}\\right\\}$. Let $\\vec{u}, \\vec{v}$ and $\\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u}-\\vec{v}|=|\\vec{v}-\\vec{w}|=|\\vec{w}-\\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by vectors $\\vec{u}, \\vec{v}$ and $\\vec{w}$. Then what is the value of $\\frac{80}{\\sqrt{3}} V$?",
+        "gold": "45"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 54,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $z=\\frac{-1+\\sqrt{3} i}{2}$, where $i=\\sqrt{-1}$, and $r, s \\in\\{1,2,3\\}$. Let $P=\\left[\\begin{array}{cc}(-z)^{r} & z^{2 s} \\\\ z^{2 s} & z^{r}\\end{array}\\right]$ and $I$ be the identity matrix of order 2 . Then what is the total number of ordered pairs $(r, s)$ for which $P^{2}=-I$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 18,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider the ellipse\n\n\\[\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n\\]\n\nLet $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis.\n\nList-I\n(I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is\n(II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is\n(III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is\n(IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is\n\nList-II\n(P) $\\frac{(\\sqrt{3}-1)^4}{8}$\n(Q) 1\n(R) $\\frac{3}{4}$\n(S) $\\frac{1}{2 \\sqrt{3}}$\n(T) $\\frac{3 \\sqrt{3}}{2}$\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)\n\n(B) $\\quad$ (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(C) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(D) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let\n\n\\[\nX=\\left({ }^{10} C_{1}\\right)^{2}+2\\left({ }^{10} C_{2}\\right)^{2}+3\\left({ }^{10} C_{3}\\right)^{2}+\\cdots+10\\left({ }^{10} C_{10}\\right)^{2}\n\\]\n\nwhere ${ }^{10} C_{r}, r \\in\\{1,2, \\cdots, 10\\}$ denote binomial coefficients. Then, what is the value of $\\frac{1}{1430} X$?",
+        "gold": "646"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 9,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Consider the equation\n\n\\[\n\\int_{1}^{e} \\frac{\\left(\\log _{\\mathrm{e}} x\\right)^{1 / 2}}{x\\left(a-\\left(\\log _{\\mathrm{e}} x\\right)^{3 / 2}\\right)^{2}} d x=1, \\quad a \\in(-\\infty, 0) \\cup(1, \\infty) .\n\\]\n\nWhich of the following statements is/are TRUE?\n\n(A) No $a$ satisfies the above equation\n\n(B) An integer $a$ satisfies the above equation\n\n(C) An irrational number $a$ satisfies the above equation\n\n(D) More than one $a$ satisfy the above equation",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 1,
+        "subject": "phy",
+        "type": "MCQ(multiple)",
+        "question": "A flat plate is moving normal to its plane through a gas under the action of a constant force $F$. The gas is kept at a very low pressure. The speed of the plate $v$ is much less than the average speed $u$ of the gas molecules. Which of the following options is/are true?\n\n[A] The pressure difference between the leading and trailing faces of the plate is proportional to $u v$\n\n[B] The resistive force experienced by the plate is proportional to $v$\n\n[C] The plate will continue to move with constant non-zero acceleration, at all times\n\n[D] At a later time the external force $F$ balances the resistive force",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 46,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the number of real solutions of the equation\n\n\\[\n\\sin ^{-1}\\left(\\sum_{i=1}^{\\infty} x^{i+1}-x \\sum_{i=1}^{\\infty}\\left(\\frac{x}{2}\\right)^{i}\\right)=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\sum_{i=1}^{\\infty}\\left(-\\frac{x}{2}\\right)^{i}-\\sum_{i=1}^{\\infty}(-x)^{i}\\right)\n\\]\n\nlying in the interval $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$ is\n\n(Here, the inverse trigonometric functions $\\sin ^{-1} x$ and $\\cos ^{-1} x$ assume values in $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ and $[0, \\pi]$, respectively.)",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 34,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "On dissolving $0.5 \\mathrm{~g}$ of a non-volatile non-ionic solute to $39 \\mathrm{~g}$ of benzene, its vapor pressure decreases from $650 \\mathrm{~mm} \\mathrm{Hg}$ to $640 \\mathrm{~mm} \\mathrm{Hg}$. What is the depression of freezing point of benzene (in $\\mathrm{K}$ ) upon addition of the solute? (Given data: Molar mass and the molal freezing point depression constant of benzene are $78 \\mathrm{~g}$ $\\mathrm{mol}^{-1}$ and $5.12 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$, respectively)",
+        "gold": "1.02"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 2,
+        "subject": "math",
+        "type": "Integer",
+        "question": "If $y(x)$ is the solution of the differential equation\n\n\\[\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x>0, \\quad y(1)=2,\n\\]\n\nand the slope of the curve $y=y(x)$ is never zero, then what is the value of $10 y(\\sqrt{2})$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 12,
+        "subject": "math",
+        "type": "Integer",
+        "question": "$R=\\left\\{\\left(\\begin{array}{lll}a & 3 & b \\\\ c & 2 & d \\\\ 0 & 5 & 0\\end{array}\\right): a, b, c, d \\in\\{0,3,5,7,11,13,17,19\\}\\right\\}$. Then what is the number of invertible matrices in $R$?",
+        "gold": "3780"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 26,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Galena (an ore) is partially oxidized by passing air through it at high temperature. After some time, the passage of air is stopped, but the heating is continued in a closed furnace such that the contents undergo self-reduction. What is the weight (in $\\mathrm{kg}$ ) of $\\mathrm{Pb}$ produced per $\\mathrm{kg}$ of $\\mathrm{O}_{2}$ consumed?\n\n(Atomic weights in $\\mathrm{g} \\mathrm{mol}^{-1}: \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{~Pb}=207$ )",
+        "gold": "6.47"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Some standard electrode potentials at $298 \\mathrm{~K}$ are given below:\n\n$\\begin{array}{ll}\\mathrm{Pb}^{2+} / \\mathrm{Pb} & -0.13 \\mathrm{~V} \\\\ \\mathrm{Ni}^{2+} / \\mathrm{Ni} & -0.24 \\mathrm{~V} \\\\ \\mathrm{Cd}^{2+} / \\mathrm{Cd} & -0.40 \\mathrm{~V} \\\\ \\mathrm{Fe}^{2+} / \\mathrm{Fe} & -0.44 \\mathrm{~V}\\end{array}$\n\nTo a solution containing $0.001 \\mathrm{M}$ of $\\mathbf{X}^{2+}$ and $0.1 \\mathrm{M}$ of $\\mathbf{Y}^{2+}$, the metal rods $\\mathbf{X}$ and $\\mathbf{Y}$ are inserted (at $298 \\mathrm{~K}$ ) and connected by a conducting wire. This resulted in dissolution of $\\mathbf{X}$. The correct combination(s) of $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, is(are)\n\n(Given: Gas constant, $\\mathrm{R}=8.314 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$, Faraday constant, $\\mathrm{F}=96500 \\mathrm{C} \\mathrm{mol}^{-1}$ )\n\n(A) $\\mathrm{Cd}$ and $\\mathrm{Ni}$\n\n(B) $\\mathrm{Cd}$ and $\\mathrm{Fe}$\n\n(C) $\\mathrm{Ni}$ and $\\mathrm{Pb}$\n\n(D) $\\mathrm{Ni}$ and $\\mathrm{Fe}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be given by $f(x)=(x-1)(x-2)(x-5)$. Define\n\n\\[\nF(x)=\\int_{0}^{x} f(t) d t, \\quad x>0 .\n\\]\n\nThen which of the following options is/are correct?\n\n(A) $F$ has a local minimum at $x=1$\n\n(B) $F$ has a local maximum at $x=2$\n\n(C) $F$ has two local maxima and one local minimum in $(0, \\infty)$\n\n(D) $\\quad F(x) \\neq 0$ for all $x \\in(0,5)$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 44,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Three lines\n\n\\[\n\\begin{aligned}\n\nL_{1}: & \\vec{r}=\\lambda \\hat{i}, \\lambda \\in \\mathbb{R}, \\\\\n\nL_{2}: & \\vec{r}=\\hat{k}+\\mu \\hat{j}, \\mu \\in \\mathbb{R} \\text { and } \\\\\n\nL_{3}: & \\vec{r}=\\hat{i}+\\hat{j}+v \\hat{k}, \\quad v \\in \\mathbb{R}\n\n\\end{aligned}\n\\]\n\nare given. For which point(s) $Q$ on $L_{2}$ can we find a point $P$ on $L_{1}$ and a point $R$ on $L_{3}$ so that $P, Q$ and $R$ are collinear?\n\n(A) $\\hat{k}-\\frac{1}{2} \\hat{j}$\n\n(B) $\\hat{k}$\n\n(C) $\\hat{k}+\\frac{1}{2} \\hat{j}$\n\n(D) $\\hat{k}+\\hat{j}$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 1,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?   \n\n\n\n(A) There are infinitely many functions from $S$ to $T$\n\n\n\n(B) There are infinitely many strictly increasing functions from $S$ to $T$\n\n\n\n(C) The number of continuous functions from $S$ to $T$ is at most 120\n\n\n\n(D) Every continuous function from $S$ to $T$ is differentiable",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 31,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "$5.00 \\mathrm{~mL}$ of $0.10 \\mathrm{M}$ oxalic acid solution taken in a conical flask is titrated against $\\mathrm{NaOH}$ from a burette using phenolphthalein indicator. The volume of $\\mathrm{NaOH}$ required for the appearance of permanent faint pink color is tabulated below for five experiments. What is the concentration, in molarity, of the $\\mathrm{NaOH}$ solution?\n\n\\begin{center}\n\n\\begin{tabular}{|c|c|}\n\n\\hline\n\nExp. No. & Vol. of NaOH (mL) \\\\\n\n\\hline\n\n$\\mathbf{1}$ & 12.5 \\\\\n\n\\hline\n\n$\\mathbf{2}$ & 10.5 \\\\\n\n\\hline\n\n$\\mathbf{3}$ & 9.0 \\\\\n\n\\hline\n\n$\\mathbf{4}$ & 9.0 \\\\\n\n\\hline\n\n$\\mathbf{5}$ & 9.0 \\\\\n\n\\hline\n\n\\end{tabular}\n\n\\end{center}",
+        "gold": "0.11"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 30,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "A sample $(5.6 \\mathrm{~g})$ containing iron is completely dissolved in cold dilute $\\mathrm{HCl}$ to prepare a $250 \\mathrm{~mL}$ of solution. Titration of $25.0 \\mathrm{~mL}$ of this solution requires $12.5 \\mathrm{~mL}$ of $0.03 \\mathrm{M} \\mathrm{KMnO}_4$ solution to reach the end point. Number of moles of $\\mathrm{Fe}^{2+}$ present in $250 \\mathrm{~mL}$ solution is $\\mathbf{x} \\times 10^{-2}$ (consider complete dissolution of $\\mathrm{FeCl}_2$ ). The amount of iron present in the sample is $\\mathbf{y} \\%$ by weight.\n(Assume: $\\mathrm{KMnO}_4$ reacts only with $\\mathrm{Fe}^{2+}$ in the solution\nUse: Molar mass of iron as $56 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ). What is the value of $\\mathbf{y}$?",
+        "gold": "18.75"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 32,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "The mole fraction of a solute in a solution is 0.1 . At $298 \\mathrm{~K}$, molarity of this solution is the same as its molality. Density of this solution at $298 \\mathrm{~K}$ is $2.0 \\mathrm{~g} \\mathrm{~cm}^{-3}$. What is the ratio of the molecular weights of the solute and solvent, $\\left(\\frac{M W_{\\text {solute }}}{M W_{\\text {solvent }}}\\right)$?",
+        "gold": "9"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 12,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "In a circuit, a metal filament lamp is connected in series with a capacitor of capacitance $\\mathrm{C} \\mu F$ across a $200 \\mathrm{~V}, 50 \\mathrm{~Hz}$ supply. The power consumed by the lamp is $500 \\mathrm{~W}$ while the voltage drop across it is $100 \\mathrm{~V}$. Assume that there is no inductive load in the circuit. Take rms values of the voltages. The magnitude of the phase-angle (in degrees) between the current and the supply voltage is $\\varphi$. Assume, $\\pi \\sqrt{3} \\approx 5$. What is the value of $\\varphi$?",
+        "gold": "60"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $P$ be the point on the parabola $y^{2}=4 x$ which is at the shortest distance from the center $S$ of the circle $x^{2}+y^{2}-4 x-16 y+64=0$. Let $Q$ be the point on the circle dividing the line segment $S P$ internally. Then\n\n(A) $S P=2 \\sqrt{5}$\n\n(B) $S Q: Q P=(\\sqrt{5}+1): 2$\n\n(C) the $x$-intercept of the normal to the parabola at $P$ is 6\n\n(D) the slope of the tangent to the circle at $Q$ is $\\frac{1}{2}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 39,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Plotting $1 / \\Lambda_{\\mathrm{m}}$ against $\\mathrm{c} \\Lambda_{\\mathrm{m}}$ for aqueous solutions of a monobasic weak acid (HX) resulted in a straight line with y-axis intercept of $\\mathrm{P}$ and slope of $\\mathrm{S}$. The ratio $\\mathrm{P} / \\mathrm{S}$ is\n\n\n\n$\\left[\\Lambda_{\\mathrm{m}}=\\right.$ molar conductivity\n\n\n\n$\\Lambda_{\\mathrm{m}}^{\\mathrm{o}}=$ limiting molar conductivity\n\n\n\n$\\mathrm{c}=$ molar concentration\n\n\n\n$\\mathrm{K}_{\\mathrm{a}}=$ dissociation constant of $\\mathrm{HX}$ ]\n\n\n\n(A) $\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$\n\n\n\n(B) $\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}} / 2$\n\n\n\n(C) $2 \\mathrm{~K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$\n\n\n\n(D) $1 /\\left(\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}\\right)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $L_{1}$ and $L_{2}$ denote the lines\n\n\\[\n\\vec{r}=\\hat{i}+\\lambda(-\\hat{i}+2 \\hat{j}+2 \\hat{k}), \\lambda \\in \\mathbb{R}\n\\]\n and \n\\[ \\vec{r}=\\mu(2 \\hat{i}-\\hat{j}+2 \\hat{k}), \\mu \\in \\mathbb{R}\n\\]\n\nrespectively. If $L_{3}$ is a line which is perpendicular to both $L_{1}$ and $L_{2}$ and cuts both of them, then which of the following options describe(s) $L_{3}$ ?\n\n(A) $\\vec{r}=\\frac{2}{9}(4 \\hat{i}+\\hat{j}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(B) $\\vec{r}=\\frac{2}{9}(2 \\hat{i}-\\hat{j}+2 \\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(C) $\\vec{r}=\\frac{1}{3}(2 \\hat{i}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(D) $\\vec{r}=t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 38,
+        "subject": "math",
+        "type": "Integer",
+        "question": "The probability that a missile hits a target successfully is 0.75 . In order to destroy the target completely, at least three successful hits are required. Then what is the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 10,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let\n\n\\[\n\\alpha=\\sum_{k=1}^{\\infty} \\sin ^{2 k}\\left(\\frac{\\pi}{6}\\right)\n\\]\n\nLet $g:[0,1] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\\[\ng(x)=2^{\\alpha x}+2^{\\alpha(1-x)}\n\\]\n\nThen, which of the following statements is/are TRUE ?\n\n(A) The minimum value of $g(x)$ is $2^{\\frac{7}{6}}$\n\n(B) The maximum value of $g(x)$ is $1+2^{\\frac{1}{3}}$\n\n(C) The function $g(x)$ attains its maximum at more than one point\n\n(D) The function $g(x)$ attains its minimum at more than one point",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $\\hat{u}=u_{1} \\hat{i}+u_{2} \\hat{j}+u_{3} \\hat{k}$ be a unit vector in $\\mathbb{R}^{3}$ and $\\hat{w}=\\frac{1}{\\sqrt{6}}(\\hat{i}+\\hat{j}+2 \\hat{k})$. Given that there exists a vector $\\vec{v}$ in $\\mathbb{R}^{3}$ such that $|\\hat{u} \\times \\vec{v}|=1$ and $\\hat{w} \\cdot(\\hat{u} \\times \\vec{v})=1$. Which of the following statement\u00eds) is(are) correct?\n\n(A) There is exactly one choice for such $\\vec{v}$\n\n(B) There are infinitely many choices for such $\\vec{v}$\n\n(C) If $\\hat{u}$ lies in the $x y$-plane then $\\left|u_{1}\\right|=\\left|u_{2}\\right|$\n\n(D) If $\\hat{u}$ lies in the $x z$-plane then $2\\left|u_{1}\\right|=\\left|u_{3}\\right|$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 14,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $|M|$ denote the determinant of a square matrix $M$. Let $g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ be the function defined by\n\nwhere\n\n\\[\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n\\]\n\n$f(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}1 & \\sin \\theta & 1 \\\\ -\\sin \\theta & 1 & \\sin \\theta \\\\ -1 & -\\sin \\theta & 1\\end{array}\\right|+\\left|\\begin{array}{ccc}\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\ \\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\ \\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\\end{array}\\right|$\n\nLet $p(x)$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $g(\\theta)$, and $p(2)=2-\\sqrt{2}$. Then, which of the following is/are TRUE?\n\n(A) $p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$\n\n(B) $p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$\n\n(C) $p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$\n\n(D) $p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 37,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For a complex number $z$, let $\\operatorname{Re}(z)$ denote the real part of $z$. Let $S$ be the set of all complex numbers $z$ satisfying $z^{4}-|z|^{4}=4 i z^{2}$, where $i=\\sqrt{-1}$. Then what is the minimum possible value of $\\left|z_{1}-z_{2}\\right|^{2}$, where $z_{1}, z_{2} \\in S$ with $\\operatorname{Re}\\left(z_{1}\\right)>0$ and $\\operatorname{Re}\\left(z_{2}\\right)<0$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 38,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "An aqueous solution is prepared by dissolving $0.1 \\mathrm{~mol}$ of an ionic salt in $1.8 \\mathrm{~kg}$ of water at $35^{\\circ} \\mathrm{C}$. The salt remains $90 \\%$ dissociated in the solution. The vapour pressure of the solution is $59.724 \\mathrm{~mm}$ of $\\mathrm{Hg}$. Vapor pressure of water at $35{ }^{\\circ} \\mathrm{C}$ is $60.000 \\mathrm{~mm}$ of $\\mathrm{Hg}$. What is the number of ions present per formula unit of the ionic salt?",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) regarding the binary transition metal carbonyl compounds is (are) (Atomic numbers: $\\mathrm{Fe}=26, \\mathrm{Ni}=28$ )\n\n(A) Total number of valence shell electrons at metal centre in $\\mathrm{Fe}(\\mathrm{CO})_{5}$ or $\\mathrm{Ni}(\\mathrm{CO})_{4}$ is 16\n\n(B) These are predominantly low spin in nature\n\n(C) Metal-carbon bond strengthens when the oxidation state of the metal is lowered\n\n(D) The carbonyl C-O bond weakens when the oxidation state of the metal is increased",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 28,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "In the decay sequence,\n\n${ }_{92}^{238} \\mathrm{U} \\stackrel{-\\mathrm{x}_{1}}{\\longrightarrow}{ }_{90}^{234} \\mathrm{Th} \\stackrel{-\\mathrm{x}_{2}}{\\longrightarrow}{ }_{91}^{234} \\mathrm{~Pa} \\stackrel{-\\mathrm{x}_{3}}{\\longrightarrow}{ }^{234} \\mathbf{Z} \\stackrel{-\\mathrm{x}_{4}}{\\longrightarrow}{ }_{90}^{230} \\mathrm{Th}$\n\n$\\mathrm{x}_{1}, \\mathrm{x}_{2}, \\mathrm{x}_{3}$ and $\\mathrm{x}_{4}$ are particles/radiation emitted by the respective isotopes. The correct option(s) is $($ are $)$\n\n(A) $x_{1}$ will deflect towards negatively charged plate\n\n(B) $\\mathrm{x}_{2}$ is $\\beta^{-}$\n\n(C) $x_{3}$ is $\\gamma$-ray\n\n(D) $\\mathbf{Z}$ is an isotope of uranium",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 26,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "A projectile is fired from horizontal ground with speed $v$ and projection angle $\\theta$. When the acceleration due to gravity is $g$, the range of the projectile is $d$. If at the highest point in its trajectory, the projectile enters a different region where the effective acceleration due to gravity is $g^{\\prime}=\\frac{g}{0.81}$, then the new range is $d^{\\prime}=n d$. What is the value of $n$?",
+        "gold": "0.95"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 1,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "In a historical experiment to determine Planck's constant, a metal surface was irradiated with light of different wavelengths. The emitted photoelectron energies were measured by applying a stopping potential. The relevant data for the wavelength $(\\lambda)$ of incident light and the corresponding stopping potential $\\left(V_{0}\\right)$ are given below :\n\n\\begin{center}\n\n\\begin{tabular}{cc}\n\n\\hline\n\n$\\lambda(\\mu \\mathrm{m})$ & $V_{0}($ Volt $)$ \\\\\n\n\\hline\n\n0.3 & 2.0 \\\\\n\n0.4 & 1.0 \\\\\n\n0.5 & 0.4 \\\\\n\n\\hline\n\n\\end{tabular}\n\n\\end{center}\n\nGiven that $c=3 \\times 10^{8} \\mathrm{~m} \\mathrm{~s}^{-1}$ and $e=1.6 \\times 10^{-19} \\mathrm{C}$, Planck's constant (in units of $J \\mathrm{~s}$ ) found from such an experiment is\n\n(A) $6.0 \\times 10^{-34}$\n\n(B) $6.4 \\times 10^{-34}$\n\n(C) $6.6 \\times 10^{-34}$\n\n(D) $6.8 \\times 10^{-34}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 8,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For $x \\in \\mathbb{R}$, let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then what is the minimum value of the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\int_{0}^{x \\tan ^{-1} x} \\frac{e^{(t-\\cos t)}}{1+t^{2023}} d t$?",
+        "gold": "0"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 31,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The option(s) with only amphoteric oxides is(are)\n\n[A] $\\mathrm{Cr}_{2} \\mathrm{O}_{3}, \\mathrm{BeO}, \\mathrm{SnO}, \\mathrm{SnO}_{2}$\n\n[B] $\\mathrm{Cr}_{2} \\mathrm{O}_{3}, \\mathrm{CrO}, \\mathrm{SnO}, \\mathrm{PbO}$\n\n[C] $\\mathrm{NO}, \\mathrm{B}_{2} \\mathrm{O}_{3}, \\mathrm{PbO}, \\mathrm{SnO}_{2}$\n\n[D] $\\mathrm{ZnO}, \\mathrm{Al}_{2} \\mathrm{O}_{3}, \\mathrm{PbO}, \\mathrm{PbO}_{2}$",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 38,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $O$ be the origin and let $P Q R$ be an arbitrary triangle. The point $S$ is such that\n\n\\[\n\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}+\\overrightarrow{O R} \\cdot \\overrightarrow{O S}=\\overrightarrow{O R} \\cdot \\overrightarrow{O P}+\\overrightarrow{O Q} \\cdot \\overrightarrow{O S}=\\overrightarrow{O Q} \\cdot \\overrightarrow{O R}+\\overrightarrow{O P} \\cdot \\overrightarrow{O S}\n\\]\n\nThen the triangle $P Q R$ has $S$ as its\n\n[A] centroid\n\n[B] circumcentre\n\n[C] incentre\n\n[D] orthocenter",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "With reference to aqua regia, choose the correct option(s)\n\n(A) Aqua regia is prepared by mixing conc. $\\mathrm{HCl}$ and conc. $\\mathrm{HNO}_{3}$ in $3: 1(v / v)$ ratio\n\n(B) Reaction of gold with aqua regia produces an anion having Au in +3 oxidation state\n\n(C) Reaction of gold with aqua regia produces $\\mathrm{NO}_{2}$ in the absence of air\n\n(D) The yellow colour of aqua regia is due to the presence of $\\mathrm{NOCl}$ and $\\mathrm{Cl}_{2}$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "If $f(x)=\\left|\\begin{array}{ccc}\\cos (2 x) & \\cos (2 x) & \\sin (2 x) \\\\ -\\cos x & \\cos x & -\\sin x \\\\ \\sin x & \\sin x & \\cos x\\end{array}\\right|$, then\n\n[A] $f^{\\prime}(x)=0$ at exactly three points in $(-\\pi, \\pi)$\n\n[B] $f^{\\prime}(x)=0$ at more than three points in $(-\\pi, \\pi)$\n\n[C] $f(x)$ attains its maximum at $x=0$\n\n[D] $f(x)$ attains its minimum at $x=0$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 6,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $\\beta$ be a real number. Consider the matrix\n\n\\[\nA=\\left(\\begin{array}{ccc}\n\n\\beta & 0 & 1 \\\\\n\n2 & 1 & -2 \\\\\n\n3 & 1 & -2\n\n\\end{array}\\right)\n\\]\n\nIf $A^{7}-(\\beta-1) A^{6}-\\beta A^{5}$ is a singular matrix, then what is the value of $9 \\beta$?",
+        "gold": "3"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 2,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "A thin spherical insulating shell of radius $R$ carries a uniformly distributed charge such that the potential at its surface is $V_{0}$. A hole with a small area $\\alpha 4 \\pi R^{2}(\\alpha \\ll 1)$ is made on the shell without affecting the rest of the shell. Which one of the following statements is correct?\n\n(A) The potential at the center of the shell is reduced by $2 \\alpha V_{0}$\n\n(B) The magnitude of electric field at the center of the shell is reduced by $\\frac{\\alpha V_{0}}{2 R}$\n\n(C) The ratio of the potential at the center of the shell to that of the point at $\\frac{1}{2} R$ from center towards the hole will be $\\frac{1-\\alpha}{1-2 \\alpha}$\n\n(D) The magnitude of electric field at a point, located on a line passing through the hole and shell's center, on a distance $2 R$ from the center of the spherical shell will be reduced by $\\frac{\\alpha V_{0}}{2 R}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 30,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Liquids $\\mathbf{A}$ and $\\mathbf{B}$ form ideal solution over the entire range of composition. At temperature $\\mathrm{T}$, equimolar binary solution of liquids $\\mathbf{A}$ and $\\mathbf{B}$ has vapour pressure 45 Torr. At the same temperature, a new solution of $\\mathbf{A}$ and $\\mathbf{B}$ having mole fractions $x_{A}$ and $x_{B}$, respectively, has vapour pressure of 22.5 Torr. What is the value of $x_{A} / x_{B}$ in the new solution? (given that the vapour pressure of pure liquid $\\mathbf{A}$ is 20 Torr at temperature $\\mathrm{T}$ )",
+        "gold": "19"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 31,
+        "subject": "phy",
+        "type": "MCQ",
+        "question": "List-I shows different radioactive decay processes and List-II provides possible emitted particles. Match each entry in List-I with an appropriate entry from List-II, and choose the correct option.\n\n\n\n\\textbf{List-I}\n\n\n\n(P) ${ }_{92}^{238} U \\rightarrow{ }_{91}^{234} \\mathrm{~Pa}$\n\n\n\n(Q) ${ }_{82}^{214} \\mathrm{~Pb} \\rightarrow{ }_{82}^{210} \\mathrm{~Pb}$\n\n\n\n(R) ${ }_{81}^{210} \\mathrm{Tl} \\rightarrow{ }_{82}^{206} \\mathrm{~Pb}$\n\n\n\n(S) ${ }_{91}^{228} \\mathrm{~Pa} \\rightarrow{ }_{88}^{224} \\mathrm{Ra}$\n\n\n\n\\textbf{List-II}\n\n\n\n(1) one $\\alpha$ particle and one $\\beta^{+}$particle\n\n\n\n(2) three $\\beta^{-}$particles and one $\\alpha$ particle\n\n\n\n(3) two $\\beta^{-}$particles and one $\\alpha$ particle\n\n\n\n(4) one $\\alpha$ particle and one $\\beta^{-}$particle\n\n\n\n(5) one $\\alpha$ particle and two $\\beta^{+}$particles\n\n\n\n\n\n\n\n\n\n(A) $P \\rightarrow 4, Q \\rightarrow 3, R \\rightarrow 2, S \\rightarrow 1$\n\n\n\n(B) $P \\rightarrow 4, Q \\rightarrow 1, R \\rightarrow 2, S \\rightarrow 5$\n\n\n\n(C) $P \\rightarrow 5, Q \\rightarrow 3, R \\rightarrow 1, S \\rightarrow 4$\n\n\n\n(D) $P \\rightarrow 5, Q \\rightarrow 1, R \\rightarrow 3, S \\rightarrow 2$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 14,
+        "subject": "phy",
+        "type": "MCQ(multiple)",
+        "question": "Which of the following statement(s) is(are) correct about the spectrum of hydrogen atom?\n\n(A) The ratio of the longest wavelength to the shortest wavelength in Balmer series is $9 / 5$\n\n(B) There is an overlap between the wavelength ranges of Balmer and Paschen series\n\n(C) The wavelengths of Lyman series are given by $\\left(1+\\frac{1}{m^{2}}\\right) \\lambda_{0}$, where $\\lambda_{0}$ is the shortest wavelength of Lyman series and $m$ is an integer\n\n(D) The wavelength ranges of Lyman and Balmer series do not overlap",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The colour of the $\\mathrm{X}_{2}$ molecules of group 17 elements changes gradually from yellow to violet down the group. This is due to\n\n[A] the physical state of $\\mathrm{X}_{2}$ at room temperature changes from gas to solid down the group\n\n[B] decrease in ionization energy down the group\n\n[C] decrease in $\\pi^{*}-\\sigma^{*}$ gap down the group\n\n[D] decrease in HOMO-LUMO gap down the group",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 16,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $\\ell_{1}$ and $\\ell_{2}$ be the lines $\\vec{r}_{1}=\\lambda(\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r}_{2}=(\\hat{j}-\\hat{k})+\\mu(\\hat{i}+\\hat{k})$, respectively. Let $X$ be the set of all the planes $H$ that contain the line $\\ell_{1}$. For a plane $H$, let $d(H)$ denote the smallest possible distance between the points of $\\ell_{2}$ and $H$. Let $H_{0}$ be a plane in $X$ for which $d\\left(H_{0}\\right)$ is the maximum value of $d(H)$ as $H$ varies over all planes in $X$.\n\n\n\nMatch each entry in List-I to the correct entries in List-II.\n\n\n\n\\textbf{List-I}\n\n\n\n(P) The value of $d\\left(H_{0}\\right)$ is\n\n\n\n(Q) The distance of the point $(0,1,2)$ from $H_{0}$ is\n\n\n\n(R) The distance of origin from $H_{0}$ is\n\n\n\n(S) The distance of origin from the point of intersection of planes $y=z, x=1$ and $H_{0}$ is\n\n\n\n\\textbf{List-II}\n\n\n\n(1) $\\sqrt{3}$\n\n\n\n(2) $\\frac{1}{\\sqrt{3}}$\n\n\n\n(3) 0\n\n\n\n(4) $\\sqrt{2}$\n\n\n\n(5) $\\frac{1}{\\sqrt{2}}$\n\n\n\nThe correct option is:\n\n\n\n(A) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(1)$\n\n\n\n(B) $(P) \\rightarrow(5) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (1)\n\n\n\n(C) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (2)\n\n\n\n(D) $(P) \\rightarrow(5) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(2)$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 37,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For a non-zero complex number $z$, let $\\arg (z)$ denote the principal argument with $-\\pi<\\arg (z) \\leq \\pi$. Then, which of the following statement(s) is (are) FALSE?\n\n\\end{itemize}\n\n(A) $\\arg (-1-i)=\\frac{\\pi}{4}$, where $i=\\sqrt{-1}$\n\n(B) The function $f: \\mathbb{R} \\rightarrow(-\\pi, \\pi]$, defined by $f(t)=\\arg (-1+i t)$ for all $t \\in \\mathbb{R}$, is continuous at all points of $\\mathbb{R}$, where $i=\\sqrt{-1}$\n\n(C) For any two non-zero complex numbers $z_{1}$ and $z_{2}$,\n\n\\[\n\\arg \\left(\\frac{z_{1}}{z_{2}}\\right)-\\arg \\left(z_{1}\\right)+\\arg \\left(z_{2}\\right)\n\\]\n\nis an integer multiple of $2 \\pi$\n\n(D) For any three given distinct complex numbers $z_{1}, z_{2}$ and $z_{3}$, the locus of the point $z$ satisfying the condition\n\n\\[\n\\arg \\left(\\frac{\\left(z-z_{1}\\right)\\left(z_{2}-z_{3}\\right)}{\\left(z-z_{3}\\right)\\left(z_{2}-z_{1}\\right)}\\right)=\\pi\n\\]\n\nlies on a straight line",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The compound(s) which generate(s) $\\mathrm{N}_{2}$ gas upon thermal decomposition below $300^{\\circ} \\mathrm{C}$ is (are)\n\n(A) $\\mathrm{NH}_{4} \\mathrm{NO}_{3}$\n\n(B) $\\left(\\mathrm{NH}_{4}\\right)_{2} \\mathrm{Cr}_{2} \\mathrm{O}_{7}$\n\n(C) $\\mathrm{Ba}\\left(\\mathrm{N}_{3}\\right)_{2}$\n\n(D) $\\mathrm{Mg}_{3} \\mathrm{~N}_{2}$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 35,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Tin is obtained from cassiterite by reduction with coke. Use the data given below to determine the minimum temperature (in K) at which the reduction of cassiterite by coke would take place.\n\nAt $298 \\mathrm{~K}: \\Delta_{f} H^{0}\\left(\\mathrm{SnO}_{2}(s)\\right)=-581.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}, \\Delta_{f} H^{0}\\left(\\mathrm{CO}_{2}(g)\\right)=-394.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$,\n\n$S^{0}\\left(\\mathrm{SnO}_{2}(\\mathrm{~s})\\right)=56.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}, S^{0}(\\mathrm{Sn}(\\mathrm{s}))=52.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$,\n\n$S^{0}(\\mathrm{C}(s))=6.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}, S^{0}\\left(\\mathrm{CO}_{2}(g)\\right)=210.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$.\n\nAssume that the enthalpies and the entropies are temperature independent.",
+        "gold": "935"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 10,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "A moving coil galvanometer has 50 turns and each turn has an area $2 \\times 10^{-4} \\mathrm{~m}^{2}$. The magnetic field produced by the magnet inside the galvanometer is $0.02 T$. The torsional constant of the suspension wire is $10^{-4} \\mathrm{~N} \\mathrm{~m} \\mathrm{rad}{ }^{-1}$. When a current flows through the galvanometer, a full scale deflection occurs if the coil rotates by $0.2 \\mathrm{rad}$. The resistance of the coil of the galvanometer is $50 \\Omega$. This galvanometer is to be converted into an ammeter capable of measuring current in the range $0-1.0 \\mathrm{~A}$. For this purpose, a shunt resistance is to be added in parallel to the galvanometer. What is the value of this shunt resistance, in ohms?",
+        "gold": "5.56"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 34,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "In neutral or faintly alkaline solution, 8 moles of permanganate anion quantitatively oxidize thiosulphate anions to produce $\\mathbf{X}$ moles of a sulphur containing product. What is the magnitude of $\\mathbf{X}$?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 7,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $P$ be a point on the parabola $y^{2}=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is\n\n(A) $(2,3)$\n\n\n\n(B) $(1,3)$\n\n\n\n(C) $(2,4)$\n\n\n\n(D) $(3,4)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 25,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the reaction(s) from the following options, for which the standard enthalpy of reaction is equal to the standard enthalpy of formation.\n\n(A) $2 \\mathrm{H}_{2}(\\mathrm{~g})+\\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow 2 \\mathrm{H}_{2} \\mathrm{O}(\\mathrm{l})$\n\n(B) $2 \\mathrm{C}(\\mathrm{g})+3 \\mathrm{H}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{C}_{2} \\mathrm{H}_{6}(\\mathrm{~g})$\n\n(C) $\\frac{3}{2} \\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})$\n\n(D) $\\frac{1}{8} \\mathrm{~S}_{8}(\\mathrm{~s})+\\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{SO}_{2}(\\mathrm{~g})$",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 52,
+        "subject": "math",
+        "type": "Integer",
+        "question": "What is the total number of distinct $x \\in[0,1]$ for which $\\int_{0}^{x} \\frac{t^{2}}{1+t^{4}} d t=2 x-1$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 4,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=\\sqrt{n}$ if $x \\in\\left[\\frac{1}{n+1}, \\frac{1}{n}\\right)$ where $n \\in \\mathbb{N}$. Let $g:(0,1) \\rightarrow \\mathbb{R}$ be a function such that $\\int_{x^{2}}^{x} \\sqrt{\\frac{1-t}{t}} d t<g(x)<2 \\sqrt{x}$ for all $x \\in(0,1)$. Then $\\lim _{x \\rightarrow 0} f(x) g(x)$\n\n\n\n(A) does NOT exist\n\n\n\n(B) is equal to 1\n\n\n\n(C) is equal to 2\n\n\n\n(D) is equal to 3",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 13,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "In a photoelectric experiment a parallel beam of monochromatic light with power of $200 \\mathrm{~W}$ is incident on a perfectly absorbing cathode of work function $6.25 \\mathrm{eV}$. The frequency of light is just above the threshold frequency so that the photoelectrons are emitted with negligible kinetic energy. Assume that the photoelectron emission efficiency is $100 \\%$. A potential difference of $500 \\mathrm{~V}$ is applied between the cathode and the anode. All the emitted electrons are incident normally on the anode and are absorbed. The anode experiences a force $F=n \\times 10^{-4} N$ due to the impact of the electrons. What is the value of $n$?\n\nMass of the electron $m_{e}=9 \\times 10^{-31} \\mathrm{~kg}$ and $1.0 \\mathrm{eV}=1.6 \\times 10^{-19} \\mathrm{~J}$.",
+        "gold": "24"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 20,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "The minimum kinetic energy needed by an alpha particle to cause the nuclear reaction ${ }_{7}{ }_{7} \\mathrm{~N}+$ ${ }_{2}^{4} \\mathrm{He} \\rightarrow{ }_{1}^{1} \\mathrm{H}+{ }_{8}^{19} \\mathrm{O}$ in a laboratory frame is $n$ (in $M e V$ ). Assume that ${ }_{7}^{16} \\mathrm{~N}$ is at rest in the laboratory frame. The masses of ${ }_{7}^{16} \\mathrm{~N},{ }_{2}^{4} \\mathrm{He},{ }_{1}^{1} \\mathrm{H}$ and ${ }_{8}^{19} \\mathrm{O}$ can be taken to be $16.006 u, 4.003 u, 1.008 u$ and 19.003 $u$, respectively, where $1 u=930 \\mathrm{MeV}^{-2}$. What is the value of $n$?",
+        "gold": "2.32"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 5,
+        "subject": "phy",
+        "type": "Numeric",
+        "question": "A projectile is thrown from a point $\\mathrm{O}$ on the ground at an angle $45^{\\circ}$ from the vertical and with a speed $5 \\sqrt{2} \\mathrm{~m} / \\mathrm{s}$. The projectile at the highest point of its trajectory splits into two equal parts. One part falls vertically down to the ground, $0.5 \\mathrm{~s}$ after the splitting. The other part, $t$ seconds after the splitting, falls to the ground at a distance $x$ meters from the point $\\mathrm{O}$. The acceleration due to gravity $g=10 \\mathrm{~m} / \\mathrm{s}^2$. What is the value of $t$?",
+        "gold": "0.5"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The green colour produced in the borax bead test of a chromium(III) salt is due to\n\n(A) $\\mathrm{Cr}\\left(\\mathrm{BO}_{2}\\right)_{3}$\n\n(B) $\\mathrm{Cr}_{2}\\left(\\mathrm{~B}_{4} \\mathrm{O}_{7}\\right)_{3}$\n\n(C) $\\mathrm{Cr}_{2} \\mathrm{O}_{3}$\n\n(D) $\\mathrm{CrB}$",
+        "gold": "C"
+    }
+]

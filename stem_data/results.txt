@@ -1,0 +1,95 @@
+For math/chem logit, 34 features from balanced samples, lamb=0.001:
+Training Accuracy:
+Accuracy = 0.9840255591054313
+A_0 = 0.9834254143646409
+A_1 = 0.9848484848484849
+Balanced Accuracy = 0.9841369496065628
+Test Accuracy:
+Accuracy = 0.9493670886075949
+A_0 = 0.9454545454545454
+A_1 = 0.9583333333333334
+Balanced Accuracy = 0.9518939393939394
+
+For math/chem logit, 152 features from normal samples, lamb=0.001:
+Training Accuracy:
+Accuracy = 1.0
+A_0 = 1.0
+A_1 = 1.0
+Balanced Accuracy = 1.0
+Test Accuracy:
+Accuracy = 0.9873417721518988
+A_0 = 1.0
+A_1 = 0.9583333333333334
+Balanced Accuracy = 0.9791666666666667
+
+For math/chem logit, 368 features from pdf, lamb=0.001:
+Training Accuracy:
+Accuracy = 1.0
+A_0 = 1.0
+A_1 = 1.0
+Balanced Accuracy = 1.0
+Test Accuracy:
+Accuracy = 0.9620253164556962
+A_0 = 0.9818181818181818
+A_1 = 0.9166666666666666
+Balanced Accuracy = 0.9492424242424242
+
+For stem multiclass, 52 features from normal samples, 50 epochs 0.01lr:
+Training Accuracy:
+Accuracy = 0.8470873786407767
+Test Accuracy:
+Accuracy = 0.8737864077669902
+
+For stem multiclass, 52 features from normal samples, 50 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.8519417475728155
+Test Accuracy:
+Accuracy = 0.8252427184466019
+
+For stem multiclass, 52 features from normal samples, 200 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9247572815533981
+Test Accuracy:
+Accuracy = 0.8543689320388349
+
+For stem multiclass, 52 features from normal samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9344660194174758
+Test Accuracy:
+Accuracy = 0.8543689320388349
+
+For stem multiclass, 43 features from balanced samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9393203883495146
+Test Accuracy:
+Accuracy = 0.8640776699029126
+
+For stem multiclass, 168 features from normal samples, 50 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.8616504854368932
+Test Accuracy:
+Accuracy = 0.7475728155339806
+
+For stem multiclass, 168 features from normal samples, 200 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9830097087378641
+Test Accuracy:
+Accuracy = 0.8252427184466019
+
+For stem multiclass, 168 features from normal samples, 500 epochs 0.001lr:
+Training Accuracy:
+Accuracy = 0.9927184466019418
+Test Accuracy:
+Accuracy = 0.883495145631068
+
+NN Keras, 168 features:
+
+              precision    recall  f1-score   support
+
+          0       0.96      0.96      0.96        45
+          1       1.00      0.92      0.96        38
+          2       0.83      0.95      0.88        20
+
+    accuracy                           0.94       103
+   macro avg       0.93      0.94      0.93       103
+weighted avg       0.95      0.94      0.94       103
