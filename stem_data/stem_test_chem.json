@@ -1,0 +1,306 @@
+[
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 35,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "${ }_{92}^{238} \\mathrm{U}$ is known to undergo radioactive decay to form ${ }_{82}^{206} \\mathrm{~Pb}$ by emitting alpha and beta particles. A rock initially contained $68 \\times 10^{-6} \\mathrm{~g}$ of ${ }_{92}^{238} \\mathrm{U}$. If the number of alpha particles that it would emit during its radioactive decay of ${ }_{92}^{238} \\mathrm{U}$ to ${ }_{82}^{206} \\mathrm{~Pb}$ in three half-lives is $Z \\times 10^{18}$, then what is the value of $Z$ ?",
+        "gold": "1.2"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 44,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "Consider the following molecules: $\\mathrm{Br}_{3} \\mathrm{O}_{8}, \\mathrm{~F}_{2} \\mathrm{O}, \\mathrm{H}_{2} \\mathrm{~S}_{4} \\mathrm{O}_{6}, \\mathrm{H}_{2} \\mathrm{~S}_{5} \\mathrm{O}_{6}$, and $\\mathrm{C}_{3} \\mathrm{O}_{2}$.\n\n\n\nCount the number of atoms existing in their zero oxidation state in each molecule. What is their sum?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 36,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Consider the following statements related to colloids.\n\n\n\n(I) Lyophobic colloids are not formed by simple mixing of dispersed phase and dispersion medium.\n\n\n\n(II) For emulsions, both the dispersed phase and the dispersion medium are liquid.\n\n\n\n(III) Micelles are produced by dissolving a surfactant in any solvent at any temperature.\n\n\n\n(IV) Tyndall effect can be observed from a colloidal solution with dispersed phase having the same refractive index as that of the dispersion medium.\n\n\n\nThe option with the correct set of statements is\n\n\n\n(A) (I) and (II)\n\n\n\n(B) (II) and (III)\n\n\n\n(C) (III) and (IV)\n\n\n\n(D) (II) and (IV)",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 29,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "Among $\\mathrm{H}_{2}, \\mathrm{He}_{2}{ }^{+}, \\mathrm{Li}_{2}, \\mathrm{Be}_{2}, \\mathrm{~B}_{2}, \\mathrm{C}_{2}, \\mathrm{~N}_{2}, \\mathrm{O}_{2}^{-}$, and $\\mathrm{F}_{2}$, what is the number of diamagnetic species? (Atomic numbers: $\\mathrm{H}=1, \\mathrm{He}=2, \\mathrm{Li}=3, \\mathrm{Be}=4, \\mathrm{~B}=5, \\mathrm{C}=6, \\mathrm{~N}=7, \\mathrm{O}=8, \\mathrm{~F}=9$ )",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 53,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The reaction of $\\mathrm{Pb}\\left(\\mathrm{NO}_{3}\\right)_{2}$ and $\\mathrm{NaCl}$ in water produces a precipitate that dissolves upon the addition of $\\mathrm{HCl}$ of appropriate concentration. The dissolution of the precipitate is due to the formation of\n\n(A) $\\mathrm{PbCl}_{2}$\n\n(B) $\\mathrm{PbCl}_{4}$\n\n(C) $\\left[\\mathrm{PbCl}_{4}\\right]^{2-}$\n\n(D) $\\left[\\mathrm{PbCl}_{6}\\right]^{2-}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The geometries of the ammonia complexes of $\\mathrm{Ni}^{2+}, \\mathrm{Pt}^{2+}$ and $\\mathrm{Zn}^{2+}$, respectively, are\n\n(A) octahedral, square planar and tetrahedral\n\n(B) square planar, octahedral and tetrahedral\n\n(C) tetrahedral, square planar and octahedral\n\n(D) octahedral, tetrahedral and square planar",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "An acidified solution of potassium chromate was layered with an equal volume of amyl alcohol. When it was shaken after the addition of $1 \\mathrm{~mL}$ of $3 \\% \\mathrm{H}_{2} \\mathrm{O}_{2}$, a blue alcohol layer was obtained. The blue color is due to the formation of a chromium (VI) compound ' $\\mathbf{X}$ '. What is the number of oxygen atoms bonded to chromium through only single bonds in a molecule of $\\mathbf{X}$ ?",
+        "gold": "4"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Which of the following combination will produce $\\mathrm{H}_{2}$ gas?\n\n[A] Fe metal and conc. $\\mathrm{HNO}_{3}$\n\n[B] Cu metal and conc. $\\mathrm{HNO}_{3}$\n\n[C] $\\mathrm{Zn}$ metal and $\\mathrm{NaOH}(\\mathrm{aq})$\n\n[D] Au metal and $\\mathrm{NaCN}(\\mathrm{aq})$ in the presence of air",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 25,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Among the species given below, what is the total number of diamagnetic species?\n\n$\\mathrm{H}$ atom, $\\mathrm{NO}_{2}$ monomer, $\\mathrm{O}_{2}^{-}$(superoxide), dimeric sulphur in vapour phase,\n\n$\\mathrm{Mn}_{3} \\mathrm{O}_{4},\\left(\\mathrm{NH}_{4}\\right)_{2}\\left[\\mathrm{FeCl}_{4}\\right],\\left(\\mathrm{NH}_{4}\\right)_{2}\\left[\\mathrm{NiCl}_{4}\\right], \\mathrm{K}_{2} \\mathrm{MnO}_{4}, \\mathrm{~K}_{2} \\mathrm{CrO}_{4}$",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 35,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) related to processes involved in the extraction of metals is(are)\n\n\n\n(A) Roasting of Malachite produces Cuprite.\n\n\n\n(B) Calcination of Calamine produces Zincite.\n\n\n\n(C) Copper pyrites is heated with silica in a reverberatory furnace to remove iron.\n\n\n\n(D) Impure silver is treated with aqueous KCN in the presence of oxygen followed by reduction with zinc metal.",
+        "gold": "BCD"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 27,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The compound(s) with TWO lone pairs of electrons on the central atom is(are)\n\n(A) $\\mathrm{BrF}_{5}$\n\n(B) $\\mathrm{ClF}_{3}$\n\n(C) $\\mathrm{XeF}_{4}$\n\n(D) $\\mathrm{SF}_{4}$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 21,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "A colorless aqueous solution contains nitrates of two metals, $\\mathbf{X}$ and $\\mathbf{Y}$. When it was added to an aqueous solution of $\\mathrm{NaCl}$, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue $\\mathbf{P}$ and a solution $\\mathbf{Q}$. The residue $\\mathbf{P}$ was soluble in aq. $\\mathrm{NH}_{3}$ and also in excess sodium thiosulfate. The hot solution $\\mathbf{Q}$ gave a yellow precipitate with KI. The metals $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, are\n\n(A) Ag and $\\mathrm{Pb}$\n\n(B) Ag and Cd\n\n(C) $\\mathrm{Cd}$ and $\\mathrm{Pb}$\n\n(D) Cd and Zn",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 21,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The increasing order of atomic radii of the following Group 13 elements is\n\n(A) $\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{In}<\\mathrm{Tl}$\n\n(B) $\\mathrm{Ga}<\\mathrm{Al}<\\mathrm{In}<\\mathrm{Tl}$\n\n(C) $\\mathrm{Al}<\\mathrm{In}<\\mathrm{Ga}<\\mathrm{Tl}$\n\n(D) $\\mathrm{Al}<\\mathrm{Ga}<\\mathrm{Tl}<\\mathrm{In}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "For the following electrochemical cell at $298 \\mathrm{~K}$,\n\n$\\mathrm{Pt}(s) \\mid \\mathrm{H}_{2}(g, 1$ bar $)\\left|\\mathrm{H}^{+}(aq, 1 \\mathrm{M}) \\| \\mathrm{M}^{4+}(aq), \\mathrm{M}^{2+}(aq)\\right| \\operatorname{Pt}(s)$\n\n$E_{\\text {cell }}=0.092 \\mathrm{~V}$ when $\\frac{\\left[\\mathrm{M}^{2+}(aq)\\right]}{\\left[M^{4+}(aq)\\right]}=10^{x}$.\n\nGiven : $E_{\\mathrm{M}^{4} / \\mathrm{M}^{2+}}^{0}=0.151 \\mathrm{~V} ; 2.303 \\frac{R T}{F}=0.059 \\mathrm{~V}$\n\nThe value of $x$ is\n\n(A) -2\n\n(B) -1\n\n(C) 1\n\n(D) 2",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 31,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Correct match of the $\\mathbf{C}-\\mathbf{H}$ bonds (shown in bold) in Column $\\mathbf{J}$ with their BDE in Column $\\mathbf{K}$ is\n\n\\begin{center}\n\n\\begin{tabular}{|c|c|}\n\n\\hline\n\n$\\begin{array}{l}\\text { Column J } \\\\ \\text { Molecule }\\end{array}$ & $\\begin{array}{c}\\text { Column K } \\\\ \\text { BDE }\\left(\\text { kcal mol }^{-1}\\right)\\end{array}$ \\\\\n\n\\hline\n\n(P) $\\mathbf{H}-\\mathrm{CH}\\left(\\mathrm{CH}_{3}\\right)_{2}$ & (i) 132 \\\\\n\n\\hline\n\n(Q) $\\mathbf{H}-\\mathrm{CH}_{2} \\mathrm{Ph}$ & (ii) 110 \\\\\n\n\\hline\n\n(R) $\\mathbf{H}-\\mathrm{CH}=\\mathrm{CH}_{2}$ & (iii) 95 \\\\\n\n\\hline\n\n(S) $\\mathrm{H}-\\mathrm{C} \\equiv \\mathrm{CH}$ & (iv) 88 \\\\\n\n\\hline\n\n\\end{tabular}\n\n\\end{center}\n\n(A) $P$ - iii, $Q$ - iv, R - ii, S - i\n\n(B) $P-i, Q-i i, R-$ iii, S - iv\n\n(C) P - iii, Q - ii, R - i, S - iv\n\n(D) $P-i i, Q-i, R-i v, S-i i i$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 28,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the correct statement(s) among the following:\n\n(A) $\\left[\\mathrm{FeCl}_{4}\\right]^{-}$has tetrahedral geometry.\n\n(B) $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$has 2 geometrical isomers.\n\n(C) $\\left[\\mathrm{FeCl}_{4}\\right]^{-}$has higher spin-only magnetic moment than $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$.\n\n(D) The cobalt ion in $\\left[\\mathrm{Co}(\\mathrm{en})\\left(\\mathrm{NH}_{3}\\right)_{2} \\mathrm{Cl}_{2}\\right]^{+}$has $\\mathrm{sp}^{3} d^{2}$ hybridization.",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The cyanide process of gold extraction involves leaching out gold from its ore with $\\mathrm{CN}^{-}$in the presence of $\\mathbf{Q}$ in water to form $\\mathrm{R}$. Subsequently, $\\mathrm{R}$ is treated with $\\mathrm{T}$ to obtain $\\mathrm{Au}$ and $\\mathrm{Z}$. Choose the correct option(s)\n\n(A) $\\mathrm{Q}$ is $\\mathrm{O}_{2}$\n\n(B) $\\mathrm{T}$ is $\\mathrm{Zn}$\n\n(C) $\\mathrm{Z}$ is $\\left[\\mathrm{Zn}(\\mathrm{CN})_{4}\\right]^{2-}$\n\n(D) $\\mathrm{R}$ is $\\left[\\mathrm{Au}(\\mathrm{CN})_{4}\\right]^{-}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 25,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "What is the total number of compounds having at least one bridging oxo group among the molecules given below?\n\n$\\mathrm{N}_{2} \\mathrm{O}_{3}, \\mathrm{~N}_{2} \\mathrm{O}_{5}, \\mathrm{P}_{4} \\mathrm{O}_{6}, \\mathrm{P}_{4} \\mathrm{O}_{7}, \\mathrm{H}_{4} \\mathrm{P}_{2} \\mathrm{O}_{5}, \\mathrm{H}_{5} \\mathrm{P}_{3} \\mathrm{O}_{10}, \\mathrm{H}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3}, \\mathrm{H}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{5}$",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 26,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The crystalline form of borax has\n\n(A) tetranuclear $\\left[\\mathrm{B}_{4} \\mathrm{O}_{5}(\\mathrm{OH})_{4}\\right]^{2-}$ unit\n\n(B) all boron atoms in the same plane\n\n(C) equal number of $s p^{2}$ and $s p^{3}$ hybridized boron atoms\n\n(D) one terminal hydroxide per boron atom",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 34,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "On dissolving $0.5 \\mathrm{~g}$ of a non-volatile non-ionic solute to $39 \\mathrm{~g}$ of benzene, its vapor pressure decreases from $650 \\mathrm{~mm} \\mathrm{Hg}$ to $640 \\mathrm{~mm} \\mathrm{Hg}$. What is the depression of freezing point of benzene (in $\\mathrm{K}$ ) upon addition of the solute? (Given data: Molar mass and the molal freezing point depression constant of benzene are $78 \\mathrm{~g}$ $\\mathrm{mol}^{-1}$ and $5.12 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$, respectively)",
+        "gold": "1.02"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 26,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Galena (an ore) is partially oxidized by passing air through it at high temperature. After some time, the passage of air is stopped, but the heating is continued in a closed furnace such that the contents undergo self-reduction. What is the weight (in $\\mathrm{kg}$ ) of $\\mathrm{Pb}$ produced per $\\mathrm{kg}$ of $\\mathrm{O}_{2}$ consumed?\n\n(Atomic weights in $\\mathrm{g} \\mathrm{mol}^{-1}: \\mathrm{O}=16, \\mathrm{~S}=32, \\mathrm{~Pb}=207$ )",
+        "gold": "6.47"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Some standard electrode potentials at $298 \\mathrm{~K}$ are given below:\n\n$\\begin{array}{ll}\\mathrm{Pb}^{2+} / \\mathrm{Pb} & -0.13 \\mathrm{~V} \\\\ \\mathrm{Ni}^{2+} / \\mathrm{Ni} & -0.24 \\mathrm{~V} \\\\ \\mathrm{Cd}^{2+} / \\mathrm{Cd} & -0.40 \\mathrm{~V} \\\\ \\mathrm{Fe}^{2+} / \\mathrm{Fe} & -0.44 \\mathrm{~V}\\end{array}$\n\nTo a solution containing $0.001 \\mathrm{M}$ of $\\mathbf{X}^{2+}$ and $0.1 \\mathrm{M}$ of $\\mathbf{Y}^{2+}$, the metal rods $\\mathbf{X}$ and $\\mathbf{Y}$ are inserted (at $298 \\mathrm{~K}$ ) and connected by a conducting wire. This resulted in dissolution of $\\mathbf{X}$. The correct combination(s) of $\\mathbf{X}$ and $\\mathbf{Y}$, respectively, is(are)\n\n(Given: Gas constant, $\\mathrm{R}=8.314 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$, Faraday constant, $\\mathrm{F}=96500 \\mathrm{C} \\mathrm{mol}^{-1}$ )\n\n(A) $\\mathrm{Cd}$ and $\\mathrm{Ni}$\n\n(B) $\\mathrm{Cd}$ and $\\mathrm{Fe}$\n\n(C) $\\mathrm{Ni}$ and $\\mathrm{Pb}$\n\n(D) $\\mathrm{Ni}$ and $\\mathrm{Fe}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 31,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "$5.00 \\mathrm{~mL}$ of $0.10 \\mathrm{M}$ oxalic acid solution taken in a conical flask is titrated against $\\mathrm{NaOH}$ from a burette using phenolphthalein indicator. The volume of $\\mathrm{NaOH}$ required for the appearance of permanent faint pink color is tabulated below for five experiments. What is the concentration, in molarity, of the $\\mathrm{NaOH}$ solution?\n\n\\begin{center}\n\n\\begin{tabular}{|c|c|}\n\n\\hline\n\nExp. No. & Vol. of NaOH (mL) \\\\\n\n\\hline\n\n$\\mathbf{1}$ & 12.5 \\\\\n\n\\hline\n\n$\\mathbf{2}$ & 10.5 \\\\\n\n\\hline\n\n$\\mathbf{3}$ & 9.0 \\\\\n\n\\hline\n\n$\\mathbf{4}$ & 9.0 \\\\\n\n\\hline\n\n$\\mathbf{5}$ & 9.0 \\\\\n\n\\hline\n\n\\end{tabular}\n\n\\end{center}",
+        "gold": "0.11"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 30,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "A sample $(5.6 \\mathrm{~g})$ containing iron is completely dissolved in cold dilute $\\mathrm{HCl}$ to prepare a $250 \\mathrm{~mL}$ of solution. Titration of $25.0 \\mathrm{~mL}$ of this solution requires $12.5 \\mathrm{~mL}$ of $0.03 \\mathrm{M} \\mathrm{KMnO}_4$ solution to reach the end point. Number of moles of $\\mathrm{Fe}^{2+}$ present in $250 \\mathrm{~mL}$ solution is $\\mathbf{x} \\times 10^{-2}$ (consider complete dissolution of $\\mathrm{FeCl}_2$ ). The amount of iron present in the sample is $\\mathbf{y} \\%$ by weight.\n(Assume: $\\mathrm{KMnO}_4$ reacts only with $\\mathrm{Fe}^{2+}$ in the solution\nUse: Molar mass of iron as $56 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ). What is the value of $\\mathbf{y}$?",
+        "gold": "18.75"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 32,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "The mole fraction of a solute in a solution is 0.1 . At $298 \\mathrm{~K}$, molarity of this solution is the same as its molality. Density of this solution at $298 \\mathrm{~K}$ is $2.0 \\mathrm{~g} \\mathrm{~cm}^{-3}$. What is the ratio of the molecular weights of the solute and solvent, $\\left(\\frac{M W_{\\text {solute }}}{M W_{\\text {solvent }}}\\right)$?",
+        "gold": "9"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 39,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "Plotting $1 / \\Lambda_{\\mathrm{m}}$ against $\\mathrm{c} \\Lambda_{\\mathrm{m}}$ for aqueous solutions of a monobasic weak acid (HX) resulted in a straight line with y-axis intercept of $\\mathrm{P}$ and slope of $\\mathrm{S}$. The ratio $\\mathrm{P} / \\mathrm{S}$ is\n\n\n\n$\\left[\\Lambda_{\\mathrm{m}}=\\right.$ molar conductivity\n\n\n\n$\\Lambda_{\\mathrm{m}}^{\\mathrm{o}}=$ limiting molar conductivity\n\n\n\n$\\mathrm{c}=$ molar concentration\n\n\n\n$\\mathrm{K}_{\\mathrm{a}}=$ dissociation constant of $\\mathrm{HX}$ ]\n\n\n\n(A) $\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$\n\n\n\n(B) $\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}} / 2$\n\n\n\n(C) $2 \\mathrm{~K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}$\n\n\n\n(D) $1 /\\left(\\mathrm{K}_{\\mathrm{a}} \\Lambda_{\\mathrm{m}}^{\\mathrm{o}}\\right)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 38,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "An aqueous solution is prepared by dissolving $0.1 \\mathrm{~mol}$ of an ionic salt in $1.8 \\mathrm{~kg}$ of water at $35^{\\circ} \\mathrm{C}$. The salt remains $90 \\%$ dissociated in the solution. The vapour pressure of the solution is $59.724 \\mathrm{~mm}$ of $\\mathrm{Hg}$. Vapor pressure of water at $35{ }^{\\circ} \\mathrm{C}$ is $60.000 \\mathrm{~mm}$ of $\\mathrm{Hg}$. What is the number of ions present per formula unit of the ionic salt?",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The correct statement(s) regarding the binary transition metal carbonyl compounds is (are) (Atomic numbers: $\\mathrm{Fe}=26, \\mathrm{Ni}=28$ )\n\n(A) Total number of valence shell electrons at metal centre in $\\mathrm{Fe}(\\mathrm{CO})_{5}$ or $\\mathrm{Ni}(\\mathrm{CO})_{4}$ is 16\n\n(B) These are predominantly low spin in nature\n\n(C) Metal-carbon bond strengthens when the oxidation state of the metal is lowered\n\n(D) The carbonyl C-O bond weakens when the oxidation state of the metal is increased",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 28,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "In the decay sequence,\n\n${ }_{92}^{238} \\mathrm{U} \\stackrel{-\\mathrm{x}_{1}}{\\longrightarrow}{ }_{90}^{234} \\mathrm{Th} \\stackrel{-\\mathrm{x}_{2}}{\\longrightarrow}{ }_{91}^{234} \\mathrm{~Pa} \\stackrel{-\\mathrm{x}_{3}}{\\longrightarrow}{ }^{234} \\mathbf{Z} \\stackrel{-\\mathrm{x}_{4}}{\\longrightarrow}{ }_{90}^{230} \\mathrm{Th}$\n\n$\\mathrm{x}_{1}, \\mathrm{x}_{2}, \\mathrm{x}_{3}$ and $\\mathrm{x}_{4}$ are particles/radiation emitted by the respective isotopes. The correct option(s) is $($ are $)$\n\n(A) $x_{1}$ will deflect towards negatively charged plate\n\n(B) $\\mathrm{x}_{2}$ is $\\beta^{-}$\n\n(C) $x_{3}$ is $\\gamma$-ray\n\n(D) $\\mathbf{Z}$ is an isotope of uranium",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 31,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The option(s) with only amphoteric oxides is(are)\n\n[A] $\\mathrm{Cr}_{2} \\mathrm{O}_{3}, \\mathrm{BeO}, \\mathrm{SnO}, \\mathrm{SnO}_{2}$\n\n[B] $\\mathrm{Cr}_{2} \\mathrm{O}_{3}, \\mathrm{CrO}, \\mathrm{SnO}, \\mathrm{PbO}$\n\n[C] $\\mathrm{NO}, \\mathrm{B}_{2} \\mathrm{O}_{3}, \\mathrm{PbO}, \\mathrm{SnO}_{2}$\n\n[D] $\\mathrm{ZnO}, \\mathrm{Al}_{2} \\mathrm{O}_{3}, \\mathrm{PbO}, \\mathrm{PbO}_{2}$",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 20,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "With reference to aqua regia, choose the correct option(s)\n\n(A) Aqua regia is prepared by mixing conc. $\\mathrm{HCl}$ and conc. $\\mathrm{HNO}_{3}$ in $3: 1(v / v)$ ratio\n\n(B) Reaction of gold with aqua regia produces an anion having Au in +3 oxidation state\n\n(C) Reaction of gold with aqua regia produces $\\mathrm{NO}_{2}$ in the absence of air\n\n(D) The yellow colour of aqua regia is due to the presence of $\\mathrm{NOCl}$ and $\\mathrm{Cl}_{2}$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 30,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Liquids $\\mathbf{A}$ and $\\mathbf{B}$ form ideal solution over the entire range of composition. At temperature $\\mathrm{T}$, equimolar binary solution of liquids $\\mathbf{A}$ and $\\mathbf{B}$ has vapour pressure 45 Torr. At the same temperature, a new solution of $\\mathbf{A}$ and $\\mathbf{B}$ having mole fractions $x_{A}$ and $x_{B}$, respectively, has vapour pressure of 22.5 Torr. What is the value of $x_{A} / x_{B}$ in the new solution? (given that the vapour pressure of pure liquid $\\mathbf{A}$ is 20 Torr at temperature $\\mathrm{T}$ )",
+        "gold": "19"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 1",
+        "index": 22,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The colour of the $\\mathrm{X}_{2}$ molecules of group 17 elements changes gradually from yellow to violet down the group. This is due to\n\n[A] the physical state of $\\mathrm{X}_{2}$ at room temperature changes from gas to solid down the group\n\n[B] decrease in ionization energy down the group\n\n[C] decrease in $\\pi^{*}-\\sigma^{*}$ gap down the group\n\n[D] decrease in HOMO-LUMO gap down the group",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "The compound(s) which generate(s) $\\mathrm{N}_{2}$ gas upon thermal decomposition below $300^{\\circ} \\mathrm{C}$ is (are)\n\n(A) $\\mathrm{NH}_{4} \\mathrm{NO}_{3}$\n\n(B) $\\left(\\mathrm{NH}_{4}\\right)_{2} \\mathrm{Cr}_{2} \\mathrm{O}_{7}$\n\n(C) $\\mathrm{Ba}\\left(\\mathrm{N}_{3}\\right)_{2}$\n\n(D) $\\mathrm{Mg}_{3} \\mathrm{~N}_{2}$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 35,
+        "subject": "chem",
+        "type": "Numeric",
+        "question": "Tin is obtained from cassiterite by reduction with coke. Use the data given below to determine the minimum temperature (in K) at which the reduction of cassiterite by coke would take place.\n\nAt $298 \\mathrm{~K}: \\Delta_{f} H^{0}\\left(\\mathrm{SnO}_{2}(s)\\right)=-581.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}, \\Delta_{f} H^{0}\\left(\\mathrm{CO}_{2}(g)\\right)=-394.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$,\n\n$S^{0}\\left(\\mathrm{SnO}_{2}(\\mathrm{~s})\\right)=56.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}, S^{0}(\\mathrm{Sn}(\\mathrm{s}))=52.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$,\n\n$S^{0}(\\mathrm{C}(s))=6.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}, S^{0}\\left(\\mathrm{CO}_{2}(g)\\right)=210.0 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}$.\n\nAssume that the enthalpies and the entropies are temperature independent.",
+        "gold": "935"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 34,
+        "subject": "chem",
+        "type": "Integer",
+        "question": "In neutral or faintly alkaline solution, 8 moles of permanganate anion quantitatively oxidize thiosulphate anions to produce $\\mathbf{X}$ moles of a sulphur containing product. What is the magnitude of $\\mathbf{X}$?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 25,
+        "subject": "chem",
+        "type": "MCQ(multiple)",
+        "question": "Choose the reaction(s) from the following options, for which the standard enthalpy of reaction is equal to the standard enthalpy of formation.\n\n(A) $2 \\mathrm{H}_{2}(\\mathrm{~g})+\\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow 2 \\mathrm{H}_{2} \\mathrm{O}(\\mathrm{l})$\n\n(B) $2 \\mathrm{C}(\\mathrm{g})+3 \\mathrm{H}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{C}_{2} \\mathrm{H}_{6}(\\mathrm{~g})$\n\n(C) $\\frac{3}{2} \\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})$\n\n(D) $\\frac{1}{8} \\mathrm{~S}_{8}(\\mathrm{~s})+\\mathrm{O}_{2}(\\mathrm{~g}) \\rightarrow \\mathrm{SO}_{2}(\\mathrm{~g})$",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 19,
+        "subject": "chem",
+        "type": "MCQ",
+        "question": "The green colour produced in the borax bead test of a chromium(III) salt is due to\n\n(A) $\\mathrm{Cr}\\left(\\mathrm{BO}_{2}\\right)_{3}$\n\n(B) $\\mathrm{Cr}_{2}\\left(\\mathrm{~B}_{4} \\mathrm{O}_{7}\\right)_{3}$\n\n(C) $\\mathrm{Cr}_{2} \\mathrm{O}_{3}$\n\n(D) $\\mathrm{CrB}$",
+        "gold": "C"
+    }
+]

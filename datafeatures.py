@@ -41,18 +41,15 @@ def main(dataset_path, feature_size):
     # Convert Counter object to a dictionary
     overall_word_freq_dict = dict(overall_word_freq)
 
-    max_count = max(overall_word_freq_dict.values())
-
-    lower_lim = LOWER
-    upper_lim = UPPER
+    if len(overall_word_freq_dict) < feature_size:
+        print("ERROR NOT ENOUGH FEATURES")
     while len(overall_word_freq_dict) > feature_size:
-        bottom_threshold = max_count * lower_lim
-        top_threshold = max_count * upper_lim
-        overall_word_freq_dict = {word: count for word, count in overall_word_freq_dict.items() if bottom_threshold <= count <= top_threshold}
-        lower_lim += DELTA
+        for i in range(len(overall_word_freq_dict) - feature_size):
+            min_value_key = min(overall_word_freq_dict, key=overall_word_freq_dict.get)
+            del overall_word_freq_dict[min_value_key]
 
     # Store the overall word frequency vector in a JSON file
-    save_path = f"{dataset_path[:-5]}_freq_vec_max_{feature_size}.json"
+    save_path = f"{dataset_path[:-5]}_freq_vec_{feature_size}.json"
     with open(save_path, 'w') as f:
         json.dump(overall_word_freq_dict, f)
 

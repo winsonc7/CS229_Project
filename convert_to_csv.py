@@ -17,7 +17,7 @@ def main(data_file, feature_file, class_dict):
     columns = ['y'] + ['x' + str(i) for i in range(len(features))]
 
     # Open CSV file for writing
-    csv_file = f"{data_file[:-5]}.csv"
+    csv_file = f"{data_file[:-5]}_{len(columns) - 1}.csv"
     with open(csv_file, 'w', newline='') as f:
         writer = csv.writer(f)
 
@@ -43,6 +43,7 @@ def main(data_file, feature_file, class_dict):
             writer.writerow([y_value] + [feature_count[feature] for feature in features])
 
 # Usage: python convert_to_csv.py data_path feature_path class0 class1
+# python convert_to_csv.py stem_data/stem_test.json stem_data/stem_train_freq_vec_300.json math chem phy
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) < 4:

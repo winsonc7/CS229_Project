@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import os
+import util
 from scipy.stats import multivariate_normal
+from sklearn.metrics import classification_report
 
-PLOT_COLORS = ['red', 'green', 'blue', 'orange']  # Colors for your plots
-K = 4           # Number of Gaussians in the mixture model
-NUM_TRIALS = 3  # Number of trials to run (can be adjusted for debugging)
+# PLOT_COLORS = ['red', 'green', 'blue']  # Colors for your plots
+K = 3           # Number of Gaussians in the mixture model
+NUM_TRIALS = 1  # Number of trials to run (can be adjusted for debugging)
 UNLABELED = -1  # Cluster label for unlabeled data points (do not change)
 
 
@@ -15,14 +16,14 @@ def main(is_semi_supervised, trial_num):
           .format('semi-supervised' if is_semi_supervised else 'unsupervised'))
 
     # Load dataset
-    train_path = os.path.join('.', 'train.csv')
-    x_all, z_all = load_gmm_dataset(train_path)
+    train_path='stem_data/stem_train_168feat.csv'
+    test_path='stem_data/stem_test_168feat.csv'
+    x_train, y_train = util.load_csv(train_path, add_intercept=False)
+    x_test, y_test = util.load_csv(test_path, add_intercept=False)
 
-    # Split into labeled and unlabeled examples
-    labeled_idxs = (z_all != UNLABELED).squeeze()
-    x_tilde = x_all[labeled_idxs, :]   # Labeled examples
-    z_tilde = z_all[labeled_idxs, :]   # Corresponding labels
-    x = x_all[~labeled_idxs, :]        # Unlabeled examples
+    x_tilde = x_test
+    z_tilde = y_test
+    x = x_train
 
     # *** START CODE HERE ***
     # (1) Initialize mu and sigma by splitting the n_examples data points uniformly at random
@@ -30,15 +31,14 @@ def main(is_semi_supervised, trial_num):
     mu = np.zeros((K, x.shape[1]))
     sigma = np.zeros((K, x.shape[1], x.shape[1]))
     groups = {i: [] for i in range(K)}
-    for i in range(x_all.shape[0]):
+    for i in range(x.shape[0]):
         assign = np.random.randint(K)
-        groups[assign].append(x_all[i])
+        groups[assign].append(x[i])
     for i in range(K):
         groups[i] = np.array(groups[i])
     for i in range(K):
         mu[i] = np.mean(groups[i], axis=0)
-        sigma[i] = np.cov(groups[i], rowvar=False)
-
+        sigma[i] = np.cov(groups[i], rowvar=0)
     # (2) Initialize phi to place equal probability on each Gaussian
     # phi should be a numpy array of shape (K,)
     phi = np.ones(K) / K
@@ -62,7 +62,7 @@ def main(is_semi_supervised, trial_num):
         for i in range(n):
             z_pred[i] = np.argmax(w[i])
 
-    plot_gmm_preds(x, z_pred, is_semi_supervised, plot_id=trial_num)
+    print(classification_report(y_train, z_pred))
 
 
 def run_em(x, w, phi, mu, sigma):
@@ -181,6 +181,7 @@ def run_semi_supervised_em(x, x_tilde, z_tilde, w, phi, mu, sigma):
         # (1) E-step: Update your estimates in w
         for i in range(x.shape[0]):
             for j in range(w.shape[1]):
+                breakpoint()
                 distribution = multivariate_normal(mean=mu[j], cov=sigma[j])
                 w[i,j] = distribution.pdf(x[i]) * phi[j]
         w /= w.sum(axis=1, keepdims=True)
@@ -295,13 +296,13 @@ if __name__ == '__main__':
     # Run NUM_TRIALS trials to see how different initializations
     # affect the final predictions with and without supervision
     for t in range(NUM_TRIALS):
-        main(is_semi_supervised=False, trial_num=t)
+        # main(is_semi_supervised=False, trial_num=t)
 
         # *** START CODE HERE ***
         # Once you've implemented the semi-supervised version,
         # uncomment the following line.
         # You do not need to add any other lines in this code block.
 
-        # main(is_semi_supervised=True, trial_num=t)
+        main(is_semi_supervised=True, trial_num=t)
 
         # *** END CODE HERE ***

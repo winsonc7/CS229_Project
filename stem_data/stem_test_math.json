@@ -1,0 +1,362 @@
+[
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f:(0, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f^{\\prime}(x)=2-\\frac{f(x)}{x}$ for all $x \\in(0, \\infty)$ and $f(1) \\neq 1$. Then\n\n(A) $\\lim _{x \\rightarrow 0+} f^{\\prime}\\left(\\frac{1}{x}\\right)=1$\n\n(B) $\\lim _{x \\rightarrow 0+} x f\\left(\\frac{1}{x}\\right)=2$\n\n(C) $\\lim _{x \\rightarrow 0+} x^{2} f^{\\prime}(x)=0$\n\n(D) $|f(x)| \\leq 2$ for all $x \\in(0,2)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 1,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:[1, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(1)=\\frac{1}{3}$ and $3 \\int_{1}^{x} f(t) d t=x f(x)-\\frac{x^{3}}{3}, x \\in[1, \\infty)$. Let $e$ denote the base of the natural logarithm. Then the value of $f(e)$ is\n\n\n\n(A) $\\frac{e^{2}+4}{3}$\n\n\n\n(B) $\\frac{\\log _{e} 4+e}{3}$\n\n\n\n(C) $\\frac{4 e^{2}}{3}$\n\n\n\n(D) $\\frac{e^{2}-4}{3}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 40,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For any real numbers $\\alpha$ and $\\beta$, let $y_{\\alpha, \\beta}(x), x \\in \\mathbb{R}$, be the solution of the differential equation\n\n\\[\n\\frac{d y}{d x}+\\alpha y=x e^{\\beta x}, \\quad y(1)=1\n\\]\n\nLet $S=\\left\\{y_{\\alpha, \\beta}(x): \\alpha, \\beta \\in \\mathbb{R}\\right\\}$. Then which of the following functions belong(s) to the set $S$ ?\n\n(A) $f(x)=\\frac{x^{2}}{2} e^{-x}+\\left(e-\\frac{1}{2}\\right) e^{-x}$\n\n(B) $f(x)=-\\frac{x^{2}}{2} e^{-x}+\\left(e+\\frac{1}{2}\\right) e^{-x}$\n\n(C) $f(x)=\\frac{e^{x}}{2}\\left(x-\\frac{1}{2}\\right)+\\left(e-\\frac{e^{2}}{4}\\right) e^{-x}$\n\n(D) $f(x)=\\frac{e^{x}}{2}\\left(\\frac{1}{2}-x\\right)+\\left(e+\\frac{e^{2}}{4}\\right) e^{-x}$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 45,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "In a triangle $X Y Z$, let $x, y, z$ be the lengths of sides opposite to the angles $X, Y, Z$, respectively, and $2 s=x+y+z$. If $\\frac{s-x}{4}=\\frac{s-y}{3}=\\frac{s-z}{2}$ and area of incircle of the triangle $X Y Z$ is $\\frac{8 \\pi}{3}$, then\n\n(A) area of the triangle $X Y Z$ is $6 \\sqrt{6}$\n\n(B) the radius of circumcircle of the triangle $X Y Z$ is $\\frac{35}{6} \\sqrt{6}$\n\n(C) $\\sin \\frac{X}{2} \\sin \\frac{Y}{2} \\sin \\frac{Z}{2}=\\frac{4}{35}$\n\n(D) $\\sin ^{2}\\left(\\frac{X+Y}{2}\\right)=\\frac{3}{5}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 49,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $m$ be the minimum possible value of $\\log _{3}\\left(3^{y_{1}}+3^{y_{2}}+3^{y_{3}}\\right)$, where $y_{1}, y_{2}, y_{3}$ are real numbers for which $y_{1}+y_{2}+y_{3}=9$. Let $M$ be the maximum possible value of $\\left(\\log _{3} x_{1}+\\log _{3} x_{2}+\\log _{3} x_{3}\\right)$, where $x_{1}, x_{2}, x_{3}$ are positive real numbers for which $x_{1}+x_{2}+x_{3}=9$. Then what is the value of $\\log _{2}\\left(m^{3}\\right)+\\log _{3}\\left(M^{2}\\right)$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 44,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $a$ and $b$ be positive real numbers such that $a>1$ and $b<a$. Let $P$ be a point in the first quadrant that lies on the hyperbola $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$. Suppose the tangent to the hyperbola at $P$ passes through the point $(1,0)$, and suppose the normal to the hyperbola at $P$ cuts off equal intercepts on the coordinate axes. Let $\\Delta$ denote the area of the triangle formed by the tangent at $P$, the normal at $P$ and the $x$-axis. If $e$ denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?\n\n(A) $1<e<\\sqrt{2}$\n\n(B) $\\sqrt{2}<e<2$\n\n(C) $\\Delta=a^{4}$\n\n(D) $\\Delta=b^{4}$",
+        "gold": "AD"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "In a hotel, four rooms are available. Six persons are to be accommodated in these four rooms in such a way that each of these rooms contains at least one person and at most two persons. Then what is the number of all possible ways in which this can be done?",
+        "gold": "1080"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 47,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $L_{1}$ and $L_{2}$ be the following straight lines.\n\n\\[\nL_{1}: \\frac{x-1}{1}=\\frac{y}{-1}=\\frac{z-1}{3} \\text { and } L_{2}: \\frac{x-1}{-3}=\\frac{y}{-1}=\\frac{z-1}{1}\n\\]\n\nSuppose the straight line\n\n\\[\nL: \\frac{x-\\alpha}{l}=\\frac{y-1}{m}=\\frac{z-\\gamma}{-2}\n\\]\n\nlies in the plane containing $L_{1}$ and $L_{2}$, and passes through the point of intersection of $L_{1}$ and $L_{2}$. If the line $L$ bisects the acute angle between the lines $L_{1}$ and $L_{2}$, then which of the following statements is/are TRUE?\n\n(A) $\\alpha-\\gamma=3$\n\n(B) $l+m=2$\n\n(C) $\\alpha-\\gamma=1$\n\n(D) $l+m=0$",
+        "gold": "AB"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 39,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider three sets $E_{1}=\\{1,2,3\\}, F_{1}=\\{1,3,4\\}$ and $G_{1}=\\{2,3,4,5\\}$. Two elements are chosen at random, without replacement, from the set $E_{1}$, and let $S_{1}$ denote the set of these chosen elements. Let $E_{2}=E_{1}-S_{1}$ and $F_{2}=F_{1} \\cup S_{1}$. Now two elements are chosen at random, without replacement, from the set $F_{2}$ and let $S_{2}$ denote the set of these chosen elements.\n\nLet $G_{2}=G_{1} \\cup S_{2}$. Finally, two elements are chosen at random, without replacement, from the set $G_{2}$ and let $S_{3}$ denote the set of these chosen elements.\n\nLet $E_{3}=E_{2} \\cup S_{3}$. Given that $E_{1}=E_{3}$, let $p$ be the conditional probability of the event $S_{1}=\\{1,2\\}$. Then the value of $p$ is\n\n(A) $\\frac{1}{5}$\n\n(B) $\\frac{3}{5}$\n\n(C) $\\frac{1}{2}$\n\n(D) $\\frac{2}{5}$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 46,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Five persons $A, B, C, D$ and $E$ are seated in a circular arrangement. If each of them is given a hat of one of the three colours red, blue and green, then what is the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats?",
+        "gold": "30"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 1",
+        "index": 54,
+        "subject": "math",
+        "type": "Integer",
+        "question": "In a triangle $A B C$, let $A B=\\sqrt{23}, B C=3$ and $C A=4$. Then what is the value of\n\n\\[\n\\frac{\\cot A+\\cot C}{\\cot B}\n\\]?",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let $a_{1}, a_{2}, a_{3}, \\ldots$ be a sequence of positive integers in arithmetic progression with common difference 2. Also, let $b_{1}, b_{2}, b_{3}, \\ldots$ be a sequence of positive integers in geometric progression with common ratio 2. If $a_{1}=b_{1}=c$, then what is the number of all possible values of $c$, for which the equality\n\n\\[\n2\\left(a_{1}+a_{2}+\\cdots+a_{n}\\right)=b_{1}+b_{2}+\\cdots+b_{n}\n\\]\n\nholds for some positive integer $n$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 17,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $p, q, r$ be nonzero real numbers that are, respectively, the $10^{\\text {th }}, 100^{\\text {th }}$ and $1000^{\\text {th }}$ terms of a harmonic progression. Consider the system of linear equations\n\n\\[\n\\begin{gathered}\n\nx+y+z=1 \\\\\n\n10 x+100 y+1000 z=0 \\\\\n\nq r x+p r y+p q z=0\n\n\\end{gathered}\n\\]\n\nList-I\n(I) If $\\frac{q}{r}=10$, then the system of linear equations has\n(II) If $\\frac{p}{r} \\neq 100$, then the system of linear equations has\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear equations has\n(IV) If $\\frac{p}{q}=10$, then the system of linear equations has\n\nList-II\n(P) $x=0, \\quad y=\\frac{10}{9}, z=-\\frac{1}{9}$ as a solution\n(Q) $x=\\frac{10}{9}, y=-\\frac{1}{9}, z=0$ as a solution\n(III) If $\\frac{p}{q} \\neq 10$, then the system of linear\n(R) infinitely many solutions\n(IV) If $\\frac{p}{q}=10$, then the system of linear\n(S) no solution\n(T) at least one solution\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (T)\n\n(B) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (R)\n\n(C) (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (R); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (R)\n\n(D) (I) $\\rightarrow$ (T); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (P); (IV) $\\rightarrow$ (T)",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2021 Paper 2",
+        "index": 49,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let\n\\[\\mathrm{M}=\\left\\{(\\mathrm{x}, \\mathrm{y}) \\in \\mathbb{R} \\times \\mathbb{R}: \\mathrm{x}^2+\\mathrm{y}^2 \\leq \\mathrm{r}^2\\right\\}\\]\nwhere $\\mathrm{r}>0$. Consider the geometric progression $a_n=\\frac{1}{2^{n-1}}, n=1,2,3, \\ldots$. Let $S_0=0$ and, for $n \\geq 1$, let $S_n$ denote the sum of the first $n$ terms of this progression. For $n \\geq 1$, let $C_n$ denote the circle with center $\\left(S_{n-1}, 0\\right)$ and radius $a_n$, and $D_n$ denote the circle with center $\\left(S_{n-1}, S_{n-1}\\right)$ and radius $a_n$. Consider $M$ with $r=\\frac{1025}{513}$. Let $k$ be the number of all those circles $C_{n}$ that are inside $M$. Let $l$ be the maximum possible number of circles among these $k$ circles such that no two circles intersect. Then\n\n(A) $k+2 l=22$\n\n(B) $2 k+l=26$\n\n(C) $2 k+3 l=34$\n\n(D) $3 k+2 l=40$",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 41,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $C_{1}$ and $C_{2}$ be two biased coins such that the probabilities of getting head in a single toss are $\\frac{2}{3}$ and $\\frac{1}{3}$, respectively. Suppose $\\alpha$ is the number of heads that appear when $C_{1}$ is tossed twice, independently, and suppose $\\beta$ is the number of heads that appear when $C_{2}$ is tossed twice, independently. Then the probability that the roots of the quadratic polynomial $x^{2}-\\alpha x+\\beta$ are real and equal, is\n\n(A) $\\frac{40}{81}$\n\n(B) $\\frac{20}{81}$\n\n(C) $\\frac{1}{2}$\n\n(D) $\\frac{1}{4}$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 3,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the greatest integer less than or equal to\n\n\\[\n\\int_{1}^{2} \\log _{2}\\left(x^{3}+1\\right) d x+\\int_{1}^{\\log _{2} 9}\\left(2^{x}-1\\right)^{\\frac{1}{3}} d x\n\\]?",
+        "gold": "5"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 1",
+        "index": 42,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider all rectangles lying in the region\n\n\\[\n\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: 0 \\leq x \\leq \\frac{\\pi}{2} \\text { and } 0 \\leq y \\leq 2 \\sin (2 x)\\right\\}\n\\]\n\nand having one side on the $x$-axis. The area of the rectangle which has the maximum perimeter among all such rectangles, is\n\n(A) $\\frac{3 \\pi}{2}$\n\n(B) $\\pi$\n\n(C) $\\frac{\\pi}{2 \\sqrt{3}}$\n\n(D) $\\frac{\\pi \\sqrt{3}}{2}$",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 10,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $7 \\overbrace{5 \\cdots 5}^{r} 7$ denote the $(r+2)$ digit number where the first and the last digits are 7 and the remaining $r$ digits are 5 . Consider the sum $S=77+757+7557+\\cdots+7 \\overbrace{5 \\cdots 5}^{98}7$. If $S=\\frac{7 \\overbrace{5 \\cdots 5}^{99}7+m}{n}$, where $m$ and $n$ are natural numbers less than 3000 , then what is the value of $m+n$?",
+        "gold": "1219"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 12,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $P$ be the plane $\\sqrt{3} x+2 y+3 z=16$ and let $S=\\left\\{\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}: \\alpha^{2}+\\beta^{2}+\\gamma^{2}=1\\right.$ and the distance of $(\\alpha, \\beta, \\gamma)$ from the plane $P$ is $\\left.\\frac{7}{2}\\right\\}$. Let $\\vec{u}, \\vec{v}$ and $\\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u}-\\vec{v}|=|\\vec{v}-\\vec{w}|=|\\vec{w}-\\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by vectors $\\vec{u}, \\vec{v}$ and $\\vec{w}$. Then what is the value of $\\frac{80}{\\sqrt{3}} V$?",
+        "gold": "45"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 54,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $z=\\frac{-1+\\sqrt{3} i}{2}$, where $i=\\sqrt{-1}$, and $r, s \\in\\{1,2,3\\}$. Let $P=\\left[\\begin{array}{cc}(-z)^{r} & z^{2 s} \\\\ z^{2 s} & z^{r}\\end{array}\\right]$ and $I$ be the identity matrix of order 2 . Then what is the total number of ordered pairs $(r, s)$ for which $P^{2}=-I$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 18,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Consider the ellipse\n\n\\[\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n\\]\n\nLet $H(\\alpha, 0), 0<\\alpha<2$, be a point. A straight line drawn through $H$ parallel to the $y$-axis crosses the ellipse and its auxiliary circle at points $E$ and $F$ respectively, in the first quadrant. The tangent to the ellipse at the point $E$ intersects the positive $x$-axis at a point $G$. Suppose the straight line joining $F$ and the origin makes an angle $\\phi$ with the positive $x$-axis.\n\nList-I\n(I) If $\\phi=\\frac{\\pi}{4}$, then the area of the triangle $F G H$ is\n(II) If $\\phi=\\frac{\\pi}{3}$, then the area of the triangle $F G H$ is\n(III) If $\\phi=\\frac{\\pi}{6}$, then the area of the triangle $F G H$ is\n(IV) If $\\phi=\\frac{\\pi}{12}$, then the area of the triangle $F G H$ is\n\nList-II\n(P) $\\frac{(\\sqrt{3}-1)^4}{8}$\n(Q) 1\n(R) $\\frac{3}{4}$\n(S) $\\frac{1}{2 \\sqrt{3}}$\n(T) $\\frac{3 \\sqrt{3}}{2}$\n\nThe correct option is:\n\n(A) (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)\n\n(B) $\\quad$ (I) $\\rightarrow$ (R); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(C) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (T); (III) $\\rightarrow$ (S); (IV) $\\rightarrow$ (P)\n\n(D) $\\quad$ (I) $\\rightarrow$ (Q); (II) $\\rightarrow$ (S); (III) $\\rightarrow$ (Q); (IV) $\\rightarrow$ (P)",
+        "gold": "C"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "Let\n\n\\[\nX=\\left({ }^{10} C_{1}\\right)^{2}+2\\left({ }^{10} C_{2}\\right)^{2}+3\\left({ }^{10} C_{3}\\right)^{2}+\\cdots+10\\left({ }^{10} C_{10}\\right)^{2}\n\\]\n\nwhere ${ }^{10} C_{r}, r \\in\\{1,2, \\cdots, 10\\}$ denote binomial coefficients. Then, what is the value of $\\frac{1}{1430} X$?",
+        "gold": "646"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 9,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Consider the equation\n\n\\[\n\\int_{1}^{e} \\frac{\\left(\\log _{\\mathrm{e}} x\\right)^{1 / 2}}{x\\left(a-\\left(\\log _{\\mathrm{e}} x\\right)^{3 / 2}\\right)^{2}} d x=1, \\quad a \\in(-\\infty, 0) \\cup(1, \\infty) .\n\\]\n\nWhich of the following statements is/are TRUE?\n\n(A) No $a$ satisfies the above equation\n\n(B) An integer $a$ satisfies the above equation\n\n(C) An irrational number $a$ satisfies the above equation\n\n(D) More than one $a$ satisfy the above equation",
+        "gold": "CD"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 46,
+        "subject": "math",
+        "type": "Numeric",
+        "question": "What is the number of real solutions of the equation\n\n\\[\n\\sin ^{-1}\\left(\\sum_{i=1}^{\\infty} x^{i+1}-x \\sum_{i=1}^{\\infty}\\left(\\frac{x}{2}\\right)^{i}\\right)=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\sum_{i=1}^{\\infty}\\left(-\\frac{x}{2}\\right)^{i}-\\sum_{i=1}^{\\infty}(-x)^{i}\\right)\n\\]\n\nlying in the interval $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$ is\n\n(Here, the inverse trigonometric functions $\\sin ^{-1} x$ and $\\cos ^{-1} x$ assume values in $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ and $[0, \\pi]$, respectively.)",
+        "gold": "2"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 2,
+        "subject": "math",
+        "type": "Integer",
+        "question": "If $y(x)$ is the solution of the differential equation\n\n\\[\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x>0, \\quad y(1)=2,\n\\]\n\nand the slope of the curve $y=y(x)$ is never zero, then what is the value of $10 y(\\sqrt{2})$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 12,
+        "subject": "math",
+        "type": "Integer",
+        "question": "$R=\\left\\{\\left(\\begin{array}{lll}a & 3 & b \\\\ c & 2 & d \\\\ 0 & 5 & 0\\end{array}\\right): a, b, c, d \\in\\{0,3,5,7,11,13,17,19\\}\\right\\}$. Then what is the number of invertible matrices in $R$?",
+        "gold": "3780"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 43,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be given by $f(x)=(x-1)(x-2)(x-5)$. Define\n\n\\[\nF(x)=\\int_{0}^{x} f(t) d t, \\quad x>0 .\n\\]\n\nThen which of the following options is/are correct?\n\n(A) $F$ has a local minimum at $x=1$\n\n(B) $F$ has a local maximum at $x=2$\n\n(C) $F$ has two local maxima and one local minimum in $(0, \\infty)$\n\n(D) $\\quad F(x) \\neq 0$ for all $x \\in(0,5)$",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 2",
+        "index": 44,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Three lines\n\n\\[\n\\begin{aligned}\n\nL_{1}: & \\vec{r}=\\lambda \\hat{i}, \\lambda \\in \\mathbb{R}, \\\\\n\nL_{2}: & \\vec{r}=\\hat{k}+\\mu \\hat{j}, \\mu \\in \\mathbb{R} \\text { and } \\\\\n\nL_{3}: & \\vec{r}=\\hat{i}+\\hat{j}+v \\hat{k}, \\quad v \\in \\mathbb{R}\n\n\\end{aligned}\n\\]\n\nare given. For which point(s) $Q$ on $L_{2}$ can we find a point $P$ on $L_{1}$ and a point $R$ on $L_{3}$ so that $P, Q$ and $R$ are collinear?\n\n(A) $\\hat{k}-\\frac{1}{2} \\hat{j}$\n\n(B) $\\hat{k}$\n\n(C) $\\hat{k}+\\frac{1}{2} \\hat{j}$\n\n(D) $\\hat{k}+\\hat{j}$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 1,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?   \n\n\n\n(A) There are infinitely many functions from $S$ to $T$\n\n\n\n(B) There are infinitely many strictly increasing functions from $S$ to $T$\n\n\n\n(C) The number of continuous functions from $S$ to $T$ is at most 120\n\n\n\n(D) Every continuous function from $S$ to $T$ is differentiable",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $P$ be the point on the parabola $y^{2}=4 x$ which is at the shortest distance from the center $S$ of the circle $x^{2}+y^{2}-4 x-16 y+64=0$. Let $Q$ be the point on the circle dividing the line segment $S P$ internally. Then\n\n(A) $S P=2 \\sqrt{5}$\n\n(B) $S Q: Q P=(\\sqrt{5}+1): 2$\n\n(C) the $x$-intercept of the normal to the parabola at $P$ is 6\n\n(D) the slope of the tangent to the circle at $Q$ is $\\frac{1}{2}$",
+        "gold": "ACD"
+    },
+    {
+        "description": "JEE Adv 2019 Paper 1",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $L_{1}$ and $L_{2}$ denote the lines\n\n\\[\n\\vec{r}=\\hat{i}+\\lambda(-\\hat{i}+2 \\hat{j}+2 \\hat{k}), \\lambda \\in \\mathbb{R}\n\\]\n and \n\\[ \\vec{r}=\\mu(2 \\hat{i}-\\hat{j}+2 \\hat{k}), \\mu \\in \\mathbb{R}\n\\]\n\nrespectively. If $L_{3}$ is a line which is perpendicular to both $L_{1}$ and $L_{2}$ and cuts both of them, then which of the following options describe(s) $L_{3}$ ?\n\n(A) $\\vec{r}=\\frac{2}{9}(4 \\hat{i}+\\hat{j}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(B) $\\vec{r}=\\frac{2}{9}(2 \\hat{i}-\\hat{j}+2 \\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(C) $\\vec{r}=\\frac{1}{3}(2 \\hat{i}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(D) $\\vec{r}=t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 38,
+        "subject": "math",
+        "type": "Integer",
+        "question": "The probability that a missile hits a target successfully is 0.75 . In order to destroy the target completely, at least three successful hits are required. Then what is the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95?",
+        "gold": "6"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 10,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let\n\n\\[\n\\alpha=\\sum_{k=1}^{\\infty} \\sin ^{2 k}\\left(\\frac{\\pi}{6}\\right)\n\\]\n\nLet $g:[0,1] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\\[\ng(x)=2^{\\alpha x}+2^{\\alpha(1-x)}\n\\]\n\nThen, which of the following statements is/are TRUE ?\n\n(A) The minimum value of $g(x)$ is $2^{\\frac{7}{6}}$\n\n(B) The maximum value of $g(x)$ is $1+2^{\\frac{1}{3}}$\n\n(C) The function $g(x)$ attains its maximum at more than one point\n\n(D) The function $g(x)$ attains its minimum at more than one point",
+        "gold": "ABC"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 2",
+        "index": 50,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $\\hat{u}=u_{1} \\hat{i}+u_{2} \\hat{j}+u_{3} \\hat{k}$ be a unit vector in $\\mathbb{R}^{3}$ and $\\hat{w}=\\frac{1}{\\sqrt{6}}(\\hat{i}+\\hat{j}+2 \\hat{k})$. Given that there exists a vector $\\vec{v}$ in $\\mathbb{R}^{3}$ such that $|\\hat{u} \\times \\vec{v}|=1$ and $\\hat{w} \\cdot(\\hat{u} \\times \\vec{v})=1$. Which of the following statement\u00eds) is(are) correct?\n\n(A) There is exactly one choice for such $\\vec{v}$\n\n(B) There are infinitely many choices for such $\\vec{v}$\n\n(C) If $\\hat{u}$ lies in the $x y$-plane then $\\left|u_{1}\\right|=\\left|u_{2}\\right|$\n\n(D) If $\\hat{u}$ lies in the $x z$-plane then $2\\left|u_{1}\\right|=\\left|u_{3}\\right|$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 1",
+        "index": 14,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "Let $|M|$ denote the determinant of a square matrix $M$. Let $g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ be the function defined by\n\nwhere\n\n\\[\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n\\]\n\n$f(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}1 & \\sin \\theta & 1 \\\\ -\\sin \\theta & 1 & \\sin \\theta \\\\ -1 & -\\sin \\theta & 1\\end{array}\\right|+\\left|\\begin{array}{ccc}\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\ \\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\ \\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\\end{array}\\right|$\n\nLet $p(x)$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $g(\\theta)$, and $p(2)=2-\\sqrt{2}$. Then, which of the following is/are TRUE?\n\n(A) $p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$\n\n(B) $p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$\n\n(C) $p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$\n\n(D) $p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$",
+        "gold": "AC"
+    },
+    {
+        "description": "JEE Adv 2020 Paper 2",
+        "index": 37,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For a complex number $z$, let $\\operatorname{Re}(z)$ denote the real part of $z$. Let $S$ be the set of all complex numbers $z$ satisfying $z^{4}-|z|^{4}=4 i z^{2}$, where $i=\\sqrt{-1}$. Then what is the minimum possible value of $\\left|z_{1}-z_{2}\\right|^{2}$, where $z_{1}, z_{2} \\in S$ with $\\operatorname{Re}\\left(z_{1}\\right)>0$ and $\\operatorname{Re}\\left(z_{2}\\right)<0$?",
+        "gold": "8"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 2",
+        "index": 8,
+        "subject": "math",
+        "type": "Integer",
+        "question": "For $x \\in \\mathbb{R}$, let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then what is the minimum value of the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\int_{0}^{x \\tan ^{-1} x} \\frac{e^{(t-\\cos t)}}{1+t^{2023}} d t$?",
+        "gold": "0"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 38,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $O$ be the origin and let $P Q R$ be an arbitrary triangle. The point $S$ is such that\n\n\\[\n\\overrightarrow{O P} \\cdot \\overrightarrow{O Q}+\\overrightarrow{O R} \\cdot \\overrightarrow{O S}=\\overrightarrow{O R} \\cdot \\overrightarrow{O P}+\\overrightarrow{O Q} \\cdot \\overrightarrow{O S}=\\overrightarrow{O Q} \\cdot \\overrightarrow{O R}+\\overrightarrow{O P} \\cdot \\overrightarrow{O S}\n\\]\n\nThen the triangle $P Q R$ has $S$ as its\n\n[A] centroid\n\n[B] circumcentre\n\n[C] incentre\n\n[D] orthocenter",
+        "gold": "D"
+    },
+    {
+        "description": "JEE Adv 2017 Paper 2",
+        "index": 48,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "If $f(x)=\\left|\\begin{array}{ccc}\\cos (2 x) & \\cos (2 x) & \\sin (2 x) \\\\ -\\cos x & \\cos x & -\\sin x \\\\ \\sin x & \\sin x & \\cos x\\end{array}\\right|$, then\n\n[A] $f^{\\prime}(x)=0$ at exactly three points in $(-\\pi, \\pi)$\n\n[B] $f^{\\prime}(x)=0$ at more than three points in $(-\\pi, \\pi)$\n\n[C] $f(x)$ attains its maximum at $x=0$\n\n[D] $f(x)$ attains its minimum at $x=0$",
+        "gold": "BC"
+    },
+    {
+        "description": "JEE Adv 2022 Paper 2",
+        "index": 6,
+        "subject": "math",
+        "type": "Integer",
+        "question": "Let $\\beta$ be a real number. Consider the matrix\n\n\\[\nA=\\left(\\begin{array}{ccc}\n\n\\beta & 0 & 1 \\\\\n\n2 & 1 & -2 \\\\\n\n3 & 1 & -2\n\n\\end{array}\\right)\n\\]\n\nIf $A^{7}-(\\beta-1) A^{6}-\\beta A^{5}$ is a singular matrix, then what is the value of $9 \\beta$?",
+        "gold": "3"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 16,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $\\ell_{1}$ and $\\ell_{2}$ be the lines $\\vec{r}_{1}=\\lambda(\\hat{i}+\\hat{j}+\\hat{k})$ and $\\vec{r}_{2}=(\\hat{j}-\\hat{k})+\\mu(\\hat{i}+\\hat{k})$, respectively. Let $X$ be the set of all the planes $H$ that contain the line $\\ell_{1}$. For a plane $H$, let $d(H)$ denote the smallest possible distance between the points of $\\ell_{2}$ and $H$. Let $H_{0}$ be a plane in $X$ for which $d\\left(H_{0}\\right)$ is the maximum value of $d(H)$ as $H$ varies over all planes in $X$.\n\n\n\nMatch each entry in List-I to the correct entries in List-II.\n\n\n\n\\textbf{List-I}\n\n\n\n(P) The value of $d\\left(H_{0}\\right)$ is\n\n\n\n(Q) The distance of the point $(0,1,2)$ from $H_{0}$ is\n\n\n\n(R) The distance of origin from $H_{0}$ is\n\n\n\n(S) The distance of origin from the point of intersection of planes $y=z, x=1$ and $H_{0}$ is\n\n\n\n\\textbf{List-II}\n\n\n\n(1) $\\sqrt{3}$\n\n\n\n(2) $\\frac{1}{\\sqrt{3}}$\n\n\n\n(3) 0\n\n\n\n(4) $\\sqrt{2}$\n\n\n\n(5) $\\frac{1}{\\sqrt{2}}$\n\n\n\nThe correct option is:\n\n\n\n(A) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(5) \\quad(S) \\rightarrow(1)$\n\n\n\n(B) $(P) \\rightarrow(5) \\quad(Q) \\rightarrow(4) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (1)\n\n\n\n(C) $(P) \\rightarrow(2) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(3) \\quad(S) \\rightarrow$ (2)\n\n\n\n(D) $(P) \\rightarrow(5) \\quad(Q) \\rightarrow(1) \\quad(R) \\rightarrow(4) \\quad(S) \\rightarrow(2)$",
+        "gold": "B"
+    },
+    {
+        "description": "JEE Adv 2018 Paper 1",
+        "index": 37,
+        "subject": "math",
+        "type": "MCQ(multiple)",
+        "question": "For a non-zero complex number $z$, let $\\arg (z)$ denote the principal argument with $-\\pi<\\arg (z) \\leq \\pi$. Then, which of the following statement(s) is (are) FALSE?\n\n\\end{itemize}\n\n(A) $\\arg (-1-i)=\\frac{\\pi}{4}$, where $i=\\sqrt{-1}$\n\n(B) The function $f: \\mathbb{R} \\rightarrow(-\\pi, \\pi]$, defined by $f(t)=\\arg (-1+i t)$ for all $t \\in \\mathbb{R}$, is continuous at all points of $\\mathbb{R}$, where $i=\\sqrt{-1}$\n\n(C) For any two non-zero complex numbers $z_{1}$ and $z_{2}$,\n\n\\[\n\\arg \\left(\\frac{z_{1}}{z_{2}}\\right)-\\arg \\left(z_{1}\\right)+\\arg \\left(z_{2}\\right)\n\\]\n\nis an integer multiple of $2 \\pi$\n\n(D) For any three given distinct complex numbers $z_{1}, z_{2}$ and $z_{3}$, the locus of the point $z$ satisfying the condition\n\n\\[\n\\arg \\left(\\frac{\\left(z-z_{1}\\right)\\left(z_{2}-z_{3}\\right)}{\\left(z-z_{3}\\right)\\left(z_{2}-z_{1}\\right)}\\right)=\\pi\n\\]\n\nlies on a straight line",
+        "gold": "ABD"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 7,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $P$ be a point on the parabola $y^{2}=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is\n\n(A) $(2,3)$\n\n\n\n(B) $(1,3)$\n\n\n\n(C) $(2,4)$\n\n\n\n(D) $(3,4)$",
+        "gold": "A"
+    },
+    {
+        "description": "JEE Adv 2016 Paper 1",
+        "index": 52,
+        "subject": "math",
+        "type": "Integer",
+        "question": "What is the total number of distinct $x \\in[0,1]$ for which $\\int_{0}^{x} \\frac{t^{2}}{1+t^{4}} d t=2 x-1$?",
+        "gold": "1"
+    },
+    {
+        "description": "JEE Adv 2023 Paper 1",
+        "index": 4,
+        "subject": "math",
+        "type": "MCQ",
+        "question": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=\\sqrt{n}$ if $x \\in\\left[\\frac{1}{n+1}, \\frac{1}{n}\\right)$ where $n \\in \\mathbb{N}$. Let $g:(0,1) \\rightarrow \\mathbb{R}$ be a function such that $\\int_{x^{2}}^{x} \\sqrt{\\frac{1-t}{t}} d t<g(x)<2 \\sqrt{x}$ for all $x \\in(0,1)$. Then $\\lim _{x \\rightarrow 0} f(x) g(x)$\n\n\n\n(A) does NOT exist\n\n\n\n(B) is equal to 1\n\n\n\n(C) is equal to 2\n\n\n\n(D) is equal to 3",
+        "gold": "C"
+    }
+]
