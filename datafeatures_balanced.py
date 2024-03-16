@@ -87,7 +87,7 @@ def main(dataset_path, feature_size):
         json.dump(overall_word_freq_dict, f)
 
 # Run: python datafeatures_balanced.py dataset_path feature_size
-# python datafeatures.py stem_data/stem_train.json 300
+# python datafeatures.py stem_data/stem_train.json 100
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) != 3:

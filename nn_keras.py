@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score
 from matplotlib import pyplot as plt
 import itertools
 from tensorflow.keras import regularizers
@@ -12,8 +12,8 @@ from scipy.spatial.distance import cosine
 
 
 # Load the data
-train_path='stem_data/stem_train_word2vec_500_norm.csv'
-test_path='stem_data/stem_test_word2vec_500_norm.csv'
+train_path='stem_data/stem_train_30.csv'
+test_path='stem_data/stem_test_30.csv'
 train_data = pd.read_csv(train_path)
 test_data = pd.read_csv(test_path)
 
@@ -60,11 +60,12 @@ print(classification_report(y_test, y_pred))
 # Compute the confusion matrix
 cm = confusion_matrix(y_test, y_pred)
 
-classes = [i for i in range(3)]
+
+classes = ["math", "chem", "phy"]
 # Visualize the confusion matrix
 plt.figure(figsize=(8, 6))
 plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
-plt.title('Confusion Matrix')
+plt.title(f'NN Confusion Matrix, Feat=30, Acc={round(accuracy_score(y_test, y_pred), 4)}')
 plt.colorbar()
 tick_marks = np.arange(len(classes))  # Assuming you have a list of class labels
 plt.xticks(tick_marks, classes, rotation=45)

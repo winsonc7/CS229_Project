@@ -43,7 +43,7 @@ def main(data_file, feature_file, class_dict):
             writer.writerow([y_value] + [feature_count[feature] for feature in features])
 
 # Usage: python convert_to_csv.py data_path feature_path class0 class1
-# python convert_to_csv.py stem_data/stem_test.json stem_data/stem_train_freq_vec_300.json math chem phy
+# python convert_to_csv.py stem_data/stem_train.json stem_data/stem_train_freq_vec_100.json math chem phy
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) < 4:
