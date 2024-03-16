@@ -56,7 +56,7 @@ def run_model(data):
     # Compute the confusion matrix
     cm = confusion_matrix(truth, prediction)
 
-    classes = [i for i in range(3)]
+    classes = ["math", "chem", "phy"]
     # Visualize the confusion matrix
     plt.figure(figsize=(4, 3))
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
