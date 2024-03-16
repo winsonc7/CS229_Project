@@ -49,8 +49,6 @@ y_pred = np.argmax(y_pred_probs, axis=1)
 # Generate classification report
 print(classification_report(y_train, y_pred))
 
-
-
 # Evaluate the model
 loss, accuracy = model.evaluate(X_test_scaled, y_test)
 print(f'Test Accuracy: {accuracy}')
