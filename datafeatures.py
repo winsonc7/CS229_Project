@@ -2,6 +2,7 @@ import json
 import re
 from collections import Counter
 from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
 import sys
 
 LOWER = 0.01
@@ -31,6 +32,8 @@ def main(dataset_path, feature_size):
         # Tokenize the cleaned question text
         words = cleaned_question.split()
         words = [word for word in words if word not in stop_words]
+        stemmer = PorterStemmer()
+        words = [stemmer.stem(word) for word in words]
 
         # Create a word frequency vector for the sample
         word_freq = Counter(words)
@@ -54,6 +57,7 @@ def main(dataset_path, feature_size):
         json.dump(overall_word_freq_dict, f)
 
 # Run: python datafeatures.py dataset_path feature_size
+# python datafeatures.py stem_data/stem.json 300
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) != 3:

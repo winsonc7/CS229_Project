@@ -6,7 +6,6 @@ import axios from 'axios';
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [tokenList, setTokenList] = useState([]);
-  const [numTokens, setNumTokens] = useState(0);
   const [numOutputs, setNumOutputs] = useState(5);
 
   const handleOutputChange = (event) => {
@@ -16,11 +15,10 @@ function App() {
   const handleKeyPress = async (event) => {
     if (event.key === 'Enter') {
       try {
-        const response = await axios.post('/api/predict', { input_string: searchQuery });
+        const response = await axios.post('/api/predict', { input_string: searchQuery, num_outputs: numOutputs });
         console.log(response)
-        const { tokens, num_tokens } = response.data;
-        setTokenList(tokens);
-        setNumTokens(num_tokens);
+        setTokenList(response.data);
+        console.log(tokenList)
       } catch (error) {
         console.error('Error sending search query:', error);
       }
@@ -61,8 +59,8 @@ function App() {
       </div>
       <div className="result-container">
           {tokenList.map((token, index) => (
-            <div className='result-card'> 
-              <p key={index}>{token.token}</p>
+            <div className='result-card' key={index}> 
+              <p>{token}</p>
             </div>
           ))}
       </div>

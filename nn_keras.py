@@ -12,8 +12,8 @@ from scipy.spatial.distance import cosine
 
 
 # Load the data
-train_path='stem_data/stem_train_100.csv'
-test_path='stem_data/stem_test_100.csv'
+train_path='stem_data/stem_train_300.csv'
+test_path='stem_data/stem_test_300.csv'
 train_data = pd.read_csv(train_path)
 test_data = pd.read_csv(test_path)
 
