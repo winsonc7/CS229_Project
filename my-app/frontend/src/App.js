@@ -34,7 +34,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       <div className="instructions">
         <p>Run out of study material?</p>
-        <p>Type a math, chemistry, or physics homework problem below and we'll give you some more!</p>
+        <p>Type a STEM homework problem below and we'll give you some more!</p>
         <div className='select-outputs'>
           <p>Select the desired number of outputs:</p>
           <select id="numberSelector" value={numOutputs} onChange={handleOutputChange}>

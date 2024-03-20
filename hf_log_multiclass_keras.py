@@ -13,7 +13,7 @@ from joblib import dump, load
 
 
 # Load the data
-train_path='hf_data/all_data_500.csv'
+train_path='hf_data/all_data_1000.csv'
 train_data = pd.read_csv(train_path)
 
 # Split features and target variable
@@ -24,7 +24,7 @@ model = LogisticRegression(multi_class='multinomial', solver='lbfgs', max_iter=1
 # Fit the model to the training data
 model.fit(x_train, y_train)
 
-# dump(model, "logreg_jbench_100.joblib")
+dump(model, "logreg_mmlu_500.joblib")
 
 y_pred_probs = model.predict_proba(x_train)
 y_pred = np.argmax(y_pred_probs, axis=1)

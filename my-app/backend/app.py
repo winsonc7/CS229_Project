@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 from scipy.spatial.distance import cosine
 import pandas as pd
+import joblib
 
 app = Flask(__name__)
 CORS(app)
@@ -22,7 +23,7 @@ RAW_DATA_PATH = os.path.join(project_root, 'raw_data', RAW_DATA_FILE)
 DATA_VEC_FILE = 'mmlu_all_data_500.csv'
 DATA_VEC_PATH = os.path.join(project_root, 'data_vectors', DATA_VEC_FILE)
 
-MODEL_FILE = 'neural_mmlu_500.h5'
+MODEL_FILE = 'logreg_mmlu_500.joblib'
 MODEL_PATH = os.path.join(project_root, 'models', MODEL_FILE)
 
 def clean_text(text):
@@ -46,8 +47,10 @@ def get_predictions(query, num_outputs):
         if word in feature_count:
             feature_count[word] += 1
     input_vec = np.array([[feature_count[feature] for feature in features]])
-    model = tf.keras.models.load_model(MODEL_PATH)
-    probs = model.predict(input_vec)
+    # model = tf.keras.models.load_model(MODEL_PATH)
+    # probs = model.predict(input_vec)
+    model = joblib.load(MODEL_PATH)
+    probs = model.predict_proba(input_vec)
     subject = np.argmax(probs, axis=1)[0]
     for i in range(len(data_vec_y)):
         if data_vec_y[i] == subject:

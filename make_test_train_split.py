@@ -26,7 +26,7 @@ def main(path):
     with open(test_path, 'w') as test_file:
         json.dump(test_data, test_file, indent=4)
 
-# Run: python make_test_train_split.py dataset_path
+# Run: python make_test_train_split.py hf_data/all_data.json
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) != 2:

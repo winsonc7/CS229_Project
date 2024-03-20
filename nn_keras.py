@@ -12,8 +12,8 @@ from scipy.spatial.distance import cosine
 
 
 # Load the data
-train_path='stem_data/stem_train_300.csv'
-test_path='stem_data/stem_test_300.csv'
+train_path='hf_data/all_data_train_1000.csv'
+test_path='hf_data/all_data_test_1000.csv'
 train_data = pd.read_csv(train_path)
 test_data = pd.read_csv(test_path)
 
@@ -61,7 +61,7 @@ print(classification_report(y_test, y_pred))
 cm = confusion_matrix(y_test, y_pred)
 
 
-classes = ["math", "chem", "phy"]
+classes = ["college_bio", "college_chem", "college_cs", "college_math", "college_phy", "elem_math", "hs_bio", "hs_chem", "hs_cs", "hs_math", "hs_phy", "hs_stats"]
 # Visualize the confusion matrix
 plt.figure(figsize=(8, 6))
 plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)

@@ -44,7 +44,7 @@ def main(data_file, feature_file, class_dict):
 
 # Usage: python convert_to_csv.py data_path feature_path class0 class1
 # python convert_to_csv.py stem_data/stem_train.json stem_data/stem_train_freq_vec_100.json math chem phy
-# python convert_to_csv.py hf_data/all_data.json hf_data/all_data_freq_vec_1000.json college_biology college_chemistry college_computer_science college_mathematics college_physics elementary_mathematics high_school_biology high_school_chemistry high_school_computer_science high_school_mathematics high_school_physics high_school_statistics
+# python convert_to_csv.py hf_data/all_data_train.json hf_data/all_data_freq_vec_1000.json college_biology college_chemistry college_computer_science college_mathematics college_physics elementary_mathematics high_school_biology high_school_chemistry high_school_computer_science high_school_mathematics high_school_physics high_school_statistics
 if __name__ == "__main__":
     # Check if the correct number of command-line arguments is provided
     if len(sys.argv) < 4:
