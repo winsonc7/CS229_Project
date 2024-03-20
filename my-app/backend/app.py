@@ -13,16 +13,16 @@ CORS(app)
 
 project_root = os.path.dirname(os.path.abspath(__file__))
 
-FEATURE_FILE = 'jbench_features_300.json'
+FEATURE_FILE = 'mmlu_all_data_features_500.json'
 FEATURE_PATH = os.path.join(project_root, 'features', FEATURE_FILE)
 
-RAW_DATA_FILE = 'jbench_train_300.json'
+RAW_DATA_FILE = 'mmlu_all_data.json'
 RAW_DATA_PATH = os.path.join(project_root, 'raw_data', RAW_DATA_FILE)
 
-DATA_VEC_FILE = 'jbench_train_300.csv'
+DATA_VEC_FILE = 'mmlu_all_data_500.csv'
 DATA_VEC_PATH = os.path.join(project_root, 'data_vectors', DATA_VEC_FILE)
 
-MODEL_FILE = 'neural_jbench_100.h5'
+MODEL_FILE = 'neural_mmlu_500.h5'
 MODEL_PATH = os.path.join(project_root, 'models', MODEL_FILE)
 
 def clean_text(text):
