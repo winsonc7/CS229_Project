@@ -9,6 +9,7 @@ from matplotlib import pyplot as plt
 import itertools
 from tensorflow.keras import regularizers
 from sklearn.linear_model import LogisticRegression
+from joblib import dump, load
 
 
 # Load the data
@@ -26,6 +27,8 @@ y_test = test_data['y']
 model = LogisticRegression(multi_class='multinomial', solver='lbfgs', max_iter=1000)
 # Fit the model to the training data
 model.fit(x_train, y_train)
+
+# dump(model, "logreg_jbench_100.joblib")
 
 y_pred_probs = model.predict_proba(x_train)
 y_pred = np.argmax(y_pred_probs, axis=1)

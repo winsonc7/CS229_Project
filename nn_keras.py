@@ -12,8 +12,8 @@ from scipy.spatial.distance import cosine
 
 
 # Load the data
-train_path='stem_data/stem_train_30.csv'
-test_path='stem_data/stem_test_30.csv'
+train_path='stem_data/stem_train_100.csv'
+test_path='stem_data/stem_test_100.csv'
 train_data = pd.read_csv(train_path)
 test_data = pd.read_csv(test_path)
 
@@ -41,7 +41,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 print("checkpoint")
 # Train the model
 model.fit(x_train, y_train, epochs=30, batch_size=64, validation_split=0.2)
-print("checkpoint")
+model.save("neural_jbench_100.h5")
 
 # Make predictions
 y_pred_probs = model.predict(x_train)
