@@ -41,7 +41,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 print("checkpoint")
 # Train the model
 model.fit(x_train, y_train, epochs=30, batch_size=64, validation_split=0.2)
-model.save("neural_jbench_100.h5")
+model.save("neural_jbench_300.h5")
 
 # Make predictions
 y_pred_probs = model.predict(x_train)

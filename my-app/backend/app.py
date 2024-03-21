@@ -16,13 +16,13 @@ project_root = os.path.dirname(os.path.abspath(__file__))
 FEATURE_FILE = 'jbench_features_300.json'
 FEATURE_PATH = os.path.join(project_root, 'features', FEATURE_FILE)
 
-RAW_DATA_FILE = 'jbench_train_300.json'
+RAW_DATA_FILE = 'jbench.json'
 RAW_DATA_PATH = os.path.join(project_root, 'raw_data', RAW_DATA_FILE)
 
-DATA_VEC_FILE = 'jbench_train_300.csv'
+DATA_VEC_FILE = 'jbench_all_300.csv'
 DATA_VEC_PATH = os.path.join(project_root, 'data_vectors', DATA_VEC_FILE)
 
-MODEL_FILE = 'neural_jbench_100.h5'
+MODEL_FILE = 'neural_jbench_300.h5'
 MODEL_PATH = os.path.join(project_root, 'models', MODEL_FILE)
 
 def clean_text(text):
